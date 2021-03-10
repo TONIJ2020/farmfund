@@ -1,0 +1,58 @@
+.loginText {
+    position: absolute;
+    width: 38.91%;
+    height: 8.74%;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    left: 51%;
+    top: 77.59%;
+    font-size: 0.8rem;
+}
+
+.successMessage {
+    color: green;
+    font-weight: bold;
+}
+
+.login-card {
+    position: absolute;
+    width: 40%;
+    height: fit-content;
+    top: 40%;
+    left: 30%;
+}
+
+.btn {
+    position: absolute;
+    width: 18.91%;
+    height: 8.74%;
+    left: 0%;
+    top: 75.59%;
+    border: none;
+    background: #70C217;
+    color: #FFF;
+    border-radius: 60px;
+    font: normal 500 18px/21px Roboto;
+    cursor: pointer;
+    outline: none;
+}
+
+.have-an-account-Text {
+    position: absolute;
+    width: 38.91%;
+    height: 8.74%;
+    left: 21%;
+    top: 77.59%;
+    font-size: 0.8rem;
+}
+
+Label {
+    font-size: 0.8rem;
+}
+
+.text-muted {
+    position: inherit;
+    font-size: 0.75rem;
+    font-style: italic;
+}
