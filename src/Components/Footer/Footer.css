@@ -224,6 +224,11 @@ body {
     font: normal normal 12px/22px Roboto;
     color: #272D4E;
     }
+
+    .home-footer {
+    position:relative;
+    top: 65.4%;
+    }
 }
 
 @media only screen and (min-width:800px) and (max-width:1199px) {
