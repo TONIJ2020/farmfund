@@ -454,10 +454,10 @@ body {
     }
 }
 
-@media only screen and (min-width:767px) and (max-width:799px) {
+@media only screen and (min-width:768px) and (max-width:799px) {
     .footer-main-div {
     position: absolute;
-    width: 141%;
+    width:187.5%;
     height: 1070px;
     left: 0px;
     background-color: #ECF0FD;
@@ -505,6 +505,7 @@ body {
     cursor: pointer;
     outline: none;
     color: #FFFFFF;
+    font-size: large;
     }
 
     .footer-smooth-img {

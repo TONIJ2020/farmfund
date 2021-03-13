@@ -608,3 +608,306 @@ body {
      color: #3E5140;
      }
  }
+ 
+@media only screen and (min-width:768px) and (max-width:799px) {
+    .projects-div {
+    position: absolute;
+    width: 100%;
+    height: 1346px;
+    left: 0;
+    }
+
+    .farmer-div-1 img{
+    position: absolute;
+    width: 61.20%;
+    height: 30.06%;
+    left: 2.61%;
+    top: 4%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-1 h1 {
+    position: absolute;
+    width: 38.15%;
+    height: 7.03%;
+    left: 7.61%;
+    top: 28.91%;
+    font: normal bold 36px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-1 p {
+    position: absolute;
+    width: 39.37%;
+    height: 5.23%;
+    left: 7.61%;
+    top: 31.43%;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-1 h3 {
+    position: absolute;
+    width: 44.79%;
+    height: 2.5%;
+    left: 7.61%;
+    top: 36.67%;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-1 h5 {
+    position: absolute;
+    width: 26.79%;
+    height: 2.5%;
+    left: 7.61%;
+    top: 40.72%;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-2 img{
+    position: absolute;
+    width: 61.20%;
+    height: 30.06%;
+    left: 61.24%;
+    top: 3%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-2 h1 {
+    position: absolute;
+    width: 45.15%;
+    height: 7.03%;
+    left: 66.24%;
+    top: 28.91%;
+    font: normal bold 36px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-2 p {
+    position: absolute;
+    width: 39.37%;
+    height: 5.23%;
+    left: 66.24%;
+    top: 31.44%;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-2 h3 {
+    position: absolute;
+    width: 44.79%;
+    height: 2.5%;
+    left: 66.24%;
+    top: 36.67%;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-2 h5 {
+    position: absolute;
+    width: 26.79%;
+    height: 2.5%;
+    left: 66.24%;
+    top: 40.72%;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-3 img{
+    position: absolute;
+    width: 61.20%;
+    height: 30.06%;
+    left:119.21%;
+    top: 3%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-3 h1 {
+    position: absolute;
+    width: 45.15%;
+    height: 7.03%;
+    left:124.61%;
+    top: 28.91%;
+    font: normal bold 36px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-3 p {
+    position: absolute;
+    width: 39.37%;
+    height: 5.23%;
+    left:124.61%;
+    top: 31.44%;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-3 h3 {
+    position: absolute;
+    width: 44.79%;
+    height: 2.5%;
+    left:124.61%;
+    top: 36.67%;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-3 h5 {
+    position: absolute;
+    width: 26.79%;
+    height: 2.5%;
+    left:124.61%;
+    top: 40.72%;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-4 img{
+    position: absolute;
+    width: 61.20%;
+    height: 30.06%;
+    left: 2.61%;
+    top: 56.02%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-4 h1 {
+    position: absolute;
+    width: 45.15%;
+    height: 7.03%;
+    left: 7.61%;
+    top: 81.93%;
+    font: normal bold 36px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-4 p {
+    position: absolute;
+    width: 39.37%;
+    height: 5.23%;
+    left: 7.61%;
+    top: 84.46%;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-4 h3 {
+    position: absolute;
+    width: 44.79%;
+    height: 2.5%;
+    left: 7.61%;
+    top: 89.69%;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-4 h5 {
+    position: absolute;
+    width: 26.79%;
+    height: 2.5%;
+    left: 7.61%;
+    top: 93.74%;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-5 img{
+    position: absolute;
+    width: 61.20%;
+    height: 30.06%;
+    left: 61.24%;
+    top: 56.02%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-5 h1 {
+    position: absolute;
+    width: 45.15%;
+    height: 7.03%;
+    left: 66.24%;
+    top: 81.93%;
+    font: normal bold 36px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-5 p {
+    position: absolute;
+    width: 39.37%;
+    height: 5.23%;
+    left: 66.24%;
+    top: 84.46%;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-5 h3 {
+    position: absolute;
+    width: 44.79%;
+    height: 2.5%;
+    left: 66.24%;
+    top: 89.69%;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-5 h5 {
+    position: absolute;
+    width: 26.79%;
+    height: 2.5%;
+    left: 66.24%;
+    top: 93.74%;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-6 img{
+    position: absolute;
+    width: 61.20%;
+    height: 30.06%;
+    left:119.21%;
+    top: 56.02%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-6 h1 {
+    position: absolute;
+    width: 45.15%;
+    height: 7.03%;
+    left:124.61%;
+    top: 81.93%;
+    font: normal bold 36px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-6 p {
+    position: absolute;
+    width: 39.37%;
+    height: 5.23%;
+    left:124.61%;
+    top: 84.46%;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-6 h3 {
+    position: absolute;
+    width: 44.79%;
+    height: 2.5%;
+    left:124.61%;
+    top: 89.69%;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-6 h5 {
+    position: absolute;
+    width: 26.79%;
+    height: 2.5%;
+    left:124.61%;
+    top: 93.74%;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+}
