@@ -53,6 +53,7 @@ body {
     cursor: pointer;
     outline: none;
     color: #FFFFFF;
+    font-size: x-large;
     }
 
     .footer-smooth-img {
@@ -457,7 +458,7 @@ body {
 @media only screen and (min-width:768px) and (max-width:799px) {
     .footer-main-div {
     position: absolute;
-    width:187.5%;
+    width: 175%;
     height: 1070px;
     left: 0px;
     background-color: #ECF0FD;
@@ -681,5 +682,11 @@ body {
     position: relative;
     top: 90%;
     left: 0%;
+    }
+
+    .home-footer {
+        position:"relative";
+        top:"75.4%";
+        height: 2074px;
     }
 }

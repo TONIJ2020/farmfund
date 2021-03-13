@@ -1084,17 +1084,17 @@ background-color: #E5E5E5;
 @media only screen and (min-width:768px) and (max-width:799px) {
   .home-div {
   position: absolute;
-  width: 100%;
-  height: 5958px;
+  width: 205%;
+  height: 9958px;
   }
 
   .find-the-best-agro-investments-in-nigeria-text {
   position: absolute;
-  width: 41.30%;
+  width: 58.30%;
   height: 5.56%;
   left: 6.4%;
   top: 2.33%;
-  font: normal bold 65px/75px Roboto;
+  font: normal bold 105px/155px Roboto;
   color: #272D4E;
   }
 
@@ -1113,7 +1113,7 @@ background-color: #E5E5E5;
   width: 15.41%;
   height: 1%;
   left: 6.4%;
-  top: 9.48%;
+  top: 8.48%;
   border: none;
   font: normal 500 18px/21px Roboto;
   background: #70C217;
@@ -1127,7 +1127,7 @@ background-color: #E5E5E5;
   width: 18%;
   height: 0.42%;
   left: 23.42%;
-  top: 9.78%;
+  top: 8.78%;
   font: normal normal 18px/25px Roboto;
   color: #94A2B3;
   text-decoration-line: none;
@@ -1170,7 +1170,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 39.06%;
   height: 2.57%;
-  left: 29.95%;
+  left: 72.95%;
   top: 16.84%;
   font: normal bold 64px/70px Roboto;
   text-align: center;
@@ -1179,10 +1179,10 @@ background-color: #E5E5E5;
 
   .similar-projects-text {
   position: absolute;
-  width: 38.23%;
+  width: 52.23%;
   height: 1.34%;
-  left: 39.48%;
-  top: 0%;
+  left: 83.48%;
+  top: 3%;
   font: normal bold 54px/70px Roboto;
   text-align: center;
   color: #000000;
@@ -1190,7 +1190,7 @@ background-color: #E5E5E5;
 
   .home-projects-div {
   position: absolute;
-  width: 100%;
+  width: 95%;
   height: 1346px;
   left: 0px;
   top: 17.99%;
@@ -1201,14 +1201,14 @@ background-color: #E5E5E5;
   width:120%;
   height: 1346px;
   left: 0px;
-  top: 2%;
+  top: 5%;
   }
 
   .testimonials-div {
   position: relative;
-  width: 1440px;
-  height: 1110px;
-  top: 44.18%;
+  width: 175%;
+  height: 20%;
+  top: 41.18%;
   }
 
   .testimonials-text {
@@ -1216,7 +1216,7 @@ background-color: #E5E5E5;
   width: 18.23%;
   height: 1.34%;
   left: 39.48%;
-  top: -17.48%;
+  top: -11.48%;
   font: normal bold 64px/70px Roboto;
   text-align: center;
   color: #000000;
@@ -1321,8 +1321,8 @@ background-color: #E5E5E5;
 
   .our-partners-div {
   position: absolute;
-  width: 107%;
-  height: 20.29%;
+  width: 175%;
+  height: 19.29%;
   left: 0px;
   top: 60.30%;
   background: linear-gradient(180deg, rgba(239, 253, 236, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
@@ -1333,7 +1333,7 @@ background-color: #E5E5E5;
   align-self: center;
   width: 29.23%;
   height: 1.34%;
-  left: 39.48%;
+  left: 41.98%;
   top: 13.56%;
   font: normal bold 64px/70px Roboto;
   text-align: flex-start;
@@ -1395,19 +1395,19 @@ background-color: #E5E5E5;
   }
 
   .farmers-main-div {
-  position: absolute;
-  width: 100%;
-  height: 4191px;
+  position: relative;
+  width: auto;
+  height: 5691px;
   left: 0;
   top: 0%;
   }
 
   .farmers-div-1 {
   position: absolute;
-  width: 93.06%;
+  width: 205%;
   height: 18.41%;
   left: 3.47%;
-  top: 4.03%;
+  top: 3.03%;
   background: #FFFFFF;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
@@ -1455,7 +1455,7 @@ background-color: #E5E5E5;
   height: 8.42%;
   left: 58.34%;
   top: 3.49%;
-  font: normal 700 54px/70px Roboto;
+  font: normal 700 44px/70px Roboto;
   color: #000000;
   }
 
@@ -1517,7 +1517,7 @@ background-color: #E5E5E5;
   
   .farmers-prim-div {
   position: absolute;
-  width: 65.63%;
+  width: 122.63%;
   height: 28.26%;
   left: 3.47%;
   top: 24.52%;
@@ -1586,9 +1586,9 @@ background-color: #E5E5E5;
 
   .farmers-sec-div {
   position: absolute;
-  width: 23.70%;
+  width: 78.70%;
   height: 28.26%;
-  left: 73.44%;
+  left: 130.44%;
   top: 24.52%;
   background: #FFFFFF;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
@@ -1604,57 +1604,45 @@ background-color: #E5E5E5;
   font: normal bold 18px/110.10% Roboto;
   color: #000000;
   }
-
-  .adaobi1-progress-bar {
-  position: absolute;
-  left: 58.34%;
-  top: 26.59%;
-  font: normal normal 33px/30px Roboto;
-  color: #3E5140;
-  }
-
-  .uche1-progress-bar {
-  position: relative;
-  left: 58.34%;
-  top: 26.59%;
-  font: normal normal 33px/30px Roboto;
-  color: #3E5140;
-  }
 }
 
-@media only screen and (min-width:376px) and (max-width:411px) {
+@media only screen and (min-width:376px) and (max-width:425px) {
   .home-div {
   position: absolute;
   width: 100%;
-  height: 5958px;
+  height: 6958px;
   }
 
   .find-the-best-agro-investments-in-nigeria-text {
   position: absolute;
-  width: 41.30%;
+  width: 100%;
   height: 5.56%;
-  left: 6.4%;
+  left: 14.4%;
   top: 1.33%;
-  font: normal bold 85px/95px Roboto;
+  justify-content: center;
+  text-align: center;
+  font: normal bold 85px/85px Roboto;
   color: #272D4E;
   }
 
   .farm-fund-description-paragraph {
   position: absolute;
-  width:36.46%;
+  width: 100%;
   height: 0.84%;
-  left: 6.59%;
-  top: 8.68%;
+  left: 20.59%;
+  top: 6.68%;
+  justify-content: center;
+  text-align: center;
   font: normal normal 18px/25px Roboto;
   color: #94A2B3;
   }
 
   .get-started-button-1 {
   position: absolute;
-  width: 13.41%;
-  height: 1.21%;
-  left: 6.4%;
-  top: 10.68%;
+  width: 33.41%;
+  height: 0.8%;
+  left: 38.4%;
+  top: 8.68%;
   border: none;
   font: normal 500 18px/21px Roboto;
   background: #70C217;
@@ -1665,10 +1653,10 @@ background-color: #E5E5E5;
 
   .find-farms-acrotag {
   position: absolute;
-  width: 18%;
+  width: 28%;
   height: 0.42%;
-  left: 20.42%;
-  top: 11.08%;
+  left: 73.42%;
+  top: 8.9%;
   font: normal normal 18px/25px Roboto;
   color: #94A2B3;
   text-decoration-line: none;
@@ -1680,6 +1668,8 @@ background-color: #E5E5E5;
   height: 2.77%;
   left: 50.68%;
   top: 2.58%;
+  visibility: hidden;
+  display: none;
   }
 
   .home-img-2 {
@@ -1689,6 +1679,8 @@ background-color: #E5E5E5;
   left: 55.99%;
   top: 4.11%;
   z-index: -1;
+  visibility: hidden;
+  display: none;
   }
 
   .home-img-3 {
@@ -1697,6 +1689,8 @@ background-color: #E5E5E5;
   height: 3.63%;
   left: 40.90%;
   top: 9.94%;
+  visibility: hidden;
+  display: none;
   }
 
   .home-img-4 {
@@ -1705,14 +1699,16 @@ background-color: #E5E5E5;
   height: 5.59%;
   left: 67.99%;
   top: 8.9%;
+  visibility: hidden;
+  display: none;
   }
 
   .projects-title-text {
   position: absolute;
   width: 39.06%;
   height: 2.57%;
-  left: 29.95%;
-  top: 16.84%;
+  left: 41.95%;
+  top: 10.84%;
   font: normal bold 64px/70px Roboto;
   text-align: center;
   color: #000000;
@@ -1732,7 +1728,7 @@ background-color: #E5E5E5;
   .home-projects-div {
   position: absolute;
   width: 100%;
-  height: 1346px;
+  height: 5346px;
   left: 0px;
   top: 17.99%;
   }
@@ -1747,7 +1743,7 @@ background-color: #E5E5E5;
 
   .testimonials-div {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 1110px;
   top: 44.18%;
   }

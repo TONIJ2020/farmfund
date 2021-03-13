@@ -104,7 +104,7 @@ function Home(props) {
 
                 <img src={Dots1} alt="" className="home-dots1-img" />
             </div>
-            <div style={{position:"relative", top:"63.4%"}}><Footer /></div>
+            <div className="home-footer"><Footer /></div>
             
         </div>
     )
