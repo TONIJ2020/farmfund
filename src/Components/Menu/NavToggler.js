@@ -20,7 +20,7 @@ const Toggler = styled.div`
         div {
             width: 2rem;
             height: 0.25rem;
-            background: ${({ open }) => open ? '#273043' : '#DADADA'};
+            background: ${({ open }) => open ? '#273043' : '#294609'};
             border-radius: 10px;
             transform-origin: 1px;
             transition: all 0.3s linear;

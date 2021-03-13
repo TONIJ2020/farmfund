@@ -1,25 +1,34 @@
 import React from 'react';
-import { Redirect, Route } from "react-router-dom";
-import { ACCESS_TOKEN_NAME } from '../constants/apiConstants';
+import {BrowserRouter, Route, Switch } from 'react-router-dom';
+import Layouts from '../Pages/Layouts';
+import Home from '../Pages/Home'
+import Farmer from '../Pages/Farmer';
+import LoginRegister from '../LoginRegister/LoginRegister';
 
-const PrivateRoute = ({ children, ...rest }) => {
+const AppRoute = ({ Component, path, exact, ...rest }) => {
     return (
-        <Route
-        {...rest}
-        render={({ location }) =>
-            localStorage.getItem(ACCESS_TOKEN_NAME) ? (
-            children
-            ) : (
-            <Redirect
-                to={{
-                pathname: "/login",
-                state: { from: location }
-                }}
-            />
+        <Route exact={exact} path={path} {...rest} render={(props) => {
+            return (
+                <Layouts>
+                    <Component {...rest} {...props} />
+                </Layouts>
             )
-        }
-        />
-    );
+        }} />
+    )
 }
 
+const PrivateRoute = () => {
+    return (
+        <>
+            <BrowserRouter>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <AppRoute exact path="/home" Component={Home} />
+                    <AppRoute path="/farmer" Component={Farmer} />
+                    <AppRoute path="/loginregister" Component={LoginRegister} />
+              </Switch>
+            </BrowserRouter>
+        </>
+    )
+}
 export default PrivateRoute;

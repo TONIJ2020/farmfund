@@ -9,6 +9,7 @@ import Twitter from '../Assets/twitter.png';
 import Facebook from '../Assets/facebook.png';
 import Feed from '../Assets/feed.png';
 import Instagram from '../Assets/instagram.png';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -17,7 +18,7 @@ function Footer() {
             <div className="footer-prim-div">
                 <p className="footer-prim-paragraph-text">Invest or get Investment and full time support to grow and sell your crops</p>
 
-                <button className="footer-prim-button">GET STARTED</button>
+                <Link to="/loginregister"><button className="footer-prim-button">GET STARTED</button></Link>
 
                 <div className="footer-sec-div">
                     <img src={Smooth} alt="" className="footer-smooth-img" />
@@ -43,9 +44,9 @@ function Footer() {
                     </ul>
 
                     <ul className="quick-link-list">
-                        <li className="list-1">Login</li>
-                        <li className="list-2">Register</li>
-                        <li className="list-3">Projects</li>
+                    <Link to="/loginregister"><li className="list-1">Login</li></Link>
+                        <Link to="/loginregister"><li className="list-2">Register</li></Link>
+                        <Link to="/farmer"><li className="list-3">Projects</li></Link>
                     </ul>
 
                     <ul className="contact-us-list">

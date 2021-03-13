@@ -5,11 +5,11 @@ import NavBar from '../Menu/NavBar';
 
 const Layouts = (props) => {
     return(
-        <div>
+        <React.Fragment>
             <NavBar />
             {props.children}
             <Footer />
-        </div>
+        </React.Fragment>
     )
 }
 

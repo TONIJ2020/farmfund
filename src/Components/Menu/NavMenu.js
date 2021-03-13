@@ -55,10 +55,10 @@ function NavMenu({open}) {
         <nav className="navigation-bar">
             <Ul open={open} className="navigation-bar-ul">
                 <li><a href="/" className="navigation-bar-home">Home</a></li>
-                <li><a href="/about" className="navigation-bar-about">About us</a></li>
-                <li><a href="/contact" className="navigation-bar-contact">Contact us</a></li>
-                <li><a href="/Login" className="navigation-bar-log-in">Log In</a></li>
-                <li><a href="/Register"><button className="get-started-button">Get Started</button></a></li>
+                <li><a href="/" className="navigation-bar-about">About us</a></li>
+                <li><a href="/" className="navigation-bar-contact">Contact us</a></li>
+                <li><a href="/loginregister" className="navigation-bar-log-in">Log In</a></li>
+                <li><a href="/loginregister"><button className="get-started-button">Get Started</button></a></li>
                 <li><img src={search} className="navigation-search-bar" alt="search" /></li>
             </Ul>
         </nav>

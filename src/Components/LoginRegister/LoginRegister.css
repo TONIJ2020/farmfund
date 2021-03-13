@@ -1,0 +1,121 @@
+body {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: inherit;
+    height: fit-content;
+}
+
+.container {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.login-register-wrapper {
+    height: 900px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    padding: 0 2em;
+    border-radius: 20px;
+    box-shadow:  #F0F0F0;
+    overflow: hidden;
+    color:#6C6B6B;
+    background: #FFF;
+}
+
+.nav-buttons {
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    opacity: 1;
+    margin-bottom: 3em;
+}
+
+button {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-right: 1em;
+    border: 0px;
+    cursor: pointer;
+}
+button:focus {
+    outline: 0px;
+}
+button:active {
+    padding-bottom: 10px;
+    border-bottom: solid 2px #70C217;
+}
+
+.forgot-panel {
+    position: relative;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: -550px;
+    border-top: solid 2px #70C217;
+}
+
+.form-group input {
+    width: 100%;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background: #DADADA;
+}
+.radio-input-group {
+    position: relative;
+    height: 15px;
+    display: flex;
+    width: 450px;
+    flex-basis: 120px;
+    flex-shrink: 2;
+    flex-direction: row;
+}
+.form-group label {
+    text-transform: uppercase;
+}
+input.submit {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    padding: 8px 0px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    background-color: #70C217;
+}
+
+form#registerform {
+    left: 500px;
+    top: -230px;
+    position: relative;
+}
+
+.forgot-panel {
+    margin-top: -530px;
+    color: #70C217;
+}
+
+.forgot-panel a{
+    margin-top: -530px;
+    color: #70C217;
+}
+
+form, .forgot-panel {
+    position: relative;
+    transition: all 0.1s ease;
+}
+
+#loginBtn, #registerBtn {
+    transition: all 0.1s ease;
+}

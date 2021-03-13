@@ -1,44 +1,55 @@
 import React from 'react';
-import styled from 'styled-components';
+import PropTypes from 'prop-types'
+import styled from 'styled-components'; 
 
-const Track = styled.div`
-    height: 13px;
-    width: 100%;
-    border-radius: 20px;
-    background-color: #E3E1E1;
-    box-shadow: inset 0 0 5px #E3E1E1;
-`;
-
-const Thumb = styled.div` 
-    width: ${props => props.percentage}%;
-    height: 100%;
-    background-color: #22CF67;
-    border-radius: 20px;
-`;
-
-const Span = styled.span`
-    position: absolute;
-    left: 47%; 
-    width: 60%;
-    margin: 0%;
-    display: block;
-    font: normal bold 11px/21px Roboto;
-    color: blue;
-`;
-export default class ProgressBar extends React.Component {
-    constructor(props) {
-        super(props);
-    
-        this.state = {
-            percentage: 50
-       }
+const Container = styled.div`
+    progress {
+        margin-right: 10px;
     }
-    
-    render() {
-        return (
-            <Track className="progress-bar-div">
-                <Thumb percentage={this.state.percentage}><Span>{this.state.percentage}%</Span></Thumb>
-            </Track>
-        )
+
+    progress[value] {
+        width: ${props => props.width};
+        -webkit-appearance: none;
+        appearance: none;
     }
+
+    progress[value]::-webkit-progress-bar {
+        width: 100%;
+        height: 13px;
+        background-color: #E3E1E;
+        border-radius: 20px;
+        box-shadow: 0 0 5px #E3E1E1 inset;
+    }
+
+    progress[value]::-webkit-progress-value {
+        width: 100%;
+        height: 13px;
+        background-color: ${props => props.color};
+        border-radius: 20px;
+    }
+`;
+
+const ProgressBar = ({ value, max, color, width }) => {
+
+    return (
+        <Container color={color} width={width} >
+            <progress value={value} max={max}  />
+            <span style={{zIndex:20, font: "normal bold 12px/8px Roboto", color: "#3E5140"}}>{(value / max) * 100}%</span>
+        </Container>
+    )
 }
+
+ProgressBar.propTypes = {
+    value: PropTypes.number.isRequired,
+    max: PropTypes.number,
+    color: PropTypes.string,
+    width: PropTypes.string,
+}
+
+ProgressBar.defaultProps = {
+    max: 100,
+    color: '#22CF67',
+    width: '300px',
+}
+
+export default ProgressBar;
