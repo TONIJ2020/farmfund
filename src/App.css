@@ -361,7 +361,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 14.53%;
   height: 17.74%;
-  left: 21.59%;
+  left: 1.59%;
   top: 64.14%;
   border-radius: 20px;
   }
@@ -370,18 +370,18 @@ background-color: #E5E5E5;
   position: absolute;
   width: 14.53%;
   height: 17.74%;
-  left: 39.72%;
+  left: 79.72%;
   top: 64.14%;
   border-radius: 20px;
   }
 
   .adaobi-profile-h1 {
   position: absolute;
-  width: 38.82%;
+  width: 100%;
   height: 8.42%;
   left: 58.34%;
   top: 3.49%;
-  font: normal 700 54px/70px Roboto;
+  font: normal 700 34px/70px Roboto;
   color: #000000;
   }
 
@@ -1606,7 +1606,7 @@ background-color: #E5E5E5;
   }
 }
 
-@media only screen and (min-width:376px) and (max-width:425px) {
+@media only screen and (min-width:411px) and (max-width:767px) {
   .home-div {
   position: absolute;
   width: 100%;
@@ -1615,13 +1615,13 @@ background-color: #E5E5E5;
 
   .find-the-best-agro-investments-in-nigeria-text {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 5.56%;
-  left: 14.4%;
+  left: 0.8%;
   top: 1.33%;
   justify-content: center;
   text-align: center;
-  font: normal bold 85px/85px Roboto;
+  font: normal bold 65px/65px Roboto;
   color: #272D4E;
   }
 
@@ -1629,11 +1629,11 @@ background-color: #E5E5E5;
   position: absolute;
   width: 100%;
   height: 0.84%;
-  left: 20.59%;
-  top: 6.68%;
+  left: 0.2%;
+  top: 5.38%;
   justify-content: center;
   text-align: center;
-  font: normal normal 18px/25px Roboto;
+  font: normal normal 16px/25px Roboto;
   color: #94A2B3;
   }
 
@@ -1641,8 +1641,8 @@ background-color: #E5E5E5;
   position: absolute;
   width: 33.41%;
   height: 0.8%;
-  left: 38.4%;
-  top: 8.68%;
+  left: 13.4%;
+  top: 7.08%;
   border: none;
   font: normal 500 18px/21px Roboto;
   background: #70C217;
@@ -1653,10 +1653,10 @@ background-color: #E5E5E5;
 
   .find-farms-acrotag {
   position: absolute;
-  width: 28%;
+  width: 48%;
   height: 0.42%;
-  left: 73.42%;
-  top: 8.9%;
+  left: 52.42%;
+  top: 7.29%;
   font: normal normal 18px/25px Roboto;
   color: #94A2B3;
   text-decoration-line: none;
@@ -1707,8 +1707,8 @@ background-color: #E5E5E5;
   position: absolute;
   width: 39.06%;
   height: 2.57%;
-  left: 41.95%;
-  top: 10.84%;
+  left: 15.95%;
+  top: 9.24%;
   font: normal bold 64px/70px Roboto;
   text-align: center;
   color: #000000;
@@ -1727,10 +1727,10 @@ background-color: #E5E5E5;
 
   .home-projects-div {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 5346px;
   left: 0px;
-  top: 17.99%;
+  top: 10.49%;
   }
 
   .farmer-projects-div {
@@ -1744,17 +1744,17 @@ background-color: #E5E5E5;
   .testimonials-div {
   position: relative;
   width: 100%;
-  height: 1110px;
-  top: 44.18%;
+  height: 350px;
+  top: 57.18%;
   }
 
   .testimonials-text {
   position: absolute;
   width: 18.23%;
   height: 1.34%;
-  left: 39.48%;
-  top: -17.48%;
-  font: normal bold 64px/70px Roboto;
+  left: 15.48%;
+  top: -47.48%;
+  font: normal bold 44px/70px Roboto;
   text-align: center;
   color: #000000;
   }
@@ -1771,7 +1771,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 4.52%;
   height: 5.86%;
-  left: 6.35%;
+  left: 0.35%;
   top: 11.44%;
   }
 
@@ -1779,7 +1779,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 27.85%;
   height: 36.13%;
-  left: 7.40%;
+  left: 1.40%;
   top: 15.50%;
   }
 
@@ -1787,7 +1787,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 4.52%;
   height: 5.86%;
-  left: 64.43%;
+  left: 74.43%;
   top: 46.31%;
   z-index: +1;
   }
@@ -1796,7 +1796,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 18.20%;
   height: 23.60%;
-  left: 73.10%;
+  left:80.10%;
   top: 48.29%;
   }
 
@@ -1804,7 +1804,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 28.87%;
   height: 49.37%;
-  left: 9.02%;
+  left: 3.02%;
   top: -3.69%;
   }
 
@@ -1812,107 +1812,109 @@ background-color: #E5E5E5;
   position: absolute;
   width: 28.87%;
   height: 49.37%;
-  left: 54.94%;
+  left: 64.94%;
   top: 47.33%;
   }
 
   .home-andrew-title-text {
   position: absolute;
-  width: 26.63%;
+  width: 100%;
   height: 1.59;
-  left: 39.44%;
-  top: 10.18%;
-  font: normal bold 36px/42px Roboto;
+  left: 33.44%;
+  top: 1.08%;
+  font: normal bold 20px/42px Roboto;
   color: #FEFEFE;
   }
 
   .home-andrew-paragraph-text {
   position: absolute;
-  width: 26.43%;
+  width: 66%;
   height: 3.52%;
-  left: 39.59%;
-  top: 15.60%;
-  font: normal normal 18px/30px Roboto;
+  left: 33.59%;
+  top: 8.50%;
+  font: normal normal 10px/15px Roboto;
   color: #FFFFFF;
   }
 
   .home-ogbonna-title-text {
   position: absolute;
-  width: 36.63%;
+  width: 100%;
   height: 1.59;
-  left: 24.49%;
-  top: 57.12%;
-  font: normal bold 36px/42px Roboto;
+  left: 1.49%;
+  top: 43.12%;
+  font: normal bold 20px/42px Roboto;
+  letter-spacing: 0.000005px;
   color: #FEFEFE;
   }
 
   .home-ogbonna-paragraph-text {
   position: absolute;
-  width: 31.63%;
+  width: 65%;
   height: 3.52%;
-  left: 24.69%;
-  top: 62.79%;
-  font: normal normal 18px/30px Roboto;
+  left: 1.49%;
+  top: 49.79%;
+  font: normal normal 10px/15px Roboto;
   color: #FFFFFF;
   }
 
   .our-partners-div {
   position: absolute;
-  width: 107%;
+  width: 100%;
   height: 20.29%;
   left: 0px;
-  top: 60.30%;
+  top: 66.30%;
   background: linear-gradient(180deg, rgba(239, 253, 236, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
   }
 
   .our-partners-text {
   position: absolute;
   align-self: center;
-  width: 29.23%;
+  width: 100%;
   height: 1.34%;
-  left: 39.48%;
-  top: 13.56%;
-  font: normal bold 64px/70px Roboto;
+  left: .48%;
+  top: -10%;
+  font: normal bold 44px/70px Roboto;
+  text-align: center;
   text-align: flex-start;
   color: #000000;
   }
 
   .home-bluehost-img {
   position: absolute;
-  width: 27.92%;
+  width: 100%;
   height: 15.05%;
-  left: 7.4%;
-  top: 21.09%;
+  left: 3.4%;
+  top: 0.09%;
   }
 
   .home-paystack-img {
   position: absolute;
-  width: 37.78%;
+  width: 100%;
   height: 14.56%;
-  left: 11.46%;
+  left: 0.46%;
   top: 74.61%;
   }
 
   .home-google-img {
   position: absolute;
-  width: 20.63%;
+  width: 90%;
   height: 7.61%;
-  left: 76.04%;
-  top: 25.97%;
+  left: 4.04%;
+  top:31.97%;
   }
 
   .home-godaddy-img {
   position: absolute;
-  width: 33.68%;
-  height: 8.11%;
-  right: 4%;
-  top: 78.33%;
+  width: 90%;
+  height: 7.11%;
+  right: 5%;
+  top: 46.33%;
   }
 
   .home-dots-img {
   position: absolute;
-  left: 32.90%;
-  top: 56.92%;
+  left: 0%;
+  top: 5.92%;
   }
 
   .home-dots-img {
@@ -2159,39 +2161,43 @@ background-color: #E5E5E5;
   }
 }
 
-@media only screen and (max-width:375px) {
+@media only screen and (min-width:375px) and (max-width:410px) {
   .home-div {
   position: absolute;
   width: 100%;
-  height: 5958px;
+  height: 6958px;
   }
 
   .find-the-best-agro-investments-in-nigeria-text {
   position: absolute;
-  width: 41.30%;
+  width: 90%;
   height: 5.56%;
-  left: 6.4%;
+  left: 0.8%;
   top: 1.33%;
-  font: normal bold 85px/95px Roboto;
+  justify-content: center;
+  text-align: center;
+  font: normal bold 65px/65px Roboto;
   color: #272D4E;
   }
 
   .farm-fund-description-paragraph {
   position: absolute;
-  width:36.46%;
+  width: 100%;
   height: 0.84%;
-  left: 6.59%;
-  top: 8.68%;
-  font: normal normal 18px/25px Roboto;
+  left: 0.2%;
+  top: 5.38%;
+  justify-content: center;
+  text-align: center;
+  font: normal normal 16px/25px Roboto;
   color: #94A2B3;
   }
 
   .get-started-button-1 {
   position: absolute;
-  width: 13.41%;
-  height: 1.21%;
-  left: 6.4%;
-  top: 10.68%;
+  width: 33.41%;
+  height: 0.8%;
+  left: 13.4%;
+  top: 7.08%;
   border: none;
   font: normal 500 18px/21px Roboto;
   background: #70C217;
@@ -2202,10 +2208,10 @@ background-color: #E5E5E5;
 
   .find-farms-acrotag {
   position: absolute;
-  width: 18%;
+  width: 48%;
   height: 0.42%;
-  left: 20.42%;
-  top: 11.08%;
+  left: 52.42%;
+  top: 7.29%;
   font: normal normal 18px/25px Roboto;
   color: #94A2B3;
   text-decoration-line: none;
@@ -2217,6 +2223,8 @@ background-color: #E5E5E5;
   height: 2.77%;
   left: 50.68%;
   top: 2.58%;
+  visibility: hidden;
+  display: none;
   }
 
   .home-img-2 {
@@ -2226,6 +2234,8 @@ background-color: #E5E5E5;
   left: 55.99%;
   top: 4.11%;
   z-index: -1;
+  visibility: hidden;
+  display: none;
   }
 
   .home-img-3 {
@@ -2234,6 +2244,8 @@ background-color: #E5E5E5;
   height: 3.63%;
   left: 40.90%;
   top: 9.94%;
+  visibility: hidden;
+  display: none;
   }
 
   .home-img-4 {
@@ -2242,14 +2254,16 @@ background-color: #E5E5E5;
   height: 5.59%;
   left: 67.99%;
   top: 8.9%;
+  visibility: hidden;
+  display: none;
   }
 
   .projects-title-text {
   position: absolute;
   width: 39.06%;
   height: 2.57%;
-  left: 29.95%;
-  top: 16.84%;
+  left: 15.95%;
+  top: 9.24%;
   font: normal bold 64px/70px Roboto;
   text-align: center;
   color: #000000;
@@ -2268,10 +2282,10 @@ background-color: #E5E5E5;
 
   .home-projects-div {
   position: absolute;
-  width: 100%;
-  height: 1346px;
+  width: 90%;
+  height: 5346px;
   left: 0px;
-  top: 17.99%;
+  top: 10.49%;
   }
 
   .farmer-projects-div {
@@ -2284,18 +2298,18 @@ background-color: #E5E5E5;
 
   .testimonials-div {
   position: relative;
-  width: 1440px;
-  height: 1110px;
-  top: 44.18%;
+  width: 100%;
+  height: 350px;
+  top: 57.18%;
   }
 
   .testimonials-text {
   position: absolute;
   width: 18.23%;
   height: 1.34%;
-  left: 39.48%;
-  top: -17.48%;
-  font: normal bold 64px/70px Roboto;
+  left: 15.48%;
+  top: -47.48%;
+  font: normal bold 44px/70px Roboto;
   text-align: center;
   color: #000000;
   }
@@ -2312,7 +2326,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 4.52%;
   height: 5.86%;
-  left: 6.35%;
+  left: 0.35%;
   top: 11.44%;
   }
 
@@ -2320,7 +2334,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 27.85%;
   height: 36.13%;
-  left: 7.40%;
+  left: 1.40%;
   top: 15.50%;
   }
 
@@ -2328,7 +2342,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 4.52%;
   height: 5.86%;
-  left: 64.43%;
+  left: 74.43%;
   top: 46.31%;
   z-index: +1;
   }
@@ -2337,7 +2351,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 18.20%;
   height: 23.60%;
-  left: 73.10%;
+  left:80.10%;
   top: 48.29%;
   }
 
@@ -2345,7 +2359,7 @@ background-color: #E5E5E5;
   position: absolute;
   width: 28.87%;
   height: 49.37%;
-  left: 9.02%;
+  left: 3.02%;
   top: -3.69%;
   }
 
@@ -2353,107 +2367,109 @@ background-color: #E5E5E5;
   position: absolute;
   width: 28.87%;
   height: 49.37%;
-  left: 54.94%;
+  left: 64.94%;
   top: 47.33%;
   }
 
   .home-andrew-title-text {
   position: absolute;
-  width: 26.63%;
+  width: 100%;
   height: 1.59;
-  left: 39.44%;
-  top: 10.18%;
-  font: normal bold 36px/42px Roboto;
+  left: 33.44%;
+  top: 1.08%;
+  font: normal bold 20px/42px Roboto;
   color: #FEFEFE;
   }
 
   .home-andrew-paragraph-text {
   position: absolute;
-  width: 26.43%;
+  width: 66%;
   height: 3.52%;
-  left: 39.59%;
-  top: 15.60%;
-  font: normal normal 18px/30px Roboto;
+  left: 33.59%;
+  top: 8.50%;
+  font: normal normal 10px/15px Roboto;
   color: #FFFFFF;
   }
 
   .home-ogbonna-title-text {
   position: absolute;
-  width: 36.63%;
+  width: 100%;
   height: 1.59;
-  left: 24.49%;
-  top: 57.12%;
-  font: normal bold 36px/42px Roboto;
+  left: 1.49%;
+  top: 43.12%;
+  font: normal bold 20px/42px Roboto;
+  letter-spacing: 0.000005px;
   color: #FEFEFE;
   }
 
   .home-ogbonna-paragraph-text {
   position: absolute;
-  width: 31.63%;
+  width: 65%;
   height: 3.52%;
-  left: 24.69%;
-  top: 62.79%;
-  font: normal normal 18px/30px Roboto;
+  left: 1.49%;
+  top: 49.79%;
+  font: normal normal 10px/15px Roboto;
   color: #FFFFFF;
   }
 
   .our-partners-div {
   position: absolute;
-  width: 107%;
+  width: 100%;
   height: 20.29%;
   left: 0px;
-  top: 60.30%;
+  top: 66.30%;
   background: linear-gradient(180deg, rgba(239, 253, 236, 0) 0%, rgba(236, 240, 253, 0.53) 14.32%, #ECF0FD 45.83%, rgba(236, 240, 253, 0.43) 84.33%, rgba(236, 240, 253, 0) 100%);
   }
 
   .our-partners-text {
   position: absolute;
   align-self: center;
-  width: 29.23%;
+  width: 100%;
   height: 1.34%;
-  left: 39.48%;
-  top: 13.56%;
-  font: normal bold 64px/70px Roboto;
+  left: .48%;
+  top: -10%;
+  font: normal bold 44px/70px Roboto;
+  text-align: center;
   text-align: flex-start;
   color: #000000;
   }
 
   .home-bluehost-img {
   position: absolute;
-  width: 27.92%;
+  width: 100%;
   height: 15.05%;
-  left: 7.4%;
-  top: 21.09%;
+  left: 3.4%;
+  top: 0.09%;
   }
 
   .home-paystack-img {
   position: absolute;
-  width: 37.78%;
+  width: 100%;
   height: 14.56%;
-  left: 11.46%;
+  left: 0.46%;
   top: 74.61%;
   }
 
   .home-google-img {
   position: absolute;
-  width: 20.63%;
+  width: 90%;
   height: 7.61%;
-  left: 76.04%;
-  top: 25.97%;
+  left: 4.04%;
+  top:31.97%;
   }
 
   .home-godaddy-img {
   position: absolute;
-  width: 33.68%;
-  height: 8.11%;
-  right: 4%;
-  top: 78.33%;
+  width: 90%;
+  height: 7.11%;
+  right: 5%;
+  top: 46.33%;
   }
 
   .home-dots-img {
   position: absolute;
-  left: 32.90%;
-  top: 56.92%;
+  left: 0%;
+  top: 5.92%;
   }
 
   .home-dots-img {
@@ -2485,7 +2501,7 @@ background-color: #E5E5E5;
   width: 93.06%;
   height: 18.41%;
   left: 3.47%;
-  top: 4.03%;
+  top: 2.03%;
   background: #FFFFFF;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
@@ -2493,8 +2509,8 @@ background-color: #E5E5E5;
 
   .adaobi-profile-img {
   position: absolute;
-  width: 50.94%;
-  height: 53.88%;
+  width: 93.06%;
+  height: 33.88%;
   left: 3.54%;
   top: 4.65%;
   border-radius: 20px;
@@ -2502,28 +2518,28 @@ background-color: #E5E5E5;
 
   .adaobi-profile-img1 {
   position: absolute;
-  width: 14.53%;
-  height: 17.74%;
+  width: 24.53%;
+  height: 10.74%;
   left: 3.54%;
-  top: 64.14%;
+  top: 78.14%;
   border-radius: 20px;
   }
 
   .adaobi-profile-img2 {
   position: absolute;
-  width: 14.53%;
-  height: 17.74%;
+  width: 24.53%;
+  height: 10.74%;
   left: 21.59%;
-  top: 64.14%;
+  top: 78.14%;
   border-radius: 20px;
   }
 
   .adaobi-profile-img3 {
   position: absolute;
-  width: 14.53%;
-  height: 17.74%;
+  width: 24.53%;
+  height: 10.74%;
   left: 39.72%;
-  top: 64.14%;
+  top: 78.14%;
   border-radius: 20px;
   }
 

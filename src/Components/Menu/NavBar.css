@@ -6,7 +6,7 @@ top: 0%;
 background-color: #E5E5E5;
 }
 
-@media only screen and (min-width:769px) {
+@media only screen and (min-width:799px){
     .main-navigation-div {
     position: fixed;
     top: 0%;
@@ -288,7 +288,7 @@ background-color: #E5E5E5;
     }
 }
 
-@media only screen and (min-width:426px) and (max-width:768px) {
+@media only screen and (min-width:411px) and (max-width:767px) {
     .main-navigation-div {
     background-color: #E5E5E5;
     position: fixed;
