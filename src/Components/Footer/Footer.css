@@ -3,6 +3,234 @@ body {
     padding: 0%;
 }
 
+@media only screen and (min-width:1440px) {
+    .footer-main-div {
+    position: absolute;
+    width: 107%;
+    height: 1070px;
+    left: 0px;
+    background-color: #ECF0FD;
+    }
+
+    .footer-prim-div {
+    position: absolute;
+    width: 100%;
+    height: 261px;
+    left: 0%;
+    top: 0%;
+    background-color: #22CF67;
+    }
+
+    .footer-sec-div {
+    position: absolute;
+    width: 100%;
+    height: 741px;
+    left: 0%;
+    top: 261px;
+    background-color: #1DD87E;
+    }
+
+    .footer-prim-paragraph-text {
+    position: absolute;
+    width: 57.38%;
+    height: 40.23%;
+    left: 20.64%;
+    top: 20.18%;
+    font: normal bold 34px/52px Roboto;
+    color: #FFFFFF;
+    }
+
+    .footer-prim-button {
+    position: absolute;
+    width: 15.38%;
+    height: 27.59%;
+    left: 80.5%;
+    top: 36.02%;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 60px;
+    background-color: #22CF67;
+    cursor: pointer;
+    outline: none;
+    color: #FFFFFF;
+    font-size: x-large;
+    }
+
+    .footer-smooth-img {
+    position: absolute;
+    width: 25.42%;
+    height: 7.15%;
+    left: 10.17%;
+    top: 6.17%;
+    cursor: pointer;
+    }
+
+    .footer-support-acrotag {
+    position: absolute;
+    width: 8%;
+    height: 53px;
+    left: 50.93%;
+    top: 6.88%;
+    font: normal normal 14px/52px Roboto;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+
+    .footer-support-img {
+    position: absolute;
+    left: -46.93%;
+    top: 6.88%;
+    }
+
+    .footer-payment-img {
+    position: absolute;
+    left: 70.16%;
+    top: 6.80%;
+    cursor: pointer;
+    }
+
+    .footer-farmfund-acrotag {
+    position: absolute;
+    width: 123px;
+    height: 53px;
+    left: 52.93%;
+    top: 29.13%;
+    font: normal normal 20px/52px Roboto;
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+
+    .footer-farmfund-img {
+    position: absolute;
+    left: -66.93%;
+    top: -25%;
+    }
+
+    .footer-line {
+    position: absolute;
+    width: 72.08%;
+    height: 0px;
+    left: 15.28%;
+    top: 43.99%;
+    border: 1px solid #9A7DFF;
+    }
+
+    .who-we-are-text {
+    position: absolute;
+    width: 7.97%;
+    height: 53px;
+    left: 30.75%;
+    top: 371px;
+    font: normal bold 14px/52px Roboto;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    }
+
+    .quick-link-text {
+    position: absolute;
+    width: 7.97%;
+    height: 53px;
+    left: 47.33%;
+    top: 371px;
+    font: normal bold 14px/52px Roboto;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    }
+
+    .contact-us-text {
+    position: absolute;
+    width: 7.97%;
+    height: 53px;
+    left: 63.91%;
+    top: 371px;
+    font: normal bold 14px/52px Roboto;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    }
+
+    .who-we-are-list {
+    position: absolute;
+    width: 7.97%;
+    height: 53px;
+    left: 30.75%;
+    top: 59.22%;
+    font: normal normal 12px/22px Roboto;
+    color: #FFFFFF;
+    list-style: none;
+    }
+
+    .quick-link-list {
+    position: absolute;
+    width: 7.97%;
+    height: 53px;
+    left: 47.33%;
+    top: 59.22%;
+    font: normal normal 12px/22px Roboto;
+    color: #FFFFFF;
+    list-style: none;
+    }
+
+    a {
+    text-decoration: none;
+    font: normal normal 12px/22px Roboto;
+    color: #FFFFFF;
+    }
+
+    .contact-us-list {
+    position: absolute;
+    width: 7.97%;
+    height: 53px;
+    left: 63.91%;
+    top: 59.22%;
+    font: normal normal 12px/22px Roboto;
+    color: #FFFFFF;
+    list-style: none;
+    }
+
+    .footer-twitter-img {
+    position: absolute;
+    left: 15.28%;
+    top: 96.07%;
+    cursor: pointer;
+    }
+
+    .footer-facebook-img {
+    position: absolute;
+    left: 20.74%;
+    top: 96.07%;
+    cursor: pointer;
+    }
+
+    .footer-feed-img {
+    position: absolute;
+    left: 25.88%;
+    top: 96.07%;
+    cursor: pointer;
+    }
+
+    .footer-instagram-img {
+    position: absolute;
+    left: 31.02%;
+    top: 96.07%;
+    cursor: pointer;
+    }
+
+    .copyright-text {
+    position: absolute;
+    width: 15.29%;
+    height: 22px;
+    left: 54.86%;
+    top: 94.98%;
+    font: normal normal 12px/22px Roboto;
+    color: #272D4E;
+    }
+
+    .home-footer {
+    position:relative;
+    top: 65.4%;
+    }
+}
+
 @media only screen and (min-width:1200px) and (max-width:1440px) {
     .footer-main-div {
     position: absolute;
