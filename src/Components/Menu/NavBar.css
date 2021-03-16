@@ -286,6 +286,99 @@ background-color: #E5E5E5;
 }
 
 /* Mobile Styles */
+@media only screen and (max-width:374px) {
+    .main-navigation-div {
+    background-color: #E5E5E5;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    z-index: +1;
+    }
+
+    .navigation-bar-logo {
+    position: absolute;
+    width: 65px;
+    height: 53px;
+    left: 8%;
+    top: 12.56%;
+    }
+
+    .navigation-bar-ul {
+    list-style: none;
+    }
+
+    .navigation-bar-ul a {
+    font: normal 500 18px/21px Roboto;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: #272D4E;
+    }
+    
+    .navigation-bar-logo-li:hover,
+    .navigation-bar-ul a:hover,
+    .get-started-button:hover {
+    color: #8a390b;
+    opacity: 0.9;
+    }
+
+    .navigation-bar-home {
+    position: absolute;
+    width: 26.13%;
+    height: 17px;
+    left: 17.33%;
+    top: 82px;
+    text-align: center;
+    }
+
+    .navigation-bar-about {
+    position: absolute;
+    width: 50%;
+    height: 17px;
+    left: 17.33%;
+    top: 130px;
+    }
+
+    .navigation-bar-contact {
+    position: absolute;
+    width: 66.13%;
+    height: 17px;
+    left: 17.33%;
+    top: 180px;
+    }
+
+    .navigation-bar-log-in {
+    position: absolute;
+    width: 80.47%;
+    height: 17px;
+    top: 228px;
+    left: 17.33%;
+    }
+
+    .get-started-button {
+    position: absolute;
+    width: 60.8%;
+    height: 27px;
+    top: 276px;
+    left: 17.33%;
+    border: none;
+    font: normal 500 18px/21px Roboto;
+    background: #70C217;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    }  
+
+    .navigation-search-bar {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 17.33%;
+    top: 9%;
+    }
+}
 
 @media only screen and (min-width:375px) and (max-width:410px) {
     .main-navigation-div {

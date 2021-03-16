@@ -2160,3 +2160,323 @@ body {
     }
 }
 
+@media only screen and (max-width:374px) {
+    .projects-div {
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    left: 0;
+    }
+
+    .farmer-div-1 img{
+    position: absolute;
+    width: 215%;
+    height: 50.06%;
+    left: 2.61%;
+    top: 0%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-1 h1 {
+    position: absolute;
+    width: 200%;
+    height: 7.03%;
+    left: 42.61%;
+    top: 42.91%;
+    font: normal bold 56px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-1 p {
+    position: absolute;
+    width: 200%;
+    height: 5.23%;
+    left: 8.61%;
+    top: 49.43%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-1 h3 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 52.67%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-1 h5 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 57.72%;
+    text-align: center;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-2 img{
+    position: absolute;
+    width: 215%;
+    height: 50.06%;
+    left: 2.61%;
+    top: 76%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-2 h1 {
+    position: absolute;
+    width: 200%;
+    height: 7.03%;
+    left: 30.61%;
+    top: 118.91%;
+    font: normal bold 56px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-2 p {
+    position: absolute;
+    width: 200%;
+    height: 5.23%;
+    left: 8.61%;
+    top: 125.43%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-2 h3 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 128.67%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-2 h5 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 133.72%;
+    text-align: center;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-3 img{
+    position: absolute;
+    width: 215%;
+    height: 50.06%;
+    left: 2.61%;
+    top: 152%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-3 h1 {
+    position: absolute;
+    width: 200%;
+    height: 7.03%;
+    left: 38.61%;
+    top: 194.91%;
+    font: normal bold 56px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-3 p {
+    position: absolute;
+    width: 200%;
+    height: 5.23%;
+    left: 10.61%;
+    top: 201.43%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-3 h3 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 204.67%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-3 h5 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 209.72%;
+    text-align: center;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-4 img{
+    position: absolute;
+    width: 215%;
+    height: 50.06%;
+    left: 2.61%;
+    top: 228%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-4 h1 {
+    position: absolute;
+    width: 200%;
+    height: 7.03%;
+    left: 40.61%;
+    top: 270.91%;
+    font: normal bold 56px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-4 p {
+    position: absolute;
+    width: 200%;
+    height: 5.23%;
+    left: 10.61%;
+    top: 277.43%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-4 h3 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 9.61%;
+    top: 280.67%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-4 h5 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 285.72%;
+    text-align: center;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-5 img{
+    position: absolute;
+    width: 215%;
+    height: 50.06%;
+    left: 2.61%;
+    top: 304%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-5 h1 {
+    position: absolute;
+    width: 200%;
+    height: 7.03%;
+    left: 38.61%;
+    top: 346.91%;
+    font: normal bold 56px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-5 p {
+    position: absolute;
+    width: 200%;
+    height: 5.23%;
+    left: 10.61%;
+    top: 353.43%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-5 h3 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 356.67%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-5 h5 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 361.72%;
+    text-align: center;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+    
+    .farmer-div-6 img{
+    position: absolute;
+    width: 215%;
+    height: 50.06%;
+    left: 2.61%;
+    top: 380%;
+    border-radius: 20px;
+    }
+
+    .farmer-div-6 h1 {
+    position: absolute;
+    width: 200%;
+    height: 7.03%;
+    left: 30.61%;
+    top: 422.91%;
+    font: normal bold 56px/70px Roboto;
+    color: #000000;
+    }
+
+    .farmer-div-6 p {
+    position: absolute;
+    width: 200%;
+    height: 5.23%;
+    left: 10.61%;
+    top: 429.43%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+    }
+
+    .farmer-div-6 h3 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left:10.61%;
+    top: 432.67%;
+    text-align: center;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+    }
+
+    .farmer-div-6 h5 {
+    position: absolute;
+    width: 200%;
+    height: 2.5%;
+    left: 10.61%;
+    top: 437.72%;
+    text-align: center;
+    font: normal normal 14px/30px Roboto;
+    color: #3E5140;
+    }
+}
