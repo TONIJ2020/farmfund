@@ -23,8 +23,8 @@ const PrivateRoute = () => {
             <BrowserRouter>
                 <Switch>
                     <Route exact path="/" component={Home} />
-                    <AppRoute exact path="/home" Component={Home} />
-                    <AppRoute path="/farmer" Component={Farmer} />
+                    <AppRoute exact path="/farmer" Component={Farmer} />
+                    {/* <AppRoute path="/farmer" Component={Farmer} /> */}
                     <AppRoute path="/loginregister" Component={LoginRegister} />
               </Switch>
             </BrowserRouter>
