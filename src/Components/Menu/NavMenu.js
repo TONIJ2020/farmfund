@@ -50,16 +50,38 @@ const Ul = styled.div`
     }
 `;
 
-function NavMenu({open}) {
+function NavMenu({open}, props) {
+
+    function handleLogout() {
+        localStorage.clear()
+        this.props.setUser(null);
+    };
+    
+    let buttons;
+
+    if(props.user) {
+        return (buttons = (
+            <Ul open={open} className="navigation-bar-ul">
+                <li><a href="/" className="navigation-bar-log-in" onClick={handleLogout}>Logout</a></li>
+            </Ul>
+        ))
+    }else{
+        buttons = (
+            <Ul open={open} className="navigation-bar-ul">
+                <li><a href="/login" className="navigation-bar-log-in">Login</a></li>
+                <li><a href="/register"><button className="get-started-button">Get Started</button></a></li>
+                <li><img src={search} className="navigation-search-bar" alt="search" /></li>
+            </Ul>
+        )
+    }
+
     return (
         <nav className="navigation-bar">
             <Ul open={open} className="navigation-bar-ul">
                 <li><a href="/" className="navigation-bar-home">Home</a></li>
                 <li><a href="/" className="navigation-bar-about">About us</a></li>
-                <li><a href="/" className="navigation-bar-contact">Contact us</a></li>
-                <li><a href="/loginregister" className="navigation-bar-log-in">Log In</a></li>
-                <li><a href="/loginregister"><button className="get-started-button">Get Started</button></a></li>
-                <li><img src={search} className="navigation-search-bar" alt="search" /></li>
+                <li><a href="/footer" className="navigation-bar-contact">Contact us</a></li>
+                {buttons}
             </Ul>
         </nav>
     );

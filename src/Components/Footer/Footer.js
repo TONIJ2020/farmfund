@@ -18,7 +18,7 @@ function Footer() {
             <div className="footer-prim-div">
                 <p className="footer-prim-paragraph-text">Invest or get Investment and full time support to grow and sell your crops</p>
 
-                <Link to="/loginregister"><button className="footer-prim-button">GET STARTED</button></Link>
+                <Link to="/register"><button className="footer-prim-button">GET STARTED</button></Link>
 
                 <div className="footer-sec-div">
                     <img src={Smooth} alt="" className="footer-smooth-img" />
@@ -44,8 +44,8 @@ function Footer() {
                     </ul>
 
                     <ul className="quick-link-list">
-                    <Link to="/loginregister"><li className="list-1">Login</li></Link>
-                        <Link to="/loginregister"><li className="list-2">Register</li></Link>
+                    <Link to="/login"><li className="list-1">Login</li></Link>
+                        <Link to="/register"><li className="list-2">Register</li></Link>
                         <Link to="/farmer"><li className="list-3">Projects</li></Link>
                     </ul>
 
