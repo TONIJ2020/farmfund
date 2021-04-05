@@ -227,22 +227,31 @@ body {
 }
 
 @media only screen and (min-width:1200px) and (max-width:1440px) {
+    .footer-container {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 0;
+    }
+    
     .footer-main-div {
+    position: absolute;
     width: 100%;
     height: 1050px;
+    top: 85%;
     left: 0px;
     background-color: #ECF0FD;
     }
 
     .footer-prim-div {
+    position: inherit;
     width: 100%;
     height: 261px;
-    left: 0;
-    top: 0;
     background-color: #22CF67;
     }
 
     .footer-sec-div {
+    position: absolute;
     width: 100%;
     height: 741px;
     left: 0%;
@@ -251,6 +260,7 @@ body {
     }
 
     .footer-prim-paragraph-text {
+    position: absolute;
     width: 57.38%;
     height: 40.23%;
     left: 20.64%;
@@ -260,6 +270,7 @@ body {
     }
 
     .footer-prim-button {
+    position: absolute;
     width: 15.38%;
     height: 27.59%;
     left: 80.5%;
@@ -275,6 +286,7 @@ body {
     }
 
     .footer-smooth-img {
+    position: absolute;
     width: 25.42%;
     height: 7.15%;
     left: 10.17%;
@@ -283,6 +295,7 @@ body {
     }
 
     .footer-support-acrotag {
+    position: absolute;
     width: 8%;
     height: 53px;
     left: 50.93%;
@@ -293,17 +306,20 @@ body {
     }
 
     .footer-support-img {
+    position: absolute;
     left: -46.93%;
     top: 6.88%;
     }
 
     .footer-payment-img {
+    position: absolute;
     left: 70.16%;
     top: 6.80%;
     cursor: pointer;
     }
 
     .footer-farmfund-acrotag {
+    position: absolute;
     width: 123px;
     height: 53px;
     left: 52.93%;
@@ -314,11 +330,13 @@ body {
     }
 
     .footer-farmfund-img {
+    position: absolute;
     left: -66.93%;
     top: -25%;
     }
 
     .footer-line {
+    position: absolute;
     width: 72.08%;
     height: 0px;
     left: 15.28%;
@@ -327,6 +345,7 @@ body {
     }
 
     .who-we-are-text {
+    position: absolute;
     width: 7.97%;
     height: 53px;
     left: 30.75%;
@@ -337,6 +356,7 @@ body {
     }
 
     .quick-link-text {
+    position: absolute;
     width: 7.97%;
     height: 53px;
     left: 47.33%;
@@ -347,6 +367,7 @@ body {
     }
 
     .contact-us-text {
+    position: absolute;
     width: 7.97%;
     height: 53px;
     left: 63.91%;
@@ -357,6 +378,7 @@ body {
     }
 
     .who-we-are-list {
+    position: absolute;
     width: 7.97%;
     height: 53px;
     left: 30.75%;
@@ -367,6 +389,7 @@ body {
     }
 
     .quick-link-list {
+    position: absolute;
     width: 7.97%;
     height: 53px;
     left: 47.33%;
@@ -383,36 +406,41 @@ body {
     }
 
     .contact-us-list {
+    position: absolute;
     width: 7.97%;
     height: 53px;
-    margin-left: 63.91%;
-    margin-top: 59.22%;
+    left: 63.91%;
+    top: 59.22%;
     font: normal normal 12px/22px Roboto;
     color: #FFFFFF;
     list-style: none;
     }
 
     .footer-twitter-img {
-    margin-left: 15.28%;
-    margin-top: 96.07%;
+    position: absolute;
+    left: 15.28%;
+    top: 96.77%;
     cursor: pointer;
     }
 
     .footer-facebook-img {
-    margin-left: 20.74%;
-    margin-top: 96.07%;
+    position: absolute;
+    left: 20.74%;
+    top: 96.77%;
     cursor: pointer;
     }
 
     .footer-feed-img {
-    margin-left: 25.88%;
-    margin-top: 96.07%;
+    position: absolute;
+    left: 25.88%;
+    top: 96.77%;
     cursor: pointer;
     }
 
     .footer-instagram-img {
-    margin-left: 31.02%;
-    margin-top: 96.07%;
+    position: absolute;
+    left: 31.02%;
+    top: 96.77%;
     cursor: pointer;
     }
 
@@ -421,14 +449,9 @@ body {
     width: 15.29%;
     height: 22px;
     left: 54.86%;
-    top: 94.98%;
+    top: 93.98%;
     font: normal normal 12px/22px Roboto;
     color: #272D4E;
-    }
-
-    .home-footer {
-    position:relative;
-    top: 65.4%;
     }
 }
 
@@ -1380,6 +1403,7 @@ body {
     height: 1050px;
     left: 0px;
     background-color: #ECF0FD;
+    bottom: 0%;
     }
 
     .footer-prim-div {

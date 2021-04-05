@@ -53,12 +53,12 @@ export default class Login extends Component {
                     <h3 className="login-register-header">Login</h3>
 
                     <div className="form-group">
-                        <label>Username</label>
-                        <input type='text' 
-                        id='username' 
-                        placeholder='Username' 
-                        onChange={e => this.userName = e.target.value}
-                        />
+                        <label>E-mail</label>
+                        <input type="email" 
+                        id="email" 
+                        placeholder='circleafrica@gmail.com' 
+                        onChange={e => this.email = e.target.value}
+                        required/>
                     </div>
 
                     <div className="form-group">
@@ -67,7 +67,7 @@ export default class Login extends Component {
                         id='password' 
                         placeholder='**********' 
                         onChange={e => this.password = e.target.value}
-                        />
+                        required/>
                     </div>
         
                     <div className="form-group">
