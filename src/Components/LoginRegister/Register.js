@@ -4,6 +4,8 @@ import './LoginRegister.css';
 
 export default class Register extends Component {
 
+    state = {};
+
     handleSubmit = e => {
         e.preventDefault();
         const data = {
@@ -27,16 +29,30 @@ export default class Register extends Component {
             }
         ).catch(
             err => {
-                console.log(err);
+                this.setState({
+                    message: err.response.data.message
+                })
             }
         )
     };
     
     render() {
+
+        let error = '';
+
+        if(this.state.message) {
+            error = (
+                <div className="alert alert-danger" role="alert">
+                    {this.state.message}
+                </div>
+            )
+        }
        
         return (
             <form onSubmit={this.handleSubmit} className="container">
                 <div className="register-wrapper">
+                    {error}
+
                     <h3 className="login-register-header">Register</h3>
 
                     <div className="form-group">
@@ -93,15 +109,6 @@ export default class Register extends Component {
                         />
                     </div>
         
-                    <div className="form-group">
-                        <label>Username</label>
-                        <input type='text' 
-                        id='username' 
-                        placeholder='Username' 
-                        onChange={e => this.userName = e.target.value}
-                        />
-                    </div>
-
                     <div className="form-group">
                         <label>Password</label>
                         <input type='password' 
