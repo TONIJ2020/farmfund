@@ -24,9 +24,7 @@ export default class Reset extends Component {
             }
         ).catch(
             err => {
-                this.setState({
-                    message: err.response.data.message
-                })
+                console.log(err);
             }
         )
     };
@@ -36,20 +34,9 @@ export default class Reset extends Component {
             return <Redirect to={'/login'} />
         }
 
-        let error = '';
-
-        if(this.state.message) {
-            error = (
-                <div className="alert alert-danger" role="alert">
-                    {this.state.message}
-                </div>
-            )
-        }
-
         return (
             <form onSubmit={this.handleSubmit} className="container">
                 <div className="login-wrapper">
-                    {error}
                     <h3 className="login-register-header">Reset Password</h3>
 
                     <div className="form-group">
