@@ -1,82 +1,82 @@
 body {
-margin:0;
-padding:0;
-height: 5958px;
-top: 0%;
-background-color: #E5E5E5;
+    width: 100vw;
+    margin:0;
+    padding:0;
+    height: 5958px;
+    top: 0%;
+    background-color: #E5FFEE;
 }
 
-@media only screen and (min-width:1440px) {
-    .main-navigation-div {
+.main-navigation-div {
     position: fixed;
     top: 0%;
     width: 100%;
     height: 90px;
     left: 0px;
     z-index: +1;
-    background-color: #E5E5E5;
-    }
+    background-color: #E5FFEE;
+}
 
-    .navigation-bar-logo {
+.navigation-bar-logo {
     position: absolute;
     width: 65px;
     height: 53px;
     left: 90px;
     top: 25.56%;
-    }
+}
 
-    .navigation-bar-ul {
+.navigation-bar-ul {
     list-style: none;
-    }
+}
 
-    .navigation-bar-ul a {
+.navigation-bar-ul a {
     font: normal 500 18px/21px Roboto;
     display: flex;
     align-items: flex-end;
     text-decoration: none;
     color: #272D4E;
-    }
+}
 
-    .navigation-bar-logo-li:hover,
-    .navigation-bar-ul a:hover,
-    .get-started-button:hover {
+.navigation-bar-logo-li:hover,
+.navigation-bar-ul a:hover,
+.get-started-button:hover {
     color: #8a390b;
     opacity: 0.9;
-    }
+}
 
-    .navigation-bar-home {
+.navigation-bar-home {
     position: absolute;
     width: 49px;
     height: 21px;
     left: 368px;
     top: 55.56%;
-    }
+}
 
-    .navigation-bar-about {
+.navigation-bar-about {
     position: absolute;
     width: 73px;
     height: 21px;
     left: 444px;
     top: 55.56%;
-    }
+}
 
-    .navigation-bar-contact {
+.navigation-bar-contact {
     position: absolute;
     width: 107px;
     height: 21px;
     left: 551px;
     top: 55.56%;
-    }
+}
 
-    .navigation-bar-log-in {
+.navigation-bar-log-in {
     position: absolute;
     width: 70px;
     height: 21px;
     right: 15.49%;
     top: 55.56%;
-    }
+}
 
-    .get-started-button {
+.get-started-button {
     position: absolute;
     width: 107px;
     height: 40px;
@@ -88,205 +88,18 @@ background-color: #E5E5E5;
     color: #FFF;
     border-radius: 5px;
     cursor: pointer;
-    }
-
-    .navigation-search-bar {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    right: 40px;
-    top: 58.89%;
-    }
 }
 
-@media only screen and (min-width:1200px) and (max-width:1440px){
-    .main-navigation-div {
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    height: 90px;
-    left: 0px;
-    z-index: +1;
-    background-color: #E5E5E5;
-    }
-
-    .navigation-bar-logo {
-    position: absolute;
-    width: 65px;
-    height: 53px;
-    left: 90px;
-    top: 25.56%;
-    }
-
-    .navigation-bar-ul {
-    list-style: none;
-    }
-
-    .navigation-bar-ul a {
-    font: normal 500 18px/21px Roboto;
-    display: flex;
-    align-items: flex-end;
-    text-decoration: none;
-    color: #272D4E;
-    }
-
-    .navigation-bar-logo-li:hover,
-    .navigation-bar-ul a:hover,
-    .get-started-button:hover {
-    color: #8a390b;
-    opacity: 0.9;
-    }
-
-    .navigation-bar-home {
-    position: absolute;
-    width: 49px;
-    height: 21px;
-    left: 368px;
-    top: 55.56%;
-    }
-
-    .navigation-bar-about {
-    position: absolute;
-    width: 73px;
-    height: 21px;
-    left: 444px;
-    top: 55.56%;
-    }
-
-    .navigation-bar-contact {
-    position: absolute;
-    width: 107px;
-    height: 21px;
-    left: 551px;
-    top: 55.56%;
-    }
-
-    .navigation-bar-log-in {
-    position: absolute;
-    width: 70px;
-    height: 21px;
-    right: 15.49%;
-    top: 55.56%;
-    }
-
-    .get-started-button {
-    position: absolute;
-    width: 107px;
-    height: 40px;
-    right: 6.36%;
-    top: 44.56%;
-    border: none;
-    font: normal 500 18px/21px Roboto;
-    background: #70C217;
-    color: #FFF;
-    border-radius: 5px;
-    cursor: pointer;
-    }
-
-    .navigation-search-bar {
+.navigation-search-bar {
     position: absolute;
     width: 18px;
     height: 18px;
     right: 40px;
     top: 58.89%;
-    }
-}
-
-@media only screen and (min-width:800px) and (max-width:1199px){
-    .main-navigation-div {
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    height: 90px;
-    left: 0px;
-    z-index: +1;
-    background-color: #E5E5E5;
-    }
-
-    .navigation-bar-logo {
-    position: absolute;
-    width: 65px;
-    height: 53px;
-    left: 90px;
-    top: 25.56%;
-    }
-
-    .navigation-bar-ul {
-    list-style: none;
-    }
-
-    .navigation-bar-ul a {
-    font: normal 500 18px/21px Roboto;
-    display: flex;
-    align-items: flex-end;
-    text-decoration: none;
-    color: #272D4E;
-    }
-
-    .navigation-bar-logo-li:hover,
-    .navigation-bar-ul a:hover,
-    .get-started-button:hover {
-    color: #8a390b;
-    opacity: 0.9;
-    }
-
-    .navigation-bar-home {
-    position: absolute;
-    width: 49px;
-    height: 21px;
-    left: 368px;
-    top: 55.56%;
-    }
-
-    .navigation-bar-about {
-    position: absolute;
-    width: 73px;
-    height: 21px;
-    left: 444px;
-    top: 55.56%;
-    }
-
-    .navigation-bar-contact {
-    position: absolute;
-    width: 107px;
-    height: 21px;
-    left: 551px;
-    top: 55.56%;
-    }
-
-    .navigation-bar-log-in {
-    position: absolute;
-    width: 70px;
-    height: 21px;
-    right: 15.49%;
-    top: 55.56%;
-    }
-
-    .get-started-button {
-    position: absolute;
-    width: 107px;
-    height: 40px;
-    right: 6.36%;
-    top: 44.56%;
-    border: none;
-    font: normal 500 18px/21px Roboto;
-    background: #70C217;
-    color: #FFF;
-    border-radius: 5px;
-    cursor: pointer;
-    }
-
-    .navigation-search-bar {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    right: 40px;
-    top: 58.89%;
-    }
 }
 
 /* Mobile Styles */
-@media only screen and (max-width:374px) {
+@media only screen and (max-width: 768px) {
     .main-navigation-div {
     background-color: #E5E5E5;
     position: fixed;
@@ -298,11 +111,10 @@ background-color: #E5E5E5;
     }
 
     .navigation-bar-logo {
-    position: absolute;
     width: 65px;
     height: 53px;
-    left: 8%;
-    top: 12.56%;
+    left: 3rem;
+    top: 1rem;
     }
 
     .navigation-bar-ul {
@@ -329,7 +141,7 @@ background-color: #E5E5E5;
     width: 26.13%;
     height: 17px;
     left: 17.33%;
-    top: 82px;
+    top: 69.4%;
     text-align: center;
     }
 
@@ -338,7 +150,7 @@ background-color: #E5E5E5;
     width: 50%;
     height: 17px;
     left: 17.33%;
-    top: 130px;
+    top: 106.8%;
     }
 
     .navigation-bar-contact {
@@ -346,14 +158,14 @@ background-color: #E5E5E5;
     width: 66.13%;
     height: 17px;
     left: 17.33%;
-    top: 180px;
+    top: 144.6%;
     }
 
     .navigation-bar-log-in {
     position: absolute;
     width: 80.47%;
     height: 17px;
-    top: 228px;
+    top: 184%;
     left: 17.33%;
     }
 
@@ -361,7 +173,7 @@ background-color: #E5E5E5;
     position: absolute;
     width: 60.8%;
     height: 27px;
-    top: 276px;
+    top: 210%;
     left: 17.33%;
     border: none;
     font: normal 500 18px/21px Roboto;
@@ -376,288 +188,6 @@ background-color: #E5E5E5;
     width: 18px;
     height: 18px;
     left: 17.33%;
-    top: 9%;
+    top: 29%;
     }
 }
-
-@media only screen and (min-width:375px) and (max-width:410px) {
-    .main-navigation-div {
-    background-color: #E5E5E5;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    height: 80px;
-    left: 0px;
-    z-index: +1;
-    }
-
-    .navigation-bar-logo {
-    position: absolute;
-    width: 65px;
-    height: 53px;
-    left: 8%;
-    top: 12.56%;
-    }
-
-    .navigation-bar-ul {
-    list-style: none;
-    }
-
-    .navigation-bar-ul a {
-    font: normal 500 18px/21px Roboto;
-    display: flex;
-    align-items: flex-end;
-    text-decoration: none;
-    color: #272D4E;
-    }
-    
-    .navigation-bar-logo-li:hover,
-    .navigation-bar-ul a:hover,
-    .get-started-button:hover {
-    color: #8a390b;
-    opacity: 0.9;
-    }
-
-    .navigation-bar-home {
-    position: absolute;
-    width: 26.13%;
-    height: 17px;
-    left: 17.33%;
-    top: 82px;
-    text-align: center;
-    }
-
-    .navigation-bar-about {
-    position: absolute;
-    width: 50%;
-    height: 17px;
-    left: 17.33%;
-    top: 130px;
-    }
-
-    .navigation-bar-contact {
-    position: absolute;
-    width: 66.13%;
-    height: 17px;
-    left: 17.33%;
-    top: 180px;
-    }
-
-    .navigation-bar-log-in {
-    position: absolute;
-    width: 80.47%;
-    height: 17px;
-    top: 228px;
-    left: 17.33%;
-    }
-
-    .get-started-button {
-    position: absolute;
-    width: 60.8%;
-    height: 27px;
-    top: 276px;
-    left: 17.33%;
-    border: none;
-    font: normal 500 18px/21px Roboto;
-    background: #70C217;
-    color: #FFF;
-    border-radius: 5px;
-    cursor: pointer;
-    }  
-
-    .navigation-search-bar {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 17.33%;
-    top: 9%;
-    }
-}
-
-@media only screen and (min-width:411px) and (max-width:767px) {
-    .main-navigation-div {
-    background-color: #E5E5E5;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    height: 80px;
-    left: 0px;
-    z-index: +1;
-    }
-
-    .navigation-bar-logo {
-    position: absolute;
-    width: 65px;
-    height: 53px;
-    left: 8%;
-    top: 12.56%;
-    }
-
-    .navigation-bar-ul {
-    list-style: none;
-    }
-
-    .navigation-bar-ul a {
-    font: normal 500 18px/21px Roboto;
-    display: flex;
-    align-items: flex-end;
-    text-decoration: none;
-    color: #272D4E;
-    }
-    
-    .navigation-bar-logo-li:hover,
-    .navigation-bar-ul a:hover,
-    .get-started-button:hover {
-    color: #8a390b;
-    opacity: 0.9;
-    }
-
-    .navigation-bar-home {
-    position: absolute;
-    width: 26.13%;
-    height: 17px;
-    left: 17.33%;
-    top: 82px;
-    text-align: center;
-    }
-
-    .navigation-bar-about {
-    position: absolute;
-    width: 50%;
-    height: 17px;
-    left: 17.33%;
-    top: 130px;
-    }
-
-    .navigation-bar-contact {
-    position: absolute;
-    width: 66.13%;
-    height: 17px;
-    left: 17.33%;
-    top: 180px;
-    }
-
-    .navigation-bar-log-in {
-    position: absolute;
-    width: 80.47%;
-    height: 17px;
-    top: 228px;
-    left: 17.33%;
-    }
-
-    .get-started-button {
-    position: absolute;
-    width: 60.8%;
-    height: 27px;
-    top: 276px;
-    left: 17.33%;
-    border: none;
-    font: normal 500 18px/21px Roboto;
-    background: #70C217;
-    color: #FFF;
-    border-radius: 5px;
-    cursor: pointer;
-    }  
-
-    .navigation-search-bar {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 17.33%;
-    top: 9%;
-    }
-}  
-
-@media only screen and (min-width:768px) and (max-width:799px) {
-    .main-navigation-div {
-    background-color: #E5E5E5;
-    position: fixed;
-    top: 0%;
-    width: 100%;
-    height: 80px;
-    left: 0px;
-    z-index: +1;
-    }
-
-    .navigation-bar-logo {
-    position: absolute;
-    width: 65px;
-    height: 53px;
-    left: 8%;
-    top: 12.56%;
-    }
-
-    .navigation-bar-ul {
-    list-style: none;
-    }
-
-    .navigation-bar-ul a {
-    font: normal 500 18px/21px Roboto;
-    display: flex;
-    align-items: flex-end;
-    text-decoration: none;
-    color: #272D4E;
-    }
-    
-    .navigation-bar-logo-li:hover,
-    .navigation-bar-ul a:hover,
-    .get-started-button:hover {
-    color: #8a390b;
-    opacity: 0.9;
-    }
-
-    .navigation-bar-home {
-    position: absolute;
-    width: 26.13%;
-    height: 17px;
-    left: 17.33%;
-    top: 82px;
-    text-align: center;
-    }
-
-    .navigation-bar-about {
-    position: absolute;
-    width: 50%;
-    height: 17px;
-    left: 17.33%;
-    top: 130px;
-    }
-
-    .navigation-bar-contact {
-    position: absolute;
-    width: 66.13%;
-    height: 17px;
-    left: 17.33%;
-    top: 180px;
-    }
-
-    .navigation-bar-log-in {
-    position: absolute;
-    width: 80.47%;
-    height: 17px;
-    top: 228px;
-    left: 17.33%;
-    }
-
-    .get-started-button {
-    position: absolute;
-    width: 60.8%;
-    height: 27px;
-    top: 276px;
-    left: 17.33%;
-    border: none;
-    font: normal 500 18px/21px Roboto;
-    background: #70C217;
-    color: #FFF;
-    border-radius: 5px;
-    cursor: pointer;
-    }  
-
-    .navigation-search-bar {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 17.33%;
-    top: 9%;
-    }
-} 

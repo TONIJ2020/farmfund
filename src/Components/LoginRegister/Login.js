@@ -11,7 +11,7 @@ export default class Login extends Component {
         e.preventDefault();
 
         const data = {
-            user_Name: this.userName,
+            email: this.email,
             password: this.password
         }
 
@@ -65,7 +65,7 @@ export default class Login extends Component {
                         <label>Password</label>
                         <input type='password' 
                         id='password' 
-                        placeholder='**********' 
+                        placeholder='Password' 
                         onChange={e => this.password = e.target.value}
                         required/>
                     </div>

@@ -1,18 +1,19 @@
 import axios from 'axios';
 import React, { Component } from 'react';
 import { Redirect } from 'react-router';
+import './LoginRegister.css';
 
-export default class Reset extends Component {
+export class Reset extends Component {
 
     state = {};
 
     handleSubmit = e => {
-        e.preventDafault();
+        e.preventDefault();
 
         const data ={
             token: this.props.match.params.id,
             password: this.password,
-            password_confirm: this.confirmPassword,
+            password_confirm: this.confirmPassword
         };
 
         axios.post('reset', data).then(
@@ -48,7 +49,7 @@ export default class Reset extends Component {
 
         return (
             <form onSubmit={this.handleSubmit} className="container">
-                <div className="login-wrapper">
+                <div className="reset-wrapper">
                     {error}
                     <h3 className="login-register-header">Reset Password</h3>
 

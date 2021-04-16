@@ -25,7 +25,9 @@ export default class Register extends Component {
         
         axios.post('register', data).then(
             res => {
-                console.log(res)
+                this.setState({
+                    message: res.data.message
+                })
             }
         ).catch(
             err => {
@@ -61,7 +63,7 @@ export default class Register extends Component {
                         id="firstname" 
                         placeholder='First Name' 
                         onChange={e => this.firstName = e.target.value} 
-                        />
+                        required/>
                     </div>
 
                     <div className="form-group">
@@ -70,7 +72,7 @@ export default class Register extends Component {
                         id="lastname" 
                         placeholder='Last Name'  
                         onChange={e => this.lastName = e.target.value}
-                        />
+                        required/>
                     </div>
 
                     <div className="form-group">
@@ -79,7 +81,7 @@ export default class Register extends Component {
                         id="middlename" 
                         placeholder='Middle Name' 
                         onChange={e => this.middleName = e.target.value}
-                        />
+                        required/>
                     </div>
 
                     <div className="form-group">
@@ -88,7 +90,7 @@ export default class Register extends Component {
                         id="phone" 
                         placeholder='+234-703-567-1234' 
                         onChange={e => this.phone = e.target.value}
-                        />
+                        required/>
                     </div>
         
                     <div className="form-group">
@@ -97,7 +99,7 @@ export default class Register extends Component {
                         id="email" 
                         placeholder='circleafrica@gmail.com' 
                         onChange={e => this.email = e.target.value}
-                        />
+                        required/>
                     </div>
 
                     <div className="form-group">
@@ -106,25 +108,25 @@ export default class Register extends Component {
                         id="address" 
                         placeholder='Your residential address'  
                         onChange={e => this.address = e.target.value}
-                        />
+                        required/>
                     </div>
         
                     <div className="form-group">
                         <label>Password</label>
                         <input type='password' 
                         id='password' 
-                        placeholder='**********' 
+                        placeholder='Password' 
                         onChange={e => this.password = e.target.value}
-                        />
+                        required/>
                     </div>
 
                     <div className="form-group">
                         <label>Confirm Password</label>
                         <input type='password' 
-                        id='password' 
-                        placeholder='**********' 
+                        id='passwordconfirm' 
+                        placeholder='Confirm Password' 
                         onChange={e => this.confirmPassword = e.target.value}
-                        />
+                        required/>
                     </div>
         
                     <div className="form-group radio-input-group">

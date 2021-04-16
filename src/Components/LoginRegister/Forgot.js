@@ -1,12 +1,11 @@
-import axios from 'axios';
 import React, { Component } from 'react';
-
-export default class Forgot extends Component {
+import axios from 'axios';
+export class Forgot extends Component {
 
     state = {};
 
     handleSubmit = e => {
-        e.preventDafault();
+        e.preventDefault();
 
         const data ={
             email: this.email

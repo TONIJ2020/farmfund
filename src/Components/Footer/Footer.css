@@ -1,6 +1,15 @@
 body {
+    display: block;
+    width: 100%;
     margin: 0%;
     padding: 0%;
+    bottom: 0;
+}
+
+.footer-container {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 0;
 }
 
 @media only screen and (min-width:1440px) {
@@ -381,8 +390,9 @@ body {
     position: absolute;
     width: 7.97%;
     height: 53px;
-    left: 30.75%;
+    left: 31.75%;
     top: 59.22%;
+    text-align: left;
     font: normal normal 12px/22px Roboto;
     color: #FFFFFF;
     list-style: none;
@@ -392,8 +402,9 @@ body {
     position: absolute;
     width: 7.97%;
     height: 53px;
-    left: 47.33%;
+    left: 48.33%;
     top: 59.22%;
+    text-align: left;
     font: normal normal 12px/22px Roboto;
     color: #FFFFFF;
     list-style: none;
@@ -409,8 +420,9 @@ body {
     position: absolute;
     width: 7.97%;
     height: 53px;
-    left: 63.91%;
+    left: 64.91%;
     top: 59.22%;
+    text-align: left;
     font: normal normal 12px/22px Roboto;
     color: #FFFFFF;
     list-style: none;
@@ -1397,6 +1409,12 @@ body {
 }
 
 @media only screen and (max-width:374px) {
+    .footer-container {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 0;
+    }
+
     .footer-main-div {
     position: absolute;
     width: 100%;

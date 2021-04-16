@@ -100,7 +100,7 @@ input,select,textarea {
 }
 
 .row {
-    max-width:1170px;
+    max-width:100%;
     margin-right:auto;
     margin-left:auto;
     display:-webkit-box;
@@ -175,7 +175,7 @@ input,select,textarea {
     }
 
     .font-size-medium {
-        font-size:0.9rem
+        font-size: 160%;
     }
 
     .block-margin-top,.medium-block-margin-top {
@@ -199,7 +199,7 @@ input,select,textarea {
     }
 
     .review__date {
-        font-size:.75rem
+        font-size: 0.75rem
     }
 
     .review__content {
@@ -211,9 +211,10 @@ input,select,textarea {
 
 @media print,screen and (min-width:62.5em) {
     .content-padding {
-        padding: 7rem 0 0 0;
-        width: 300.28px;
-        margin-left: -5.3rem;
+        padding: 2rem 0 0 0;
+        width: 400px;
+        margin-left: -6.6rem;
+        text-align: left;
 
     }
 
@@ -232,18 +233,20 @@ input,select,textarea {
 }
 
 .button {
-    font-weight:600;
-    width:100%;
-    padding:1.25rem 1.75rem;
-    border-radius:3px;
-    background-color:#ff4a7e;
-    -webkit-box-shadow:inset 0 -3px 0 0 rgba(34,34,34,.2);
-    box-shadow:inset 0 -3px 0 0 rgba(34,34,34,.2);
-    color:#fefefe;
-    text-align:center;
-    -webkit-transition:background-color .1s cubic-bezier(.4,0,.2,1);
-    -o-transition:background-color .1s cubic-bezier(.4,0,.2,1);
-    transition:background-color .1s cubic-bezier(.4,0,.2,1)
+    font-weight: 600;
+    width: 100%;
+    margin: auto;
+    padding: 1.25rem 1.75rem;
+    border-radius: 3px;
+    background-color: #ff4a7e;
+    -webkit-box-shadow: inset 0 -3px 0 0 rgba(34,34,34,.2);
+    box-shadow: inset 0 -3px 0 0 rgba(34,34,34,.2);
+    color: #fefefe;
+    text-align: center;
+    -webkit-transition: background-color .1s cubic-bezier(.4,0,.2,1);
+    -o-transition: background-color .1s cubic-bezier(.4,0,.2,1);
+    transition: background-color .1s cubic-bezier(.4,0,.2,1);
+    margin-bottom: 6%;
 }
 
 .button:hover {
@@ -339,7 +342,7 @@ input,select,textarea {
 }
 
 .validation {
-    margin-bottom:10px;
+    margin-bottom: 40px;
     padding:4px 15px;
     border-radius:3px;
     background-color:#ec5840;
