@@ -1,60 +1,39 @@
 body {
     display: block;
     width: 100%;
-    margin: 0%;
+    margin: auto;
     padding: 0%;
-    bottom: 0;
+    text-align: center;
 }
-
-.footer-container {
+    
+.footer-main-div {
     width: 100%;
-    height: fit-content;
-    margin-bottom: 0;
-}
-
-@media only screen and (min-width:1440px) {
-    .footer-main-div {
-    position: absolute;
-    width: 100%;
-    height: 1070px;
-    left: 0;
+    margin: 0 auto;
     background-color: #ECF0FD;
-    }
+}
 
-    .footer-prim-div {
-    position: absolute;
+.footer-prim-div {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 261px;
-    left: 0;
-    top: 0;
     background-color: #22CF67;
-    }
+}
 
-    .footer-sec-div {
-    position: absolute;
-    width: 100%;
-    height: 741px;
-    left: 0%;
-    top: 261px;
-    background-color: #1DD87E;
-    }
-
-    .footer-prim-paragraph-text {
-    position: absolute;
+.footer-prim-paragraph-text {
     width: 57.38%;
-    height: 40.23%;
-    left: 20.64%;
-    top: 20.18%;
+    padding-top: 78px;
+    margin-left: 10.64%;
+    text-align: left;
     font: normal bold 34px/52px Roboto;
     color: #FFFFFF;
-    }
-
-    .footer-prim-button {
-    position: absolute;
-    width: 15.38%;
+}
+    
+.footer-prim-button {
+    width: 206px;
     height: 27.59%;
-    left: 80.5%;
-    top: 36.02%;
+    margin-top: 56.02%;
+    margin-left: 55.5%;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 60px;
@@ -63,1593 +42,578 @@ body {
     outline: none;
     color: #FFFFFF;
     font-size: x-large;
-    }
+}
 
-    .footer-smooth-img {
-    position: absolute;
-    width: 25.42%;
-    height: 7.15%;
-    left: 10.17%;
-    top: 6.17%;
+.footer-sec-div {
+    width: 100%;
+    height: 741px;
+    background-color: #1DD87E;
+}
+
+.footer-smooth-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    height: 14.15%;
+    margin-left: 8%;
+    padding-top: 4%;
     cursor: pointer;
-    }
+}
 
-    .footer-support-acrotag {
-    position: absolute;
-    width: 8%;
-    height: 53px;
-    left: 50.93%;
-    top: 6.88%;
-    font: normal normal 14px/52px Roboto;
-    color: #FFFFFF;
+.footer-support-acrotag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 6%;
+    margin-top: -46px;
+    margin-left: 3%;
     text-decoration: none;
-    }
+    font: normal normal 18px/52px Roboto;
+    color: #FFFFFF;
+}
 
-    .footer-support-img {
-    position: absolute;
-    left: -46.93%;
-    top: 6.88%;
-    }
+.footer-support-img {
+    width: 3.5%;
+    margin-right: 12px;
+}
 
-    .footer-payment-img {
-    position: absolute;
-    left: 70.16%;
-    top: 6.80%;
+.footer-payment-img {
+    display: block;
+    margin-top: -3.8%;
+    margin-left: 64%;
     cursor: pointer;
-    }
+}
 
-    .footer-farmfund-acrotag {
-    position: absolute;
-    width: 123px;
+.footer-farmfund-acrotag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
     height: 53px;
-    left: 52.93%;
-    top: 29.13%;
+    text-align: center;
+    margin-top: 8%;
     font: normal normal 20px/52px Roboto;
     color: #FFFFFF;
     text-decoration: none;
-    }
+}
 
-    .footer-farmfund-img {
-    position: absolute;
-    left: -66.93%;
-    top: -25%;
-    }
+.footer-farmfund-img {
+    height: 5rem;
+    margin-right: 1rem;
+    margin-top: -1.5rem;
+}
 
-    .footer-line {
-    position: absolute;
-    width: 72.08%;
-    height: 0px;
-    left: 15.28%;
-    top: 43.99%;
+.footer-line {
+    display: flex;
+    justify-content: center;
+    width: 72%;
+    margin-left: 15.28%;
+    margin-top: -30.99%;
     border: 1px solid #9A7DFF;
-    }
+}
 
-    .who-we-are-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 30.75%;
-    top: 371px;
+    
+.footer-ter-div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 11%;
+}
+
+.footer-ter-div h3 {
     font: normal bold 14px/52px Roboto;
     color: #FFFFFF;
     text-transform: uppercase;
-    }
+}
 
-    .quick-link-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 47.33%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
+.who-we-are-div {
+    width: 8.5%;
+}
 
-    .contact-us-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 63.91%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
+.who-we-are-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
 
-    .who-we-are-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 30.75%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
+.quick-link-div {
+    width: 8.5%;
+}
+
+.quick-link-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-div {
+    width: 14%;
+}
+
+.contact-us-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.footer-ter-div ul li, a {
     list-style: none;
-    }
-
-    .quick-link-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 47.33%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    a {
     text-decoration: none;
     font: normal normal 12px/22px Roboto;
     color: #FFFFFF;
-    }
-
-    .contact-us-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 63.91%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .footer-twitter-img {
-    position: absolute;
-    left: 15.28%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-facebook-img {
-    position: absolute;
-    left: 20.74%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-feed-img {
-    position: absolute;
-    left: 25.88%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-instagram-img {
-    position: absolute;
-    left: 31.02%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .copyright-text {
-    position: absolute;
-    width: 15.29%;
-    height: 22px;
-    left: 54.86%;
-    top: 94.98%;
-    font: normal normal 12px/22px Roboto;
-    color: #272D4E;
-    }
 }
 
-@media only screen and (min-width:1200px) and (max-width:1440px) {
-    .footer-container {
-    position: absolute;
+.footer-bottom-div {
     width: 100%;
-    height: fit-content;
-    margin-bottom: 0;
-    }
+    height: 68px;
+    margin-top: 265px;
+    background-color: #FFFFFF;
+}
+
+.footer-social {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-top: 1rem;
+    cursor: pointer;
+    float: left;
+}
+
+.footer-twitter-img {
+    width: 10%;
+}
+
+.footer-facebook-img {
+    width: 10%;
+}
+
+.footer-feed-img {
+    width: 10%;
+}
+
+.footer-instagram-img {
+    width: 10%;
+}
+
+.copyright-text {
+    font: normal normal 14px/22px Roboto;
+    color: #272D4E;
+    margin-top: 1.3rem;
+    margin-left: 12rem;
+    float: left;
+}
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
     
     .footer-main-div {
-    position: absolute;
-    width: 100%;
-    height: 1050px;
-    top: 85%;
-    left: 0px;
-    background-color: #ECF0FD;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ECF0FD;
     }
-
+    
     .footer-prim-div {
-    position: inherit;
-    width: 100%;
-    height: 261px;
-    background-color: #22CF67;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 261px;
+        background-color: #22CF67;
     }
-
-    .footer-sec-div {
-    position: absolute;
-    width: 100%;
-    height: 741px;
-    left: 0%;
-    top: 261px;
-    background-color: #1DD87E;
-    }
-
+    
     .footer-prim-paragraph-text {
-    position: absolute;
-    width: 57.38%;
-    height: 40.23%;
-    left: 20.64%;
-    top: 20.18%;
-    font: normal bold 34px/52px Roboto;
-    color: #FFFFFF;
+        width: 57.38%;
+        padding-top: 78px;
+        margin-left: 8.64%;
+        text-align: left;
+        font: normal bold 24px/42px Roboto;
+        color: #FFFFFF;
     }
-
+        
     .footer-prim-button {
-    position: absolute;
-    width: 15.38%;
-    height: 27.59%;
-    left: 80.5%;
-    top: 36.02%;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 60px;
-    background-color: #22CF67;
-    cursor: pointer;
-    outline: none;
-    color: #FFFFFF;
-    font-size: x-large;
+        width: 206px;
+        height: 27.59%;
+        margin-top: 56.02%;
+        margin-left: 15.5%;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 60px;
+        background-color: #22CF67;
+        cursor: pointer;
+        outline: none;
+        color: #FFFFFF;
+        font-size: x-large;
     }
-
+    
+    .footer-sec-div {
+        width: 100%;
+        height: 741px;
+        background-color: #1DD87E;
+    }
+    
     .footer-smooth-img {
-    position: absolute;
-    width: 25.42%;
-    height: 7.15%;
-    left: 10.17%;
-    top: 6.17%;
-    cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
+        height: 8.15%;
+        margin-left: 8%;
+        padding-top: 4%;
+        cursor: pointer;
     }
-
+    
     .footer-support-acrotag {
-    position: absolute;
-    width: 8%;
-    height: 53px;
-    left: 50.93%;
-    top: 6.88%;
-    font: normal normal 14px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 3.5%;
+        margin-top: -3%;
+        margin-left: 3%;
+        text-decoration: none;
+        font: normal normal 14px/52px Roboto;
+        color: #FFFFFF;
     }
-
+    
     .footer-support-img {
-    position: absolute;
-    left: -46.93%;
-    top: 6.88%;
+        width: 3.5%;
+        margin-right: 10px;
     }
-
+    
     .footer-payment-img {
-    position: absolute;
-    left: 70.16%;
-    top: 6.80%;
-    cursor: pointer;
+        width: 30%;
+        display: block;
+        margin-top: -3.8%;
+        margin-left: 64%;
+        cursor: pointer;
     }
-
+    
     .footer-farmfund-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 52.93%;
-    top: 29.13%;
-    font: normal normal 20px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 53px;
+        text-align: center;
+        margin-top: 8%;
+        font: normal normal 20px/52px Roboto;
+        color: #FFFFFF;
+        text-decoration: none;
     }
-
+    
     .footer-farmfund-img {
-    position: absolute;
-    left: -66.93%;
-    top: -25%;
+        height: 5rem;
+        margin-right: 1rem;
+        margin-top: -1.5rem;
     }
-
+    
     .footer-line {
-    position: absolute;
-    width: 72.08%;
-    height: 0px;
-    left: 15.28%;
-    top: 43.99%;
-    border: 1px solid #9A7DFF;
+        display: flex;
+        justify-content: center;
+        width: 72%;
+        margin-left: 15.28%;
+        margin-top: -50.99%;
+        border: 1px solid #9A7DFF;
     }
-
-    .who-we-are-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 30.75%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    
+        
+    .footer-ter-div {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 11%;
     }
-
-    .quick-link-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 47.33%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    
+    .footer-ter-div h3 {
+        font: normal bold 14px/52px Roboto;
+        color: #FFFFFF;
+        text-transform: uppercase;
     }
-
-    .contact-us-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 63.91%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    
+    .who-we-are-div {
+        width: 14.5%;
     }
-
+    
     .who-we-are-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 31.75%;
-    top: 59.22%;
-    text-align: left;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
     }
-
+    
+    .quick-link-div {
+        width: 14.3%;
+    }
+    
     .quick-link-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 48.33%;
-    top: 59.22%;
-    text-align: left;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
     }
-
-    a {
-    text-decoration: none;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
+    
+    .contact-div {
+        width: 23%;
     }
-
+    
     .contact-us-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 64.91%;
-    top: 59.22%;
-    text-align: left;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 1.5rem;
     }
-
+    
+    .footer-ter-div ul li, a {
+        list-style: none;
+        text-decoration: none;
+        font: normal normal 12px/22px Roboto;
+        color: #FFFFFF;
+    }
+    
+    .footer-bottom-div {
+        width: 100%;
+        height: 58px;
+        margin-top: 185px;
+        background-color: #FFFFFF;
+    }
+    
+    .footer-social {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 12%;
+        margin-top: 1rem;
+        cursor: pointer;
+        float: left;
+    }
+    
     .footer-twitter-img {
-    position: absolute;
-    left: 15.28%;
-    top: 96.77%;
-    cursor: pointer;
+        width: 14%;
     }
-
+    
     .footer-facebook-img {
-    position: absolute;
-    left: 20.74%;
-    top: 96.77%;
-    cursor: pointer;
+        width: 14%;
     }
-
+    
     .footer-feed-img {
-    position: absolute;
-    left: 25.88%;
-    top: 96.77%;
-    cursor: pointer;
+        width: 14%;
     }
-
+    
     .footer-instagram-img {
-    position: absolute;
-    left: 31.02%;
-    top: 96.77%;
-    cursor: pointer;
+        width: 14%;
     }
-
+    
     .copyright-text {
-    position: absolute;
-    width: 15.29%;
-    height: 22px;
-    left: 54.86%;
-    top: 93.98%;
-    font: normal normal 12px/22px Roboto;
-    color: #272D4E;
+        font: normal normal 12px/22px Roboto;
+        color: #272D4E;
+        margin-top: 1rem;
+        margin-left: 12rem;
+        float: left;
     }
 }
 
-@media only screen and (min-width:800px) and (max-width:1199px) {
+@media only screen and (max-width: 425px) {
+    
     .footer-main-div {
-    position: absolute;
-    width: 100;
-    height: 1050px;
-    left: 0px;
-    background-color: #ECF0FD;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ECF0FD;
     }
-
+    
     .footer-prim-div {
-    position: absolute;
-    width: 100%;
-    height: 261px;
-    left: 0%;
-    top: 0%;
-    background-color: #22CF67;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 200px;
+        background-color: #22CF67;
     }
-
-    .footer-sec-div {
-    position: absolute;
-    width: 100%;
-    height: 741px;
-    left: 0%;
-    top: 261px;
-    background-color: #1DD87E;
-    }
-
+    
     .footer-prim-paragraph-text {
-    position: absolute;
-    width: 57.38%;
-    height: 40.23%;
-    left: 20.64%;
-    top: 20.18%;
-    font: normal bold 34px/52px Roboto;
-    color: #FFFFFF;
+        width: 57.38%;
+        padding-top: 38px;
+        margin-left: 4.64%;
+        text-align: left;
+        font: normal bold 18px/42px Roboto;
+        color: #FFFFFF;
     }
-
+        
     .footer-prim-button {
-    position: absolute;
-    width: 12.38%;
-    height: 27.59%;
-    left: 80.5%;
-    top: 36.02%;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 60px;
-    background-color: #22CF67;
-    cursor: pointer;
-    outline: none;
-    color: #FFFFFF;
+        width: 120px;
+        height: 17.59%;
+        margin-top: 62.02%;
+        margin-left: 15.5%;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 60px;
+        background-color: #22CF67;
+        cursor: pointer;
+        outline: none;
+        color: #FFFFFF;
+        font-size: small;
     }
-
-    .footer-smooth-img {
-    position: absolute;
-    width: 25.42%;
-    height: 7.15%;
-    left: 10.17%;
-    top: 6.17%;
-    cursor: pointer;
-    }
-
-    .footer-support-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 50.93%;
-    top: 6.88%;
-    font: normal normal 20px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
-    }
-
-    .footer-support-img {
-    position: absolute;
-    left: -46.93%;
-    top: 6.88%;
-    }
-
-    .footer-payment-img {
-    position: absolute;
-    left: 70.16%;
-    top: 6.80%;
-    cursor: pointer;
-    }
-
-    .footer-farmfund-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 52.93%;
-    top: 29.13%;
-    font: normal normal 20px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
-    }
-
-    .footer-farmfund-img {
-    position: absolute;
-    left: -66.93%;
-    top: -25%;
-    }
-
-    .footer-line {
-    position: absolute;
-    width: 72.08%;
-    height: 0px;
-    left: 15.28%;
-    top: 43.99%;
-    border: 1px solid #9A7DFF;
-    }
-
-    .who-we-are-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 30.75%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .quick-link-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 47.33%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .contact-us-text {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 63.91%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .who-we-are-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 30.75%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .quick-link-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 47.33%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    a {
-    text-decoration: none;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    }
-
-    .contact-us-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 63.91%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .footer-twitter-img {
-    position: absolute;
-    left: 15.28%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-facebook-img {
-    position: absolute;
-    left: 20.74%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-feed-img {
-    position: absolute;
-    left: 25.88%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-instagram-img {
-    position: absolute;
-    left: 31.02%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .copyright-text {
-    position: absolute;
-    width: 15.29%;
-    height: 22px;
-    left: 54.86%;
-    top: 94.98%;
-    font: normal normal 12px/22px Roboto;
-    color: #272D4E;
-    }
-
-    .farmers-footer-div {
-    position: relative;
-    top: 90%;
-    left: 0%;
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width:799px) {
-    .footer-main-div {
-    position: absolute;
-    width: 100%;
-    height: 1050px;
-    left: 0px;
-    background-color: #ECF0FD;
-    }
-
-    .footer-prim-div {
-    position: absolute;
-    width: 100%;
-    height: 261px;
-    left: 0%;
-    top: 0%;
-    background-color: #22CF67;
-    }
-
+    
     .footer-sec-div {
-    position: absolute;
-    width: 100%;
-    height: 741px;
-    left: 0%;
-    top: 261px;
-    background-color: #1DD87E;
+        width: 100%;
+        height: 441px;
+        background-color: #1DD87E;
     }
-
-    .footer-prim-paragraph-text {
-    position: absolute;
-    width: 57.38%;
-    height: 40.23%;
-    left: 20.64%;
-    top: 20.18%;
-    font: normal bold 34px/52px Roboto;
-    color: #FFFFFF;
-    }
-
-    .footer-prim-button {
-    position: absolute;
-    width: 12.38%;
-    height: 27.59%;
-    left: 80.5%;
-    top: 36.02%;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 60px;
-    background-color: #22CF67;
-    cursor: pointer;
-    outline: none;
-    color: #FFFFFF;
-    font-size: large;
-    }
-
+    
     .footer-smooth-img {
-    position: absolute;
-    width: 25.42%;
-    height: 7.15%;
-    left: 10.17%;
-    top: 6.17%;
-    cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
+        height: 8.15%;
+        margin-left: 4%;
+        padding-top: 4%;
+        cursor: pointer;
     }
-
+    
     .footer-support-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 50.93%;
-    top: 6.88%;
-    font: normal normal 20px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 3.5%;
+        margin-top: -3%;
+        margin-left: 0%;
+        text-decoration: none;
+        font: normal normal 9px/52px Roboto;
+        color: #FFFFFF;
     }
-
+    
     .footer-support-img {
-    position: absolute;
-    left: -46.93%;
-    top: 6.88%;
+        width: 3.5%;
+        margin-right: 10px;
     }
-
+    
     .footer-payment-img {
-    position: absolute;
-    left: 70.16%;
-    top: 6.80%;
-    cursor: pointer;
+        width: 30%;
+        display: block;
+        margin-top: -3.8%;
+        margin-left: 64%;
+        cursor: pointer;
     }
-
+    
     .footer-farmfund-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 52.93%;
-    top: 29.13%;
-    font: normal normal 20px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        height: 53px;
+        text-align: center;
+        margin-top: 18%;
+        font: normal normal 14px/52px Roboto;
+        color: #FFFFFF;
+        text-decoration: none;
     }
-
+    
     .footer-farmfund-img {
-    position: absolute;
-    left: -66.93%;
-    top: -25%;
+        height: 2rem;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
     }
-
+    
     .footer-line {
-    position: absolute;
-    width: 72.08%;
-    height: 0px;
-    left: 15.28%;
-    top: 43.99%;
-    border: 1px solid #9A7DFF;
+        display: flex;
+        justify-content: center;
+        width: 72%;
+        margin-left: 15.28%;
+        margin-top: -55.99%;
+        border: 1px solid #9A7DFF;
     }
-
-    .who-we-are-text {
-    position: absolute;
-    width: 47.97%;
-    height: 53px;
-    left: 30.75%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    
+        
+    .footer-ter-div {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 11%;
     }
-
-    .quick-link-text {
-    position: absolute;
-    width: 47.97%;
-    height: 53px;
-    left: 47.33%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    
+    .footer-ter-div h3 {
+        font: normal bold 12px/52px Roboto;
+        color: #FFFFFF;
+        text-transform: uppercase;
     }
-
-    .contact-us-text {
-    position: absolute;
-    width: 47.97%;
-    height: 53px;
-    left: 63.91%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
+    
+    .who-we-are-div {
+        width: 22.5%;
     }
-
+    
     .who-we-are-list {
-    position: absolute;
-    width: 47.97%;
-    height: 53px;
-    left: 30.75%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
     }
-
+    
+    .quick-link-div {
+        width: 22.3%;
+    }
+    
     .quick-link-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 47.33%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
     }
-
-    a {
-    text-decoration: none;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
+    
+    .contact-div {
+        width: 33%;
     }
-
+    
     .contact-us-list {
-    position: absolute;
-    width: 47.97%;
-    height: 53px;
-    left: 63.91%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 0.5rem;
     }
-
+    
+    .footer-ter-div ul li, a {
+        list-style: none;
+        text-decoration: none;
+        font: normal normal 12px/22px Roboto;
+        color: #FFFFFF;
+    }
+    
+    .footer-bottom-div {
+        width: 100%;
+        height: 45px;
+        margin-top: 90px;
+        background-color: #FFFFFF;
+    }
+    
+    .footer-social {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 12%;
+        margin-top: 1rem;
+        cursor: pointer;
+        float: left;
+    }
+    
     .footer-twitter-img {
-    position: absolute;
-    left: 15.28%;
-    top: 96.07%;
-    cursor: pointer;
+        width: 14%;
     }
-
+    
     .footer-facebook-img {
-    position: absolute;
-    left: 20.74%;
-    top: 96.07%;
-    cursor: pointer;
+        width: 14%;
     }
-
+    
     .footer-feed-img {
-    position: absolute;
-    left: 25.88%;
-    top: 96.07%;
-    cursor: pointer;
+        width: 14%;
     }
-
+    
     .footer-instagram-img {
-    position: absolute;
-    left: 31.02%;
-    top: 96.07%;
-    cursor: pointer;
+        width: 14%;
     }
-
+    
     .copyright-text {
-    position: absolute;
-    width: 55.29%;
-    height: 22px;
-    left: 54.86%;
-    top: 94.08%;
-    font: normal normal 12px/22px Roboto;
-    color: #272D4E;
-    }
-
-    .farmers-footer-div {
-    position: relative;
-    top: 90%;
-    left: 0%;
-    }
-
-    .home-footer {
-        position:"relative";
-        top:"75.4%";
-        height: 2074px;
-    }
-}
-
-@media only screen and (min-width:411px) and (max-width:767px) {
-    .footer-main-div {
-    position: absolute;
-    width: 100%;
-    height: 1050px;
-    left: 0px;
-    background-color: #ECF0FD;
-    }
-
-    .footer-prim-div {
-    position: absolute;
-    width: 100%;
-    height: 261px;
-    left: 0%;
-    top: 0%;
-    background-color: #22CF67;
-    }
-
-    .footer-sec-div {
-    position: absolute;
-    width: 100%;
-    height: 741px;
-    left: 0%;
-    top: 261px;
-    background-color: #1DD87E;
-    }
-
-    .footer-prim-paragraph-text {
-    position: absolute;
-    width: 100%;
-    height: 40.23%;
-    left: 0.14%;
-    top: 10.18%;
-    text-align: center;
-    font: normal bold 18px/18px Roboto;
-    color: #FFFFFF;
-    }
-
-    .footer-prim-button {
-    position: absolute;
-    width: 42.38%;
-    height: 22.59%;
-    left:30.5%;
-    top: 43.02%;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 60px;
-    background-color: #22CF67;
-    cursor: pointer;
-    outline: none;
-    color: #FFFFFF;
-    font-size: large;
-    }
-
-    .footer-smooth-img {
-    position: absolute;
-    width: 50%;
-    height: 4%;
-    left: 0.67%;
-    top: 6.17%;
-    cursor: pointer;
-    }
-
-    .footer-support-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 68.93%;
-    top: 6.08%;
-    font: normal normal 10px/32px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
-    }
-
-    .footer-support-img {
-    width: 20%;
-    position: absolute;
-    left: -25.93%;
-    top: 6.88%;
-    }
-
-    .footer-payment-img {
-    position: absolute;
-    width: 50%;
-    left: 25.67%;
-    top: 12.80%;
-    cursor: pointer;
-    }
-
-    .footer-farmfund-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 52.93%;
-    top: 29.13%;
-    font: normal normal 20px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
-    }
-
-    .footer-farmfund-img {
-    position: absolute;
-    left: -66.93%;
-    top: -25%;
-    }
-
-    .footer-line {
-    position: absolute;
-    width: 72.08%;
-    height: 0px;
-    left: 15.28%;
-    top: 43.99%;
-    border: 1px solid #9A7DFF;
-    }
-
-    .who-we-are-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 5.75%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .quick-link-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 38.33%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .contact-us-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 69.91%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .who-we-are-list {
-    position: absolute;
-    width: 30.97%;
-    height: 53px;
-    left: 5.75%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .quick-link-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 38.33%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    a {
-    text-decoration: none;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    }
-
-    .contact-us-list {
-    position: absolute;
-    width: 100%;
-    height: 53px;
-    left: -6.91%;
-    top: 59.22%;
-    text-align: right;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .footer-twitter-img {
-    position: absolute;
-    left: 1.28%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-facebook-img {
-    position: absolute;
-    left: 9.44%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-feed-img {
-    position: absolute;
-    left: 17.16%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-instagram-img {
-    position: absolute;
-    left: 25.32%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .copyright-text {
-    position: absolute;
-    width: 100%;
-    height: 22px;
-    left: 48.86%;
-    top: 94.98%;
-    font: normal normal 12px/22px Roboto;
-    color: #272D4E;
-    }
-
-    .farmers-footer-div {
-    position: relative;
-    top: 90%;
-    left: 0%;
-    }
-
-    .home-footer {
-        position:"relative";
-        top:"75.4%";
-        height: 2074px;
-    }
-}
-
-@media only screen and (min-width:375px) and (max-width:410px) {
-    .footer-main-div {
-    position: absolute;
-    width: 100%;
-    height: 1050px;
-    left: 0px;
-    background-color: #ECF0FD;
-    }
-
-    .footer-prim-div {
-    position: absolute;
-    width: 100%;
-    height: 261px;
-    left: 0%;
-    top: 0%;
-    background-color: #22CF67;
-    }
-
-    .footer-sec-div {
-    position: absolute;
-    width: 100%;
-    height: 741px;
-    left: 0%;
-    top: 261px;
-    background-color: #1DD87E;
-    }
-
-    .footer-prim-paragraph-text {
-    position: absolute;
-    width: 100%;
-    height: 40.23%;
-    left: 0.14%;
-    top: 10.18%;
-    text-align: center;
-    font: normal bold 18px/18px Roboto;
-    color: #FFFFFF;
-    }
-
-    .footer-prim-button {
-    position: absolute;
-    width: 42.38%;
-    height: 22.59%;
-    left:30.5%;
-    top: 43.02%;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 60px;
-    background-color: #22CF67;
-    cursor: pointer;
-    outline: none;
-    color: #FFFFFF;
-    font-size: large;
-    }
-
-    .footer-smooth-img {
-    position: absolute;
-    width: 50%;
-    height: 4%;
-    left: 0.67%;
-    top: 6.17%;
-    cursor: pointer;
-    }
-
-    .footer-support-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 68.93%;
-    top: 6.08%;
-    font: normal normal 10px/32px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
-    }
-
-    .footer-support-img {
-    width: 20%;
-    position: absolute;
-    left: -25.93%;
-    top: 6.88%;
-    }
-
-    .footer-payment-img {
-    position: absolute;
-    width: 50%;
-    left: 25.67%;
-    top: 12.80%;
-    cursor: pointer;
-    }
-
-    .footer-farmfund-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 52.93%;
-    top: 29.13%;
-    font: normal normal 20px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
-    }
-
-    .footer-farmfund-img {
-    position: absolute;
-    left: -66.93%;
-    top: -25%;
-    }
-
-    .footer-line {
-    position: absolute;
-    width: 72.08%;
-    height: 0px;
-    left: 15.28%;
-    top: 43.99%;
-    border: 1px solid #9A7DFF;
-    }
-
-    .who-we-are-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 5.75%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .quick-link-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 38.33%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .contact-us-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 69.91%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .who-we-are-list {
-    position: absolute;
-    width: 30.97%;
-    height: 53px;
-    left: 5.75%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .quick-link-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 38.33%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    a {
-    text-decoration: none;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    }
-
-    .contact-us-list {
-    position: absolute;
-    width: 100%;
-    height: 53px;
-    left: -6.91%;
-    top: 59.22%;
-    text-align: right;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .footer-twitter-img {
-    position: absolute;
-    left: 1.28%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-facebook-img {
-    position: absolute;
-    left: 9.44%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-feed-img {
-    position: absolute;
-    left: 17.16%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-instagram-img {
-    position: absolute;
-    left: 25.32%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .copyright-text {
-    position: absolute;
-    width: 100%;
-    height: 22px;
-    left: 48.86%;
-    top: 94.98%;
-    font: normal normal 12px/22px Roboto;
-    color: #272D4E;
-    }
-
-    .farmers-footer-div {
-    position: relative;
-    top: 90%;
-    left: 0%;
-    }
-
-    .home-footer {
-        position:"relative";
-        top:"75.4%";
-        height: 2074px;
-    }
-}
-
-@media only screen and (max-width:374px) {
-    .footer-container {
-    width: 100%;
-    height: fit-content;
-    margin-bottom: 0;
-    }
-
-    .footer-main-div {
-    position: absolute;
-    width: 100%;
-    height: 1050px;
-    left: 0px;
-    background-color: #ECF0FD;
-    bottom: 0%;
-    }
-
-    .footer-prim-div {
-    position: absolute;
-    width: 100%;
-    height: 261px;
-    left: 0%;
-    top: 0%;
-    background-color: #22CF67;
-    }
-
-    .footer-sec-div {
-    position: absolute;
-    width: 100%;
-    height: 741px;
-    left: 0%;
-    top: 261px;
-    background-color: #1DD87E;
-    }
-
-    .footer-prim-paragraph-text {
-    position: absolute;
-    width: 100%;
-    height: 40.23%;
-    left: 0.14%;
-    top: 10.18%;
-    text-align: center;
-    font: normal bold 18px/18px Roboto;
-    color: #FFFFFF;
-    }
-
-    .footer-prim-button {
-    position: absolute;
-    width: 42.38%;
-    height: 22.59%;
-    left:30.5%;
-    top: 43.02%;
-    border: 2px solid #FFFFFF;
-    box-sizing: border-box;
-    border-radius: 60px;
-    background-color: #22CF67;
-    cursor: pointer;
-    outline: none;
-    color: #FFFFFF;
-    font-size: large;
-    }
-
-    .footer-smooth-img {
-    position: absolute;
-    width: 50%;
-    height: 4%;
-    left: 0.67%;
-    top: 6.17%;
-    cursor: pointer;
-    }
-
-    .footer-support-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 68.93%;
-    top: 6.08%;
-    font: normal normal 10px/32px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
-    }
-
-    .footer-support-img {
-    width: 20%;
-    position: absolute;
-    left: -25.93%;
-    top: 6.88%;
-    }
-
-    .footer-payment-img {
-    position: absolute;
-    width: 50%;
-    left: 25.67%;
-    top: 12.80%;
-    cursor: pointer;
-    }
-
-    .footer-farmfund-acrotag {
-    position: absolute;
-    width: 123px;
-    height: 53px;
-    left: 52.93%;
-    top: 29.13%;
-    font: normal normal 20px/52px Roboto;
-    color: #FFFFFF;
-    text-decoration: none;
-    }
-
-    .footer-farmfund-img {
-    position: absolute;
-    left: -66.93%;
-    top: -25%;
-    }
-
-    .footer-line {
-    position: absolute;
-    width: 72.08%;
-    height: 0px;
-    left: 15.28%;
-    top: 43.99%;
-    border: 1px solid #9A7DFF;
-    }
-
-    .who-we-are-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 5.75%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .quick-link-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 38.33%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .contact-us-text {
-    position: absolute;
-    width: 50%;
-    height: 53px;
-    left: 69.91%;
-    top: 371px;
-    font: normal bold 14px/52px Roboto;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    }
-
-    .who-we-are-list {
-    position: absolute;
-    width: 30.97%;
-    height: 53px;
-    left: 5.75%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .quick-link-list {
-    position: absolute;
-    width: 7.97%;
-    height: 53px;
-    left: 38.33%;
-    top: 59.22%;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    a {
-    text-decoration: none;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    }
-
-    .contact-us-list {
-    position: absolute;
-    width: 100%;
-    height: 53px;
-    left: -6.91%;
-    top: 59.22%;
-    text-align: right;
-    font: normal normal 12px/22px Roboto;
-    color: #FFFFFF;
-    list-style: none;
-    }
-
-    .footer-twitter-img {
-    position: absolute;
-    left: 1.28%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-facebook-img {
-    position: absolute;
-    left: 9.44%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-feed-img {
-    position: absolute;
-    left: 17.16%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .footer-instagram-img {
-    position: absolute;
-    left: 25.32%;
-    top: 96.07%;
-    cursor: pointer;
-    }
-
-    .copyright-text {
-    position: absolute;
-    width: 100%;
-    height: 22px;
-    left: 48.86%;
-    top: 94.98%;
-    font: normal normal 12px/22px Roboto;
-    color: #272D4E;
-    }
-
-    .farmers-footer-div {
-    position: relative;
-    top: 90%;
-    left: 0%;
-    }
-
-    .home-footer {
-        position:"relative";
-        top:"75.4%";
-        height: 2074px;
+        font: normal normal 10px/22px Roboto;
+        color: #272D4E;
+        margin-top: 0.7rem;
+        margin-left: 4rem;
+        float: left;
     }
 }

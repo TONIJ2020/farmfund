@@ -101,7 +101,8 @@ body {
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
     .main-navigation-div {
-    background-color: #E5E5E5;
+    background: #E5E5E5;
+    background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(249, 249, 249, 0) 100%);
     position: fixed;
     top: 0%;
     width: 100%;
