@@ -6,602 +6,122 @@ body {
     color: inherit;
     height: fit-content;
 }
-
-@media only screen and (min-width:1440px) {
-    .container {
-        width: 100%;
-        padding-top: 60px;
-        padding-bottom: 100px;
-    }
-
-    .register-wrapper {
-        height: 900px;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-wrapper {
-        height: 400px;
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-register-header {
-        width: 100%;
-        font: normal bold 30px/110.19% Roboto;
-        color: #000;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .form-group input {
-        width: 100%;
-        height: 35px;
-        box-sizing: border-box;
-        padding-left: 15px;
-        border: none;
-        border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        background: #DADADA;
-        font: normal normal 14px/110.19% Roboto;
-        outline: none;
-    }
-
-    .radio-input-group {
-        position: relative;
-        height: 15px;
-        display: flex;
-        width: 450px;
-        flex-basis: 120px;
-        flex-shrink: 2;
-        flex-direction: row;
-    }
-
-    .radio-input-group input{
-        height: fit-content;
-    }
-
-    .form-group label {
-        text-transform: uppercase;
-        font: normal bold 13px/110.19% Roboto;
-        letter-spacing: 1.25%;
-    }
-
-    input.submit {
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 1em;
-        text-align: center;
-        color: rgba(255,255,255,1);
-        padding: 8px 0px;
-        width: 100%;
-        height: 35px;
-        border: none;
-        border-radius: 20px;
-        margin-top: 23px;
-        background-color: #70C217;
-        cursor: pointer;
-    }
+.container {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
-@media only screen and (min-width:1200px) and (max-width:1440px) {
-    .container {
-        width: 100%;
-        padding-top: 60px;
-        padding-bottom: 100px;
-    }
-
-    .register-wrapper {
-        height: 900px;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-wrapper, 
-    .reset-wrapper {
-        height: 400px;
-        width: 350px;
-        margin: 50px auto;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-register-header {
-        width: 100%;
-        font: normal bold 30px/110.19% Roboto;
-        color: #000;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 80px;
-    }
-
-    .form-group input {
-        width: 100%;
-        height: 35px;
-        box-sizing: border-box;
-        padding-left: 15px;
-        border: none;
-        border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        background: #DADADA;
-        font: normal normal 14px/110.19% Roboto;
-        outline: none;
-    }
-
-    .radio-input-group {
-        position: relative;
-        height: 15px;
-        display: flex;
-        box-sizing: border-box;
-        width: 450px;
-        flex-direction: row;
-        font: normal bold 13px/110.19% Roboto;
-    }
-
-    .radio-input-group input{
-        height: fit-content;
-    }
-
-    .form-group label {
-        text-transform: uppercase;
-        font: normal bold 13px/110.19% Roboto;
-        letter-spacing: 1.25%;
-    }
-
-    input.submit {
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 1em;
-        text-align: center;
-        letter-spacing: 0.8px;
-        color: rgba(255,255,255,1);
-        padding: 8px 0px;
-        width: 100%;
-        height: 35px;
-        border: none;
-        border-radius: 20px;
-        margin-top: 23px;
-        background-color: #70C217;
-        cursor: pointer;
-    }
-
-    .forgot-password {
-        width: 100%;
-        font: normal normal 14px/110.19% Roboto;
-        color: #70C217;
-    }
-    .forgot-password:hover {
-        text-decoration: underline;
-    }
+.register-wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 0 2em;
+    border-radius: 20px;
+    box-shadow:  #F0F0F0;
+    overflow: hidden;
+    color:#6C6B6B;
+    background: #FFF;
+    text-align: left;
 }
 
-@media only screen and (min-width:800px) and (max-width:1199px) {
-    .container {
-        width: 100%;
-        padding-top: 60px;
-        padding-bottom: 100px;
-    }
-
-    .register-wrapper {
-        height: 900px;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-wrapper {
-        height: 400px;
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-register-header {
-        width: 100%;
-        font: normal bold 30px/110.19% Roboto;
-        color: #000;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .form-group input {
-        width: 100%;
-        height: 35px;
-        box-sizing: border-box;
-        padding-left: 15px;
-        border: none;
-        border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        background: #DADADA;
-        font: normal normal 14px/110.19% Roboto;
-        outline: none;
-    }
-
-    .radio-input-group {
-        position: relative;
-        height: 15px;
-        display: flex;
-        box-sizing: border-box;
-        width: 450px;
-        flex-direction: row;
-        font: normal bold 13px/110.19% Roboto;
-    }
-
-    .radio-input-group input{
-        height: fit-content;
-    }
-
-    .form-group label {
-        text-transform: uppercase;
-        font: normal bold 13px/110.19% Roboto;
-        letter-spacing: 1.25%;
-    }
-
-    input.submit {
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 1em;
-        text-align: center;
-        color: rgba(255,255,255,1);
-        padding: 8px 0px;
-        width: 100%;
-        height: 35px;
-        border: none;
-        border-radius: 20px;
-        margin-top: 23px;
-        background-color: #70C217;
-        cursor: pointer;
-    }
+.login-wrapper, 
+.reset-wrapper {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 2em;
+    border-radius: 20px;
+    box-shadow:  #F0F0F0;
+    overflow: hidden;
+    color:#6C6B6B;
+    background: #FFF;
+    text-align: left;
 }
 
-@media only screen and (min-width:768px) and (max-width:799px) {
-    .container {
-        width: 100%;
-        padding-top: 60px;
-        padding-bottom: 100px;
-    }
-
-    .register-wrapper {
-        height: 900px;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-wrapper {
-        height: 400px;
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-register-header {
-        width: 100%;
-        font: normal bold 30px/110.19% Roboto;
-        color: #000;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .form-group input {
-        width: 100%;
-        height: 35px;
-        box-sizing: border-box;
-        padding-left: 15px;
-        border: none;
-        border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        background: #DADADA;
-        font: normal normal 14px/110.19% Roboto;
-        outline: none;
-    }
-
-    .radio-input-group {
-        position: relative;
-        height: 15px;
-        display: flex;
-        box-sizing: border-box;
-        width: 450px;
-        flex-direction: row;
-        font: normal bold 13px/110.19% Roboto;
-    }
-
-    .radio-input-group input{
-        height: fit-content;
-    }
-
-    .form-group label {
-        text-transform: uppercase;
-        font: normal bold 13px/110.19% Roboto;
-        letter-spacing: 1.25%;
-    }
-
-    input.submit {
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 1em;
-        text-align: center;
-        color: rgba(255,255,255,1);
-        padding: 8px 0px;
-        width: 100%;
-        height: 35px;
-        border: none;
-        border-radius: 20px;
-        margin-top: 23px;
-        background-color: #70C217;
-        cursor: pointer;
-    }
+.login-register-header {
+    width: 100%;
+    font: normal bold 30px/110.19% Roboto;
+    color: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
 }
 
-@media only screen and (min-width:411px) and (max-width:767px) {
-    .container {
-        width: 100%;
-        padding-top: 60px;
-        padding-bottom: 100px;
-    }
-
-    .register-wrapper {
-        height: 900px;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-wrapper {
-        height: 400px;
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-register-header {
-        width: 100%;
-        font: normal bold 30px/110.19% Roboto;
-        color: #000;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .form-group input {
-        width: 100%;
-        height: 35px;
-        box-sizing: border-box;
-        padding-left: 15px;
-        border: none;
-        border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        background: #DADADA;
-        font: normal normal 14px/110.19% Roboto;
-        outline: none;
-    }
-
-    .radio-input-group {
-        position: relative;
-        height: 15px;
-        display: flex;
-        box-sizing: border-box;
-        width: 450px;
-        flex-direction: row;
-        font: normal bold 13px/110.19% Roboto;
-    }
-
-    .radio-input-group input{
-        height: fit-content;
-    }
-
-    .form-group label {
-        text-transform: uppercase;
-        font: normal bold 13px/110.19% Roboto;
-        letter-spacing: 1.25%;
-    }
-
-    input.submit {
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 1em;
-        text-align: center;
-        color: rgba(255,255,255,1);
-        padding: 8px 0px;
-        width: 100%;
-        height: 35px;
-        border: none;
-        border-radius: 20px;
-        margin-top: 23px;
-        background-color: #70C217;
-        cursor: pointer;
-    }
+.form-group input {
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background: #DADADA;
+    font: normal normal 14px/110.19% Roboto;
+    outline: none;
 }
 
-@media only screen and (min-width:375px) and (max-width:410px) {
-    .container {
-        width: 100%;
-        padding-top: 60px;
-        padding-bottom: 100px;
-    }
-
-    .register-wrapper {
-        height: 900px;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-wrapper {
-        height: 400px;
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 50px;
-        padding: 0 2em;
-        border-radius: 20px;
-        box-shadow:  #F0F0F0;
-        overflow: hidden;
-        color:#6C6B6B;
-        background: #FFF;
-    }
-
-    .login-register-header {
-        width: 100%;
-        font: normal bold 30px/110.19% Roboto;
-        color: #000;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .form-group input {
-        width: 100%;
-        height: 35px;
-        box-sizing: border-box;
-        padding-left: 15px;
-        border: none;
-        border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-        background: #DADADA;
-        font: normal normal 14px/110.19% Roboto;
-        outline: none;
-    }
-
-    .radio-input-group {
-        position: relative;
-        height: 15px;
-        display: flex;
-        box-sizing: border-box;
-        width: 450px;
-        flex-direction: row;
-        font: normal bold 13px/110.19% Roboto;
-    }
-
-    .radio-input-group input{
-        height: fit-content;
-    }
-
-    .form-group label {
-        text-transform: uppercase;
-        font: normal bold 13px/110.19% Roboto;
-        letter-spacing: 1.25%;
-    }
-
-    input.submit {
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 1em;
-        text-align: center;
-        color: rgba(255,255,255,1);
-        padding: 8px 0px;
-        width: 100%;
-        height: 35px;
-        border: none;
-        border-radius: 20px;
-        margin-top: 23px;
-        background-color: #70C217;
-        cursor: pointer;
-    }
+.radio-input-group {
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 450px;
+    flex-direction: row;
+    font: normal bold 13px/110.19% Roboto;
 }
 
-@media only screen and (max-width:374px) {
+.radio-input-group input{
+    height: fit-content;
+}
+
+.form-group label {
+    text-transform: uppercase;
+    font: normal bold 13px/110.19% Roboto;
+    letter-spacing: 1.25%;
+    text-align: left;
+}
+
+input.submit {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: rgba(255,255,255,1);
+    padding: 8px 0px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 23px;
+    background-color: #70C217;
+    cursor: pointer;
+}
+
+.forgot-password {
+    width: 100%;
+    font: normal normal 14px/110.19% Roboto;
+    color: #70C217;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width:768px) {
     .container {
-        width: 100%;
+        max-width: 100%;
         padding-top: 60px;
         padding-bottom: 100px;
+        text-align: left;
     }
 
     .register-wrapper {
-        height: 900px;
+        height: fit-content;
         width: 500px;
         margin-left: auto;
         margin-right: auto;
@@ -612,11 +132,12 @@ body {
         overflow: hidden;
         color:#6C6B6B;
         background: #FFF;
+        text-align: left;
     }
 
-    .login-wrapper {
-        height: 400px;
-        width: 350px;
+    .login-wrapper,
+    .register-wrapper {
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 50px;
@@ -626,6 +147,7 @@ body {
         overflow: hidden;
         color:#6C6B6B;
         background: #FFF;
+        text-align: left;
     }
 
     .login-register-header {
@@ -653,23 +175,25 @@ body {
     }
 
     .radio-input-group {
-        position: relative;
         height: 15px;
         display: flex;
+        justify-content: space-between;
         box-sizing: border-box;
-        width: 450px;
+        width: 100%;
         flex-direction: row;
         font: normal bold 13px/110.19% Roboto;
     }
 
     .radio-input-group input{
         height: fit-content;
+        width: 100%;
     }
 
     .form-group label {
         text-transform: uppercase;
         font: normal bold 13px/110.19% Roboto;
         letter-spacing: 1.25%;
+        text-align: left;
     }
 
     input.submit {

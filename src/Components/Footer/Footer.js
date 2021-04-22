@@ -22,11 +22,13 @@ function Footer() {
             </div>
 
             <div className="footer-sec-div">
-                <img src={Smooth} alt="" className="footer-smooth-img" />
+                <div className="footer-sec-div-2">
+                    <a className="footer-smooth-acrotag" href="#smooth"><img src={Smooth} alt=""/><span>Smooth and friendly<strong>  user interface</strong></span></a>
 
-                <a className="footer-support-acrotag" href="#support"><img src={Support} alt="" className="footer-support-img" />24hr Support</a>
+                    <a className="footer-support-acrotag" href="#support"><img src={Support} alt=""/><span>24hr Support</span></a>
 
-                <img src={Payment} alt="" className="footer-payment-img" />
+                    <a className="footer-payment-acrotag" href="#payment"><img src={Payment} alt=""/><span><strong>Safe & Secure</strong>  online Payment</span></a>
+                </div>
 
                 <a className="footer-farmfund-acrotag" href="#farmfund"><img src={FarmFund} alt="" className="footer-farmfund-img" />FarmFund</a>
             </div>

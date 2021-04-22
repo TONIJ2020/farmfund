@@ -512,17 +512,17 @@ a {
   
   .home-andrew-title-text {
     display: block;
-    width: 26rem;
+    width: 45%;
     height: 1.59;
     margin-top: -44%;
-    margin-left: 38%;
+    margin-left: 48%;
     font: normal bold 26px/42px Roboto;
     color: #FEFEFE;
   }
   
   .home-andrew-paragraph-text {
     display: block;
-    width: 32.43%;
+    width: 36%;
     height: 3.52%;
     margin-left: 48%;
     margin-top: -3%;
@@ -533,16 +533,16 @@ a {
   
   .home-ogbonna-title-text {
     display: block;
-    width: 26rem;
+    width: 50%;
     height: 1.59;
     margin-top: 0;
-    margin-left: 2%;
+    margin-left: 8%;
     font: normal bold 26px/42px Roboto;
     color: #FEFEFE;
   }
   
   .home-ogbonna-paragraph-text {
-    width: 38.63%;
+    width: 42%;
     height: 3.52%;
     margin-left: 8%;
     margin-top: -3%;
@@ -583,13 +583,14 @@ a {
   }
   
   .home-button-div {
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin: 49px auto auto;
   }
   
   .get-started-button-1 {
-    width: 9em;
+    width: 8em;
     height: 3em;
     margin-left: 60px;
     padding: 1em;
@@ -718,17 +719,17 @@ a {
   
   .home-andrew-title-text {
     display: block;
-    width: 20rem;
+    width: 50%;
     height: 1.59;
-    margin-top: -44%;
-    margin-left: 30%;
+    margin-top: -48%;
+    margin-left: 48%;
     font: normal bold 16px/42px Roboto;
     color: #FEFEFE;
   }
   
   .home-andrew-paragraph-text {
     display: block;
-    width: 32.43%;
+    width: 45%;
     height: 3.52%;
     margin-left: 48%;
     margin-top: -3%;
@@ -742,13 +743,13 @@ a {
     width: 20rem;
     height: 1.59;
     margin-top: 0;
-    margin-left: -6%;
-    font: normal bold 16px/42px Roboto;
+    margin-left: 8%;
+    font: normal bold 14px/42px Roboto;
     color: #FEFEFE;
   }
   
   .home-ogbonna-paragraph-text {
-    width: 38.63%;
+    width: 45%;
     height: 3.52%;
     margin-left: 8%;
     margin-top: -3%;

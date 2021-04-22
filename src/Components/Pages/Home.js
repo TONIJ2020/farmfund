@@ -60,7 +60,6 @@ export default class Home extends Component {
                 <div className="testimonials-div">
                     <div className="testimonial-upper">
                         <div className="testimonial-curl1">
-
                         </div>
                     </div>
                     <h2 className="testimonials-text">Testimonials</h2>
