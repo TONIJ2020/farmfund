@@ -15,14 +15,15 @@ export default class Register extends Component {
             phone: this.phone,
             email: this.email,
             address: this.address,
-            user_name: this.userName,
             password: this.password,
             password_confirm: this.confirmPassword,
             farmer: this.farmer,
             investor: this.investor,
             consultant: this.consultant
         };
-        
+
+
+
         axios.post('register', data).then(
             res => {
                 this.setState({
@@ -78,7 +79,7 @@ export default class Register extends Component {
                     <div className="form-group">
                         <label>Middle Name</label>
                         <input type="text" 
-                        id="middlename" 
+                        id="middlename"
                         placeholder='Middle Name' 
                         onChange={e => this.middleName = e.target.value}
                         required/>
@@ -123,7 +124,7 @@ export default class Register extends Component {
                     <div className="form-group">
                         <label>Confirm Password</label>
                         <input type='password' 
-                        id='passwordconfirm' 
+                        id='passwordconfirm'
                         placeholder='Confirm Password' 
                         onChange={e => this.confirmPassword = e.target.value}
                         required/>

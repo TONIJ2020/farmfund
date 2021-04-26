@@ -14,15 +14,15 @@ export class Forgot extends Component {
         axios.post('forgot', data).then(
             res => {
                 this.setState({
-                    message: res.data.message
-                    // cls: 'success'
+                    message: res.data.message,
+                    cls: 'success'
                 })
             }
         ).catch(
             err => {
                 this.setState({
-                    message: err.response.data.message
-                    // cls: 'danger'
+                    message: err.response.data.message,
+                    cls: 'danger'
                 })
             }
         )
