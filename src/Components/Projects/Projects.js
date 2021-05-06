@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Okoro1 from '../../Components/Assets/okoro1.png';
 import Uche1 from '../../Components/Assets/uche1.png';
@@ -12,7 +13,7 @@ import './Projects.css';
 function Projects() {
     return (
         <div className="projects-div">
-            <div className="farmer-div-1">
+            <div className="farmer-div-1" >
                 <div>
                     <img src={Okoro1} alt="" />
                 </div>
@@ -36,7 +37,7 @@ function Projects() {
                 </div>
             </div>
 
-            <div className="farmer-div-3" >
+            <Link to="/adafarm"><div className="farmer-div-3" >
                 <div>
                     <img src={Adaobi1} alt="" />
                 </div>
@@ -46,7 +47,8 @@ function Projects() {
                     <h3>Needed: 800000 Naira<ProgressBar value={38} max={100}/></h3>
                     <h5>Raised: 300000 Naira</h5>
                 </div>
-            </div>
+            </div></Link>
+            
             <div className="farmer-div-4">
                 <div>
                     <img src={Okoro2} alt="" />
@@ -59,7 +61,7 @@ function Projects() {
                 </div>
             </div>
 
-            <div className="farmer-div-5" >
+            <Link to="/adaobi"><div className="farmer-div-5" >
                 <div>
                     <img src={Adaobi2} alt="" />
                 </div>
@@ -69,7 +71,7 @@ function Projects() {
                     <h3>Needed: 800000 Naira<ProgressBar value={38} max={100}/></h3>
                     <h5>Raised: 300000 Naira</h5>
                 </div>
-            </div>
+            </div></Link>
 
             <div className="farmer-div-6" >
                 <div>

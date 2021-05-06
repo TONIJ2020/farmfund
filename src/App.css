@@ -71,7 +71,6 @@ a {
   width: 10em;
   height: 5.56%;
   margin-top: 69px;
-  margin-left: 150px;
   font: normal bold 4rem/110.19% Roboto;
   text-align: left;
   color: #272D4E;
@@ -81,7 +80,6 @@ a {
   width: 50em;
   height: 0.84%;
   margin-top: 19px;
-  margin-left: 150px;
   text-align: left;
   font: normal normal 0.9rem/25px Roboto;
   color: #94A2B3;
@@ -95,7 +93,6 @@ a {
 .get-started-button-1 {
   width: 9em;
   height: 4em;
-  margin-left: 150px;
   padding: 1.3em;
   border: none;
   font: normal 500 18px/21px Roboto;
@@ -121,7 +118,7 @@ a {
 .home-img-1 {
   width: 11rem;
   height: 8rem;
-  margin-left: 55.4%;
+  margin-left: 51.4%;
   margin-top: -23rem;
   z-index: 1;
 }
@@ -129,20 +126,20 @@ a {
 .home-img-2 {
   width: 26rem;
   height: 7.32%;
-  margin-left: 58.4%;
+  margin-left: 55.4%;
   margin-top: -3.5rem;
 }
 
 .home-img-3 {
-  width: 27.5em;
-  margin-left: 47%;
+  width: 17.5em;
+  margin-left: 43%;
   margin-top: -3.8rem;
 }
 
 .home-img-4 {
   width: 20rem;
   height: 5.59%;
-  margin-left: 70.5%;
+  margin-left: 71.5%;
   margin-top: -10rem;
 }
 
@@ -156,8 +153,8 @@ a {
 }
 
 .home-projects-div {
-  width: 90%;
-  margin-left: 5%;
+  width: 100%;
+  margin-left: 0rem;
 }
 
 .testimonials-div {

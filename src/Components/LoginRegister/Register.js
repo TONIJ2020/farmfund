@@ -22,13 +22,12 @@ export default class Register extends Component {
             consultant: this.consultant
         };
 
-
-
         axios.post('register', data).then(
             res => {
-                this.setState({
+                this.setState( {
                     message: res.data.message
                 })
+                console.log(data)
             }
         ).catch(
             err => {

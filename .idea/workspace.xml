@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40365d03-7b33-48d9-a4cd-90a1cbbd1c0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/Adafarm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/Adaobi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/Farmer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LoginRegister/Forgot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LoginRegister/Forgot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/LoginRegister/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LoginRegister/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/NavBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/NavBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Farmer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Farmer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,21 +31,43 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qqQHCaL895ouA0LWXHgk4reOMf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,11 +81,31 @@
       <workItem from="1617967263470" duration="1948000" />
       <workItem from="1618004400898" duration="240000" />
       <workItem from="1619381368847" duration="1147000" />
-      <workItem from="1619431633172" duration="1648000" />
+      <workItem from="1619431633172" duration="5226000" />
+      <workItem from="1619800681544" duration="2274000" />
+      <workItem from="1619855869478" duration="1897000" />
+      <workItem from="1619978077990" duration="603000" />
+      <workItem from="1619980008629" duration="584000" />
+      <workItem from="1620164172027" duration="1777000" />
+      <workItem from="1620221848166" duration="562000" />
+      <workItem from="1620224031878" duration="1882000" />
     </task>
+    <task id="LOCAL-00001" summary="Register_update">
+      <created>1619433551735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619433551735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Register_update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register_update" />
   </component>
 </project>

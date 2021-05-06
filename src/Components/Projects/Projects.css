@@ -1,14 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    width: max-content;
+    width: 100%;
+    text-align: center;
 }
 .projects-div {
+    width: 100%;
     text-align: center;
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .farmer-div-1 img,
@@ -17,7 +19,7 @@ body {
 .farmer-div-4 img,
 .farmer-div-5 img,
 .farmer-div-6 img {
-    width: 24rem;
+    width: 22rem;
     margin-top: 60px;
     border-radius: 20px;
 }
@@ -82,6 +84,7 @@ body {
     .farmer-div-5 img,
     .farmer-div-6 img {
         width: 90%;
+        text-align: center;
         margin-top: 60px;
         border-radius: 20px;
     }
