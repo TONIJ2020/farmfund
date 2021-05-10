@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-axios.defaults.baseURL = 'https://crowd-funds.herokuapp.com/user/';
+axios.defaults.baseURL = 'http://localhost:8000/'; 
+// https://crowd-funds.herokuapp.com/user/
 axios.defaults.headers.common['Authorization'] = 'Bearer ' + localStorage.getItem('token');
 
 ReactDOM.render(

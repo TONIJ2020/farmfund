@@ -20,9 +20,6 @@ export default class Register extends Component {
             track: this.track
         };
 
-        console.log(data);
-    
-
         axios.post('register', data).then(
             res => {
                 this.setState({
@@ -31,7 +28,6 @@ export default class Register extends Component {
             }
         ).catch(
             err => {
-                console.log(data);
                 this.setState({
                     message: err.response.data.message
                 })
