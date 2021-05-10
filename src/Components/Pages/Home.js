@@ -37,7 +37,7 @@ export default class Home extends Component {
 
                     <div className="home-button-div">
                         <Link to="/register"><button className="get-started-button-1">Get Started</button></Link>
-                        <Link to="/farmer"><a href="/farmer" className="find-farms-acrotag">or Find Farms</a></Link>
+                        <Link to="/projects"><a href="/farmer" className="find-farms-acrotag">or Find Farms</a></Link>
                     </div>
 
                     <div className="home-images">

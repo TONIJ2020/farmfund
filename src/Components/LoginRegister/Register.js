@@ -3,26 +3,22 @@ import axios from 'axios';
 import './LoginRegister.css';
 
 export default class Register extends Component {
-
+    
     state = {};
 
     handleSubmit = e => {
         e.preventDefault();
         const data = {
-            first_name: this.firstName,
-            last_name: this.lastName,
-            middle_name: this.middleName,
+            firstName: this.firstName,
+            lastName: this.lastName,
+            middleName: this.middleName,
             phone: this.phone,
             email: this.email,
             address: this.address,
             password: this.password,
-            password_confirm: this.confirmPassword,
-            farmer: this.farmer,
-            investor: this.investor,
-            consultant: this.consultant
+            confirmPassword: this.confirmPassword,
+            track: this.track
         };
-
-
 
         axios.post('register', data).then(
             res => {
@@ -133,16 +129,22 @@ export default class Register extends Component {
                     <div className="form-group radio-input-group">
                         <input className="farmer-radio" 
                         type="radio" 
+                        value="Farmer"
+                        id="farmer"
                         onChange={e => this.farmer = e.target.value}
-                        name="gender" /> Farmer
+                        name="track" /> Farmer
         
-                        <input className="investor-radio" type="radio" 
-                        onChange={e => this.investor = e.target.value} 
-                        name="gender" /> Investor
+                        <input className="investor-radio" type="radio"
+                        value="Investor" 
+                        id="investor"
+                        onChange={e => this.investor = e.target.value}
+                        name="track" /> Investor
         
-                        <input className="consultant-radio" type="radio" 
+                        <input className="consultant-radio" type="radio"
+                        value="Consultant"
                         onChange={e => this.consultant = e.target.value}
-                        name="gender" /> Consultant
+                        id="consultant"
+                        name="track" /> Consultant
                     </div>
         
                     <div className="form-group">

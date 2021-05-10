@@ -763,3 +763,8 @@ a {
     font: normal bold 54px/70px Roboto;
   }
 }
+
+.alert {
+  color: #22CF67;
+  font: normal normal 14px/52px Roboto;
+}

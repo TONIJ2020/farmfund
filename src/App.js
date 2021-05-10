@@ -7,10 +7,13 @@ import NavBar from './Components/Menu/NavBar';
 import Login from './Components/LoginRegister/Login';
 import Register from './Components/LoginRegister/Register';
 import Footer from './Components/Footer/Footer';
-import Farmer from './Components/Pages/Farmer';
 import axios from 'axios';
 import {Forgot} from './Components/LoginRegister/Forgot';
 import {Reset} from './Components/LoginRegister/Reset';
+import Projects from './Components/Projects/Projects';
+import Adaobifarm from './Components/Projects/Adaobifarm';
+import Uchefarm from './Components/Projects/Uchefarm';
+import Okorofarm from './Components/Projects/Okorofarm';
 
 export default class App extends Component {
 
@@ -46,7 +49,10 @@ export default class App extends Component {
                 <Route exact path="/register" component={Register} />
                 <Route exact path="/forgot" component={Forgot} />
                 <Route exact path="/reset:id" component={Reset} />
-                <Route exact path="/farmer" component={Farmer} />
+                <Route exact path="/adaobifarm" component={Adaobifarm} />
+                <Route exact path="/uchefarm" component={Uchefarm} />
+                <Route exact path="/okorofarm" component={Okorofarm} />
+                <Route exact path="/projects" component={Projects} />
               </Switch>
             </div>
           <Footer />

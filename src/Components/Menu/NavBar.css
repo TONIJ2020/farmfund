@@ -68,6 +68,14 @@ body {
     top: 55.56%;
 }
 
+.navigation-bar-project {
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    left: 671px;
+    top: 55.56%;
+}
+
 .navigation-bar-log-in {
     position: absolute;
     width: 70px;
@@ -142,7 +150,7 @@ body {
     width: 26.13%;
     height: 17px;
     left: 17.33%;
-    top: 69.4%;
+    top: 60.4%;
     text-align: center;
     }
 
@@ -151,7 +159,7 @@ body {
     width: 50%;
     height: 17px;
     left: 17.33%;
-    top: 106.8%;
+    top: 90.8%;
     }
 
     .navigation-bar-contact {
@@ -159,7 +167,15 @@ body {
     width: 66.13%;
     height: 17px;
     left: 17.33%;
-    top: 144.6%;
+    top: 120.6%;
+    }
+
+    .navigation-bar-project {
+    position: absolute;
+    width: 80.47%;
+    height: 17px;
+    top: 153%;
+    left: 17.33%;
     }
 
     .navigation-bar-log-in {

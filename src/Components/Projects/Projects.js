@@ -8,11 +8,12 @@ import Uche2 from '../../Components/Assets/uche2.png';
 import Adaobi2 from '../../Components/Assets/adaobi2.png';
 import ProgressBar from '../ProgressBar/ProgressBar';
 import './Projects.css';
+import { Link } from 'react-router-dom';
 
 function Projects() {
     return (
         <div className="projects-div">
-            <div className="farmer-div-1">
+            <Link to="/okorofarm"><div className="farmer-div-1">
                 <div>
                     <img src={Okoro1} alt="" />
                 </div>
@@ -22,9 +23,9 @@ function Projects() {
                     <h3>Needed: 500000 Naira<ProgressBar value={60} max={100}/></h3>
                     <h5>Raised: 300000 Naira</h5>
                 </div>
-            </div>
+            </div></Link>
 
-            <div className="farmer-div-2" >
+            <Link to="/uchefarm"><div className="farmer-div-2" >
                 <div>
                     <img src={Uche1} alt="" />
                 </div>
@@ -34,9 +35,9 @@ function Projects() {
                     <h3>Needed: 200000 Naira<ProgressBar value={90} max={100}/></h3>
                     <h5>Raised: 180000 Naira</h5>
                 </div>
-            </div>
+            </div></Link>
 
-            <div className="farmer-div-3" >
+            <Link to="/adaobifarm"><div className="farmer-div-3" >
                 <div>
                     <img src={Adaobi1} alt="" />
                 </div>
@@ -46,8 +47,9 @@ function Projects() {
                     <h3>Needed: 800000 Naira<ProgressBar value={38} max={100}/></h3>
                     <h5>Raised: 300000 Naira</h5>
                 </div>
-            </div>
-            <div className="farmer-div-4">
+            </div></Link>
+
+            <Link to="/okorofarm"><div className="farmer-div-4">
                 <div>
                     <img src={Okoro2} alt="" />
                 </div>
@@ -57,9 +59,9 @@ function Projects() {
                     <h3>Needed: 500000 Naira<ProgressBar value={60} max={100}/></h3>
                     <h5>Raised: 300000 Naira</h5>
                 </div>
-            </div>
+            </div></Link>
 
-            <div className="farmer-div-5" >
+            <Link to="/adaobifarm"><div className="farmer-div-5" >
                 <div>
                     <img src={Adaobi2} alt="" />
                 </div>
@@ -69,9 +71,9 @@ function Projects() {
                     <h3>Needed: 800000 Naira<ProgressBar value={38} max={100}/></h3>
                     <h5>Raised: 300000 Naira</h5>
                 </div>
-            </div>
+            </div></Link>
 
-            <div className="farmer-div-6" >
+            <Link to="/uchefarm"><div className="farmer-div-6" >
                 <div>
                     <img src={Uche2} alt="" />
                 </div>
@@ -81,7 +83,7 @@ function Projects() {
                     <h3>Needed: 200000 Naira<ProgressBar value={90} max={100}/></h3>
                     <h5>Raised: 180000 Naira</h5>
                 </div>
-            </div>
+            </div></Link>
         </div>
     )
 }

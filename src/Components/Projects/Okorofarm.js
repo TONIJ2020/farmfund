@@ -1,37 +1,36 @@
 import React from 'react';
 import './Farmer.css';
 
-import AdaobiProfile from '../../Components/Assets/adaobi-profile.png';
-import AdaobiIMG from '../../Components/Assets/adaobi-img-1.png';
-import AdaobiIMG1 from '../../Components/Assets/adaobi-img-2.png';
-import AdaobiIMG2 from '../../Components/Assets/adaobi-img-3.png';
+
+import Okoro1 from '../../Components/Assets/okoro1.png';
+import Okoro2 from '../../Components/Assets/okoro2.png';
 import AboutProject from '../../Components/Assets/about-project-img.png';
 import Apps from '../Review/Apps';
-import Projects from '../Projects/Projects';
-import ProgressBar from './../ProgressBar/ProgressBar';
+import Projects from './Projects';
+import ProgressBar from '../ProgressBar/ProgressBar';
 
-function Farmer() {
+function Uchefarm() {
     return (
         <div className="farmers-main-div">
             <div className="farmers-div-1">
                 <div className="adaobi-profile-left">
-                    <img className="adaobi-profile-img" src={AdaobiProfile} alt="" />
+                    <img className="adaobi-profile-img" src={Okoro1} alt="" />
                     
                     <div className="adaobi-profile-images">
-                        <img className="adaobi-profile-img1" src={AdaobiIMG} alt="" />
-                        <img className="adaobi-profile-img2" src={AdaobiIMG1} alt="" />
-                        <img className="adaobi-profile-img3" src={AdaobiIMG2} alt="" />
+                        <img className="adaobi-profile-img1" src={Okoro2} alt="" />
+                        <img className="adaobi-profile-img2" src={Okoro2} alt="" />
+                        <img className="adaobi-profile-img3" src={Okoro2} alt="" />
                     </div>
                 </div>
                 
 
                 <div className="adaobi-profile-right">
-                    <h1 className="adaobi-profile-h1">Adaobi Rice Farm</h1>
+                    <h1 className="adaobi-profile-h1">Okoro Fish Farm</h1>
 
-                    <p className="adaobi-profile-pragraph-text">Mechanized Rice farm with boiler and dryer ready for processing</p>
+                    <p className="adaobi-profile-pragraph-text">Mechanized fish farm with dryer for preservation after harvesting</p>
 
                     <h3 className="adaobi-profile-needed
-                    ">Needed: 800000 Naira<p></p><ProgressBar value={38} max={100}/></h3>
+                    ">Needed: 500000 Naira<p></p><ProgressBar value={38} max={100}/></h3>
 
                     <h5 className="adaobi-profile-raised">Raised: 300000 Naira</h5>
 
@@ -52,14 +51,14 @@ function Farmer() {
                     <div className="project-undered-lists">
                         <ul className="about-project-list">
                             <li>Irigation System</li>
-                            <li>1 Tractor</li>
-                            <li>2 Plaws</li>
+                            <li>2 Tractor</li>
+                            <li>3 Plaws</li>
                         </ul>
 
                         <ul className="about-project-list1">
-                            <li>3 Dryers</li>
-                            <li>1 Rice per Boiler</li>
-                            <li>Sealing Machine</li>
+                            <li>4 Dryers</li>
+                            <li>2 Rice per Boiler</li>
+                            <li>2 Sealing Machines</li>
                         </ul>
                     </div>
                 </div>
@@ -79,6 +78,6 @@ function Farmer() {
             </div>
         </div>
     )
-};
+}
 
-export default Farmer;
+export default Uchefarm;
