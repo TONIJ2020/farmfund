@@ -20,6 +20,9 @@ export default class Register extends Component {
             track: this.track
         };
 
+        console.log(data);
+    
+
         axios.post('register', data).then(
             res => {
                 this.setState({
@@ -28,6 +31,7 @@ export default class Register extends Component {
             }
         ).catch(
             err => {
+                console.log(data);
                 this.setState({
                     message: err.response.data.message
                 })
@@ -126,23 +130,20 @@ export default class Register extends Component {
                         required/>
                     </div>
         
-                    <div className="form-group radio-input-group">
+                    <div className="form-group radio-input-group" onChange={e => this.track = e.target.value}>
                         <input className="farmer-radio" 
                         type="radio" 
                         value="Farmer"
                         id="farmer"
-                        onChange={e => this.farmer = e.target.value}
                         name="track" /> Farmer
         
                         <input className="investor-radio" type="radio"
                         value="Investor" 
                         id="investor"
-                        onChange={e => this.investor = e.target.value}
                         name="track" /> Investor
         
                         <input className="consultant-radio" type="radio"
                         value="Consultant"
-                        onChange={e => this.consultant = e.target.value}
                         id="consultant"
                         name="track" /> Consultant
                     </div>
