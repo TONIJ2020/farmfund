@@ -31,13 +31,6 @@ const Ul = styled.div`
 `;
 
 class NavMenu extends React.Component {
-    constructor(props) {
-        super(props)
-    
-        this.state = {
-             
-        }
-    }
     
     handleLogout = () => {
         localStorage.clear();
@@ -48,16 +41,17 @@ class NavMenu extends React.Component {
 
         let buttons;
 
-        if(this.props.user) {
-            return (buttons = (
+        if (this.props.user) {
+            buttons = (
                 <Ul open={this.props.open} className="navigation-bar-ul">
                     <li><a href="/" className="navigation-bar-home">Home</a></li>
                     <li><a href="/" className="navigation-bar-about">About us</a></li>
                     <li><a href="/footer" className="navigation-bar-contact">Contact us</a></li>
                     <li><a href="/projects" className="navigation-bar-project">Projects</a></li>
-                    <li><a href="/" className="navigation-bar-log-in" onClick={this.handleLogout}>Logout</a></li>
+                    <li><a href="/logout" className="navigation-bar-logout" onClick={this.handleLogout}>Logout</a></li>
+                    <li><img src={search} className="navigation-search-bar" alt="search" /></li>
                 </Ul>
-            ))
+            )
         }else{
             buttons = (
                 <Ul open={this.props.open} className="navigation-bar-ul">
@@ -74,9 +68,7 @@ class NavMenu extends React.Component {
 
         return (
             <nav className="navigation-bar">
-                <Ul open={this.props.open} className="navigation-bar-ul">
-                    {buttons}
-                </Ul>
+                {buttons}
             </nav>
         );
     }

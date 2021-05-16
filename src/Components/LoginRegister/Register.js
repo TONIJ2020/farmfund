@@ -20,7 +20,7 @@ export default class Register extends Component {
             track: this.track
         };
 
-        axios.post('register', data).then(
+        axios.post('/user/sign-up', data).then(
             res => {
                 this.setState({
                     message: res.data.message
@@ -129,19 +129,19 @@ export default class Register extends Component {
                     <div className="form-group radio-input-group" onChange={e => this.track = e.target.value}>
                         <input className="farmer-radio" 
                         type="radio" 
-                        value="Farmer"
+                        value="farmer"
                         id="farmer"
-                        name="track" /> Farmer
+                        name="track" /> farmer
         
                         <input className="investor-radio" type="radio"
-                        value="Investor" 
+                        value="investor" 
                         id="investor"
-                        name="track" /> Investor
+                        name="track" /> investor
         
                         <input className="consultant-radio" type="radio"
-                        value="Consultant"
+                        value="consultant"
                         id="consultant"
-                        name="track" /> Consultant
+                        name="track" /> consultant
                     </div>
         
                     <div className="form-group">

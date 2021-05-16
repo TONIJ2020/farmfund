@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Pages/Home';
 import {  BrowserRouter, Route, Switch } from "react-router-dom"; 
 import NavBar from './Components/Menu/NavBar';
@@ -22,7 +22,7 @@ export default class App extends Component {
   componentDidMount = () => {
     axios.get('user').then(
       res => {
-        this.setState(res.data);
+        this.setUser(res.data);
       },
       err => {
         console.log(err)

@@ -4,8 +4,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-axios.defaults.baseURL = 'farmfund-api.netlify.app/'; 
-// https://crowd-funds.herokuapp.com/user/
+axios.defaults.baseURL = 'https://crowd-funds.herokuapp.com';
 axios.defaults.headers.common['Authorization'] = 'Bearer ' + localStorage.getItem('token');
 
 ReactDOM.render(

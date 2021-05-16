@@ -15,7 +15,7 @@ export default class Login extends Component {
             password: this.password
         }
 
-        axios.post('login', data)
+        axios.post('/user/sign-in', data)
             .then(res => {
                 localStorage.setItem('token', res.data.token);
                 this.setState ({
