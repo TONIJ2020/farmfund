@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Components/Styles/App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Pages/Home';
 import {  BrowserRouter, Route, Switch } from "react-router-dom"; 
@@ -10,10 +10,11 @@ import Footer from './Components/Footer/Footer';
 import axios from 'axios';
 import {Forgot} from './Components/LoginRegister/Forgot';
 import {Reset} from './Components/LoginRegister/Reset';
-import Projects from './Components/Projects/Projects';
-import Adaobifarm from './Components/Projects/Adaobifarm';
-import Uchefarm from './Components/Projects/Uchefarm';
-import Okorofarm from './Components/Projects/Okorofarm';
+import Projects from './Components/Pages/Projects';
+import Adaobifarm from './Components/Pages/Adaobifarm';
+import Uchefarm from './Components/Pages/Uchefarm';
+import Okorofarm from './Components/Pages/Okorofarm';
+import dashboard from './Components/Pages/dashboard';
 
 export default class App extends Component {
 
@@ -48,6 +49,7 @@ export default class App extends Component {
                 <Route exact path="/login" component={() => <Login setUser={this.setUser} />} />
                 <Route exact path="/register" component={Register} />
                 <Route exact path="/forgot" component={Forgot} />
+                <Route exact path="/dashboard" component={dashboard} />
                 <Route exact path="/reset:id" component={Reset} />
                 <Route exact path="/adaobifarm" component={Adaobifarm} />
                 <Route exact path="/uchefarm" component={Uchefarm} />

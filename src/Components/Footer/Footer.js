@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import '../Styles/Footer.css';
 
 import Smooth from '../Assets/smooth.png';
 import Support from '../Assets/24hr-support.png';
@@ -30,7 +30,7 @@ function Footer() {
                     <a className="footer-payment-acrotag" href="#payment"><img src={Payment} alt=""/><span><strong>Safe & Secure</strong>  online Payment</span></a>
                 </div>
 
-                <a className="footer-farmfund-acrotag" href="#farmfund"><img src={FarmFund} alt="" className="footer-farmfund-img" />FarmFund</a>
+                <a className="footer-farmfund-acrotag" href="/"><img src={FarmFund} alt="" className="footer-farmfund-img" />FarmFund</a>
             </div>
 
             <hr className="footer-line"/>

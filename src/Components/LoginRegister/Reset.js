@@ -1,9 +1,8 @@
 import axios from 'axios';
 import React, { Component } from 'react';
 import { Redirect } from 'react-router';
-import './LoginRegister.css';
-
-export class Reset extends Component {
+import '../Styles/LoginRegister.css';
+ export class Reset extends Component {
 
     state = {};
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './NavBar.css';
+import '../Styles/NavBar.css';
 import NavToggler from './NavToggler';
 import logo from './logo.svg';
 

@@ -1,9 +1,9 @@
 import axios from 'axios';
 import React, { Component } from 'react';
-import { Redirect } from 'react-router';
-import './LoginRegister.css';
+import { withRouter } from 'react-router';
+import '../Styles/LoginRegister.css';
 
-export default class Login extends Component {
+class Login extends Component {
 
     state = {};
 
@@ -17,11 +17,12 @@ export default class Login extends Component {
 
         axios.post('/user/sign-in', data)
             .then(res => {
-                localStorage.setItem('token', res.data.token);
+                localStorage.setItem('userData', JSON.stringify(res.data.user));
                 this.setState ({
                     loggedIn: true
                 });
                 this.props.setUser(res.data.user);
+                this.props.history.push("/dashboard");
             })
             .catch(err => {
                 this.setState({
@@ -32,19 +33,7 @@ export default class Login extends Component {
 
     
     render() {
-        if(this.state.loggedIn) {
-            return <Redirect to={'/'} />;
-        }
-
         let error = '';
-
-        if(this.state.message) {
-            error = (
-                <div className="alert alert-danger" role="alert">
-                    {this.state.message}
-                </div>
-            )
-        }
 
         return (
             <form onSubmit={this.handleSubmit} className="container">
@@ -83,3 +72,5 @@ export default class Login extends Component {
         )
     }
 }
+
+export default withRouter(Login);

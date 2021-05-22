@@ -17,7 +17,7 @@ import Paystack from '../../Components/Assets/paystack.png';
 import Google from '../../Components/Assets/Google.png';
 import Dots from '../../Components/Assets/spots1.png';
 import Dots1 from '../../Components/Assets/spots2.png';
-import Projects from '../Projects/Projects';
+import Projects from '../Pages/Projects';
 
 export default class Home extends Component {
 
@@ -57,20 +57,22 @@ export default class Home extends Component {
                     <Projects />
                 </div>
 
+                <h2 className="testimonials-text">Testimonials</h2>
+
                 <div className="testimonials-div">
                     <div className="testimonial-upper">
                         <div className="testimonial-curl1">
                         </div>
                     </div>
-                    <h2 className="testimonials-text">Testimonials</h2>
+                    
                     <div className="testimonial-div primary-test">
                         <div className="secondary-test">
-                            <img src={Ellipse1} alt="" className="home-ellipse-1"/>
-                            <img src={Ellipse2} alt="" className="home-ellipse-2"/>
-                            <img src={Andrew} alt="" className="home-andrew-img"/>
-                            <img src={Ellipse4} alt="" className="home-ellipse-4"/>
-                            <img src={Ogbonna} alt="" className="home-ogbonna-img"/>
-                            <img src={Ellipse3} alt="" className="home-ellipse-3"/>
+                            <span><img src={Ellipse1} alt="" className="home-ellipse-1"/></span>
+                            <span><img src={Ellipse2} alt="" className="home-ellipse-2"/></span>
+                            <span><img src={Andrew} alt="" className="home-andrew-img"/></span>
+                            <span><img src={Ellipse4} alt="" className="home-ellipse-4"/></span>
+                            <span><img src={Ogbonna} alt="" className="home-ogbonna-img"/></span>
+                            <span><img src={Ellipse3} alt="" className="home-ellipse-3"/></span>
 
                             <h1 className="home-andrew-title-text">Mr. Andrew Ogadinma</h1>
                             <p className="home-andrew-paragraph-text">When i first hard of farm fund i was sceptical cause i had tried out similar services in the past and my experience with them was not pleasant at all. either they have issues with funding the farm or they tend to take full control of your farm and 90% of all profits made from your produce. with farm fund i retained full control of my farm and got full time consultancy support.</p>
@@ -79,12 +81,12 @@ export default class Home extends Component {
 
                             <p className="home-ogbonna-paragraph-text">I had been looking for a safe and reliable way to invest in agriculture around the country when i came across farm fund so i decided to give it a try. Their payment system is so fast and smooth i wasn’t expecting it to be that simple. Invested in one of the farms and was amazed at their farm tracking system. They let you monitor your investment at every stage from purchasing of seedlings to harvesting. The experience was just amazing.</p>
                         </div>
-                    </div>                    
-                </div>
+                    </div>   
 
-                <div className="testimonial-lower">
-                    <div className="testimonial-curl">
-                    
+                    <div className="testimonial-lower">
+                        <div className="testimonial-curl">
+                        
+                        </div>
                     </div>
                 </div>
 
