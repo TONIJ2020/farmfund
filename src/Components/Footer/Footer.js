@@ -52,7 +52,7 @@ function Footer() {
                     <ul className="quick-link-list">
                     <Link to="/login"><li className="list-1">Login</li></Link>
                         <Link to="/register"><li className="list-2">Register</li></Link>
-                        <Link to="/farmer"><li className="list-3">Projects</li></Link>
+                        <Link to="/projects"><li className="list-3">Projects</li></Link>
                     </ul>
                 </div>
 

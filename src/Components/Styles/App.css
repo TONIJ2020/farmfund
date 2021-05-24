@@ -506,134 +506,78 @@ a {
         width: 100%;
     }
     .testimonials-div {
-        width: 100%;
-        height: 600px;
-        margin-top: 200px;
-        background-color: #22CF67;
+        margin-left: -2.3rem;
     }
     .testimonial-curl1 {
-        width: 100%;
-        height: 40px;
-        margin-top: 2rem;
-        margin-bottom: -7.8rem;
-        padding-top: 2rem;
-        background-color: #E5FFEE;
-        border-bottom-left-radius: 100% 100%;
-        border-bottom-right-radius: 100% 100%;
+        margin-top: -1rem;
+        margin-bottom: -10rem;
     }
     .testimonial-curl {
-        display: block;
-        width: 100%;
-        height: 20px;
-        margin-top: -19px;
-        background-color: #dcfcf4;
-        border-top-left-radius: 100% 100%;
-        border-top-right-radius: 100% 100%;
+        margin-top: -8rem;
     }
     .testimonials-text {
-        width: 100%;
-        height: 1.34%;
-        margin-top: -10%;
-        margin-bottom: 12rem;
-        font: normal bold 64px/70px Roboto;
-        text-align: center;
-        color: #000000;
-    }
-    .testimonials-div .secondary-test {
-        display: block;
-        width: 100%;
-        height: fit-content;
+        margin-top: 6rem;
     }
     .home-ellipse-1 {
-        display: block;
-        width: 4%;
-        height: 10%;
-        margin-left: 15%;
-        margin-top: 18%;
+        margin-top: 30%;
     }
     .home-ellipse-2 {
-        display: block;
-        width: 18%;
-        height: 36.13%;
-        margin-left: 17%;
+        margin-left: 12%;
         margin-top: -1%;
     }
     .home-ellipse-3 {
-        display: block;
-        width: 4%;
-        height: 5.86%;
         margin-top: -34%;
         margin-left: 62%;
         z-index: 1;
     }
     .home-ellipse-4 {
-        display: block;
-        width: 16%;
-        height: 23.60%;
-        margin-top: 12%;
+        margin-top: 9%;
         margin-left: 73%;
     }
     .home-andrew-img {
-        display: block;
-        width: 27%;
-        height: 41.37%;
         margin-top: -34%;
-        margin-left: 18%;
+        margin-left: 14%;
     }
     .home-ogbonna-img {
-        display: block;
-        width: 27%;
-        height: 49.37%;
         margin-top: -16%;
         margin-left: 54%;
     }
     .home-andrew-title-text {
-        display: block;
-        width: 45%;
-        height: 1.59;
-        margin-top: -44%;
+        margin-top: -68%;
         margin-left: 48%;
         font: normal bold 26px/42px Roboto;
-        color: #FEFEFE;
     }
     .home-andrew-paragraph-text {
-        display: block;
         width: 36%;
-        height: 3.52%;
         margin-left: 48%;
         margin-top: -3%;
-        text-align: left;
         font: normal normal 14px/20px Roboto;
-        color: #FFFFFF;
     }
     .home-ogbonna-title-text {
-        display: block;
         width: 50%;
-        height: 1.59;
         margin-top: 0;
         margin-left: 8%;
         font: normal bold 26px/42px Roboto;
-        color: #FEFEFE;
     }
     .home-ogbonna-paragraph-text {
+        position: inherit;
         width: 42%;
-        height: 3.52%;
         margin-left: 8%;
         margin-top: -3%;
-        text-align: left;
+        margin-bottom: 16%;
         font: normal normal 14px/20px Roboto;
-        color: #FFFFFF;
     }
     .our-partners-text {
-        margin-top: 10rem;
+        margin-top: -32rem;
     }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 376px) and (max-width: 425px) {
     .hero-div {
         width: 100%;
         margin-top: 100px;
         background: #E5FFEE;
+        text-align: center;
         background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
     }
     .find-the-best-text {
@@ -661,7 +605,7 @@ a {
     .get-started-button-1 {
         width: 8em;
         height: 3em;
-        margin-left: 60px;
+        margin-left: 2.6rem;
         padding: 1em;
         border: none;
         font: normal 500 18px/21px Roboto;
@@ -674,7 +618,7 @@ a {
         display: block;
         padding-left: 1.5rem;
         margin-top: 14px;
-        font: normal normal 18px/25px Roboto;
+        font: normal normal 15px/25px Roboto;
         color: #94A2B3;
     }
     .home-images {
@@ -682,69 +626,40 @@ a {
         visibility: hidden;
     }
     .home-projects-div {
-        width: 50%;
+        width: 100%;
     }
     .projects-title-text {
         width: 100%;
-        font: normal bold 54px/70px Roboto;
+        text-align: center;
+        font: normal bold 48px/70px Roboto;
     }
     .testimonials-div {
-        width: 100%;
-        height: 360px;
-        margin-top: 200px;
-        background-color: #22CF67;
+        margin-top: 20px;
+        margin-left: -7.3%;
     }
     .testimonial-curl1 {
-        width: 100%;
-        height: 40px;
-        margin-top: 1rem;
-        margin-bottom: -6.3rem;
-        padding-top: 2rem;
-        background-color: #E5FFEE;
-        border-bottom-left-radius: 100% 100%;
-        border-bottom-right-radius: 100% 100%;
+        margin-top: -1rem;
+        margin-bottom: -2.5rem;
     }
     .testimonial-curl {
-        display: block;
-        width: 100%;
         height: 20px;
         margin-top: -19px;
-        background-color: #dcfcf4;
-        border-top-left-radius: 100% 100%;
-        border-top-right-radius: 100% 100%;
     }
     .testimonials-text {
-        width: 100%;
-        height: 1.34%;
-        margin-top: -10%;
-        margin-bottom: 8.5rem;
-        font: normal bold 54px/70px Roboto;
+        font: normal bold 44px/70px Roboto;
+        margin-top: 6rem;
         text-align: center;
-        color: #000000;
-    }
-    .testimonials-div .secondary-test {
-        display: block;
-        width: 100%;
-        height: fit-content;
+        margin-bottom: 3rem;
     }
     .home-ellipse-1 {
-        display: block;
-        width: 4%;
-        height: 10%;
-        margin-left: 15%;
+        margin-left: 11%;
         margin-top: 18%;
     }
     .home-ellipse-2 {
-        display: block;
-        width: 18%;
-        height: 36.13%;
-        margin-left: 17%;
+        margin-left: 13%;
         margin-top: -1%;
     }
     .home-ellipse-3 {
-        display: block;
-        width: 4%;
-        height: 5.86%;
         margin-top: -34%;
         margin-left: 62%;
         z-index: 1;
@@ -761,7 +676,7 @@ a {
         width: 27%;
         height: 41.37%;
         margin-top: -34%;
-        margin-left: 18%;
+        margin-left: 14%;
     }
     .home-ogbonna-img {
         display: block;
@@ -771,45 +686,183 @@ a {
         margin-left: 54%;
     }
     .home-andrew-title-text {
-        display: block;
-        width: 50%;
-        height: 1.59;
-        margin-top: -48%;
+        margin-top: -70%;
         margin-left: 48%;
         font: normal bold 16px/42px Roboto;
-        color: #FEFEFE;
     }
     .home-andrew-paragraph-text {
-        display: block;
-        width: 45%;
-        height: 3.52%;
+        width: 40%;
         margin-left: 48%;
         margin-top: -3%;
-        text-align: left;
         font: normal normal 8px/10px Roboto;
-        color: #FFFFFF;
     }
     .home-ogbonna-title-text {
-        display: block;
         width: 20rem;
         height: 1.59;
         margin-top: 0;
         margin-left: 8%;
         font: normal bold 14px/42px Roboto;
-        color: #FEFEFE;
     }
     .home-ogbonna-paragraph-text {
-        width: 45%;
-        height: 3.52%;
+        width: 41%;
         margin-left: 8%;
         margin-top: -3%;
-        text-align: left;
+        margin-bottom: 1.5rem;
         font: normal normal 8px/10px Roboto;
-        color: #FFFFFF;
     }
     .our-partners-text {
-        margin-top: 10rem;
-        font: normal bold 54px/70px Roboto;
+        margin-top: -53rem;
+        margin-bottom: 6rem;
+        font: normal bold 44px/70px Roboto;
+    }
+    .home-godaddy-img {
+    margin-top: -6em;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .find-the-best-text {
+        width: 70%;
+        height: 5.56%;
+        margin: 69px auto auto;
+        font: normal bold 2.2rem/110.19% Roboto;
+        text-align: center;
+        color: #272D4E;
+    }
+    .farm-fund-description-paragraph {
+        width: 70%;
+        height: 0.84%;
+        margin: 19px auto auto;
+        text-align: center;
+        font: normal normal 0.6rem/20px Roboto;
+        color: #94A2B3;
+    }
+    .home-button-div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 49px auto auto;
+    }
+    .get-started-button-1 {
+        width: 8em;
+        height: 3em;
+        margin-left: 30px;
+        padding: 1em;
+        border: none;
+        font: normal 500 18px/21px Roboto;
+        background: #70C217;
+        color: #FFF;
+        border-radius: 60px;
+        cursor: pointer;
+    }
+    .find-farms-acrotag {
+        display: block;
+        padding-left: 1rem;
+        margin-top: 14px;
+        font: normal normal 15px/25px Roboto;
+        color: #94A2B3;
+    }
+    .home-images {
+        display: none;
+        visibility: hidden;
+    }
+    .home-projects-div {
+        text-align: center;
+        width: 100%;
+        margin-left: -1.3rem;
+    }
+    .projects-title-text {
+        width: 100%;
+        text-align: center;
+        font: normal bold 48px/70px Roboto;
+    }
+    .testimonials-div {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: -8%;
+    }
+    .testimonial-curl1 {
+        margin-top: -1rem;
+        margin-bottom: -2.5rem;
+    }
+    .testimonial-curl {
+        height: 20px;
+        margin-top: -19px;
+    }
+    .testimonials-text {
+        font: normal bold 44px/70px Roboto;
+        margin-top: 6rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .home-ellipse-1 {
+        margin-left: 11%;
+        margin-top: 18%;
+    }
+    .home-ellipse-2 {
+        margin-left: 13%;
+        margin-top: -1%;
+    }
+    .home-ellipse-3 {
+        margin-top: -34%;
+        margin-left: 62%;
+        z-index: 1;
+    }
+    .home-ellipse-4 {
+        display: block;
+        width: 16%;
+        height: 23.60%;
+        margin-top: 29%;
+        margin-left: 73%;
+    }
+    .home-andrew-img {
+        display: block;
+        width: 27%;
+        height: 41.37%;
+        margin-top: -34%;
+        margin-left: 14%;
+    }
+    .home-ogbonna-img {
+        display: block;
+        width: 27%;
+        height: 49.37%;
+        margin-top: -16%;
+        margin-left: 54%;
+    }
+    .home-andrew-title-text {
+        margin-top: -88%;
+        margin-left: 48%;
+        font: normal bold 16px/42px Roboto;
+    }
+    .home-andrew-paragraph-text {
+        width: 40%;
+        margin-left: 48%;
+        margin-top: -3%;
+        font: normal normal 8px/10px Roboto;
+    }
+    .home-ogbonna-title-text {
+        width: 20rem;
+        height: 1.59;
+        margin-top: 0;
+        margin-left: 8%;
+        font: normal bold 14px/42px Roboto;
+    }
+    .home-ogbonna-paragraph-text {
+        width: 41%;
+        margin-left: 8%;
+        margin-top: -3%;
+        margin-bottom: 1.5rem;
+        font: normal normal 8px/10px Roboto;
+    }
+    .our-partners-text {
+        margin-top: -53rem;
+        margin-bottom: 6rem;
+        font: normal bold 44px/70px Roboto;
+    }
+    .home-godaddy-img {
+    margin-top: -6em;
     }
 }
 

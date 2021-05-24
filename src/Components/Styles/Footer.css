@@ -798,8 +798,21 @@ strong {
 }
 
 @media only screen and (max-width: 375px) {
+    .footer-main-div {
+        position: absolute;
+        width: 100%;
+        margin: 0;
+    }
     .footer-ter-div {
         margin-bottom: -1rem;
+    }
+    .footer-bottom-div {
+        margin-top: 13rem;
+    }
+    .copyright-text {
+        margin-top: -1rem;
+        margin-left: 10rem;
+        float: left;
     }
 }
 

@@ -83,9 +83,22 @@ body {
     .farmer-div-4 img,
     .farmer-div-5 img,
     .farmer-div-6 img {
-        width: 90%;
+        width: 80%;
         margin-top: 60px;
         border-radius: 20px;
+    }
+
+    .farmer-div-1 h1,
+    .farmer-div-2 h1,
+    .farmer-div-3 h1,
+    .farmer-div-4 h1,
+    .farmer-div-5 h1,
+    .farmer-div-6 h1 {
+        display: inline-block;
+        width: 19rem;
+        height: 7.03%;
+        font: normal bold 32px/70px Roboto;
+        color: #000000;
     }
 
     .farmer-div-1 p,
@@ -94,10 +107,22 @@ body {
     .farmer-div-4 p,
     .farmer-div-5 p,
     .farmer-div-6 p {
-        width: 100%;
+        width: 80%;
         height: 5.23%;
         margin-top: -30px;
-        font: normal normal 18px/30px Roboto;
+        font: normal normal 16px/30px Roboto;
         color: #94B397;
+    }
+
+    .farmer-div-1 h3,
+    .farmer-div-2 h3,
+    .farmer-div-3 h3,
+    .farmer-div-4 h3,
+    .farmer-div-5 h3,
+    .farmer-div-6 h3 {
+        width: 22rem;
+        height: 2.5%;
+        font: normal normal 20px/50px Roboto;
+        color: #3E5140;
     }
 }
