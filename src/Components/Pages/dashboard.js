@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router';
-// import Login from '../LoginRegister/Login';
 import '../Styles/dashboard.css';
 
 export default class dashboard extends Component {
@@ -56,7 +54,7 @@ constructor(props) {
             );
         }else{
             return (
-            Redirect("/login")
+                this.props.history.push('/login')
             );
         }
     }
