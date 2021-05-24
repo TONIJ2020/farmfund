@@ -23,17 +23,23 @@ class Login extends Component {
                 });
                 this.props.setUser(res.data.user);
                 this.props.history.push("/dashboard");
-            })
-            .catch(err => {
+            }).catch(err => {
                 this.setState({
                     message: err.response.data.message
                 })
             })
     };
-
     
     render() {
         let error = '';
+
+        if(this.state.message) {
+            error = (
+                <div className="alert alert-danger" role="alert">
+                    <p>Invalid Parameter</p>
+                </div>
+            )
+        }
 
         return (
             <form onSubmit={this.handleSubmit} className="container">
