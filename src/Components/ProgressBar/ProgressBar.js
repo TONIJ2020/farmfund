@@ -27,6 +27,48 @@ const Container = styled.div`
         background-color: ${props => props.color};
         border-radius: 20px;
     }
+
+    @media only screen and (max-width: 376px) {
+        progress[value]::-webkit-progress-bar {
+            width: 80%;
+            height: 13px;
+            background-color: #E3E1E;
+            border-radius: 20px;
+            box-shadow: 0 0 5px #E3E1E1 inset;
+        }
+
+        progress[value]::-webkit-progress-value {
+            width: 80%;
+            height: 13px;
+            background-color: ${props => props.color};
+            border-radius: 20px;
+        }
+        span {
+            margin-left: -3.5rem;
+            line-height: 48px;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        progress[value]::-webkit-progress-bar {
+            width: 60%;
+            height: 10px;
+            background-color: #E3E1E;
+            border-radius: 20px;
+            box-shadow: 0 0 5px #E3E1E1 inset;
+        }
+
+        progress[value]::-webkit-progress-value {
+            width: 60%;
+            height: 10px;
+            background-color: ${props => props.color};
+            border-radius: 20px;
+        }
+        span {
+            margin-left: -8rem;
+            line-height: 48px;
+        }
+    }
 `;
 
 const ProgressBar = ({ value, max, color, width }) => {

@@ -126,3 +126,120 @@ body {
         color: #3E5140;
     }
 }
+
+@media only screen and (max-width: 376px) {
+    .farmer-div-1 img,
+    .farmer-div-2 img,
+    .farmer-div-3 img,
+    .farmer-div-4 img,
+    .farmer-div-5 img,
+    .farmer-div-6 img {
+        width: 70%;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+
+    .farmer-div-1 h1,
+    .farmer-div-2 h1,
+    .farmer-div-3 h1,
+    .farmer-div-4 h1,
+    .farmer-div-5 h1,
+    .farmer-div-6 h1 {
+        display: inline-block;
+        width: 19rem;
+        height: 7.03%;
+        font: normal bold 28px/70px Roboto;
+        color: #000000;
+        text-align: center;
+    }
+
+    .farmer-div-1 p,
+    .farmer-div-2 p,
+    .farmer-div-3 p,
+    .farmer-div-4 p,
+    .farmer-div-5 p,
+    .farmer-div-6 p {
+        width: 70%;
+        height: 5.23%;
+        margin-top: -30px;
+        text-align: center;
+        font: normal normal 14px/30px Roboto;
+        color: #94B397;
+    }
+
+    .farmer-div-1 h3,
+    .farmer-div-2 h3,
+    .farmer-div-3 h3,
+    .farmer-div-4 h3,
+    .farmer-div-5 h3,
+    .farmer-div-6 h3 {
+        width: 20rem;
+        height: 2.5%;
+        text-align: center;
+        font: normal normal 20px/50px Roboto;
+        color: #3E5140;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .farmer-div-1 img,
+    .farmer-div-2 img,
+    .farmer-div-3 img,
+    .farmer-div-4 img,
+    .farmer-div-5 img,
+    .farmer-div-6 img {
+        width: 80%;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+
+    .farmer-div-1 h1,
+    .farmer-div-2 h1,
+    .farmer-div-3 h1,
+    .farmer-div-4 h1,
+    .farmer-div-5 h1,
+    .farmer-div-6 h1 {
+        display: inline-block;
+        width: 14rem;
+        height: 7.03%;
+        font: normal bold 20px/70px Roboto;
+        color: #000000;
+    }
+
+    .farmer-div-1 p,
+    .farmer-div-2 p,
+    .farmer-div-3 p,
+    .farmer-div-4 p,
+    .farmer-div-5 p,
+    .farmer-div-6 p {
+        width: 75%;
+        height: 5.23%;
+        margin-top: -30px;
+        font: normal normal 14px/30px Roboto;
+        color: #94B397;
+    }
+
+    .farmer-div-1 h3,
+    .farmer-div-2 h3,
+    .farmer-div-3 h3,
+    .farmer-div-4 h3,
+    .farmer-div-5 h3,
+    .farmer-div-6 h3 {
+        width: 18.5rem;
+        height: 2.5%;
+        font: normal normal 14px/30px Roboto;
+        color: #3E5140;
+    }
+
+    .farmer-div-1 h5,
+    .farmer-div-2 h5,
+    .farmer-div-3 h5,
+    .farmer-div-4 h5,
+    .farmer-div-5 h5,
+    .farmer-div-6 h5 {
+        width: 18.5rem;
+        height: 2.5%;
+        font: normal normal 12px/20px Roboto;
+        color: #3E5140;
+    }
+}

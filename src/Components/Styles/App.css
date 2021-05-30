@@ -873,6 +873,57 @@ a {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .find-the-best-text {
+        width: 70%;
+        height: 5.56%;
+        margin: 69px auto auto;
+        font: normal bold 2.3rem/110.19% Roboto;
+        text-align: center;
+        color: #272D4E;
+    }
+    .farm-fund-description-paragraph {
+        width: 70%;
+        height: 0.84%;
+        margin: 19px auto auto;
+        text-align: center;
+        font: normal normal 0.7rem/20px Roboto;
+        color: #94A2B3;
+    }
+    .home-button-div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin: 49px auto auto;
+    }
+    .get-started-button-1 {
+        width: 8em;
+        height: 3em;
+        margin-left: 13px;
+        padding: 1em;
+        border: none;
+        font: normal 500 16px/21px Roboto;
+        background: #70C217;
+        color: #FFF;
+        border-radius: 60px;
+        cursor: pointer;
+    }
+    .find-farms-acrotag {
+        display: block;
+        padding-left: 1rem;
+        margin-top: 14px;
+        font: normal normal 15px/25px Roboto;
+        color: #94A2B3;
+    }
+    .home-projects-div {
+        text-align: center;
+        width: 100%;
+        margin-left: -1.3rem;
+        overflow: hidden;
+    }
+
+}
+
 .alert {
     color: #22CF67;
     font: normal normal 14px/52px Roboto;
