@@ -452,6 +452,7 @@ a {
         width: 100%;
         margin-top: 100px;
         background: #E5FFEE;
+        overflow: hidden;
         background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
     }
     .find-the-best-text {
@@ -578,6 +579,7 @@ a {
         margin-top: 100px;
         background: #E5FFEE;
         text-align: center;
+        overflow: hidden;
         background: linear-gradient(180deg, #E5FFEE 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);
     }
     .find-the-best-text {
@@ -635,6 +637,7 @@ a {
     }
     .testimonials-div {
         margin-top: 20px;
+        overflow: hidden;
         margin-left: -7.3%;
     }
     .testimonial-curl1 {
@@ -722,6 +725,9 @@ a {
 }
 
 @media only screen and (max-width: 375px) {
+    .hero-div {
+        overflow: hidden;
+    }
     .find-the-best-text {
         width: 70%;
         height: 5.56%;
@@ -781,6 +787,7 @@ a {
         width: 100%;
         margin-top: 20px;
         text-align: center;
+        overflow: hidden;
         margin-left: -8%;
     }
     .testimonial-curl1 {
