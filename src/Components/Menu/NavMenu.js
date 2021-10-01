@@ -32,6 +32,13 @@ const Ul = styled.div `
 `;
 
 class NavMenu extends React.Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            ...JSON.parse(localStorage.getItem("userData"))
+        }
+    }
 
     handleLogout = () => {
         localStorage.clear();
@@ -55,7 +62,7 @@ class NavMenu extends React.Component {
                 className = "navigation-bar-project" > Projects </a></li>
                 <li><a href = "/login"
                 className = "navigation-bar-log-in"
-                onClick = { this.handleLogout } > Logout </a></li>
+                onClick = { this.handleLogout }> {this.state.firstName} {this.state.lastName} <span className="profile-img-span"><img src={this.state.profileImg} alt=''/></span></a></li>
                 <li><img src = { search }
                 className = "navigation-search-bar"
                 alt = "search" /></li></

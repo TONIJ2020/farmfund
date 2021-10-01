@@ -2,8 +2,6 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 5958px;
-    top: 0%;
     background-color: #E5FFEE;
 }
 
@@ -67,7 +65,17 @@ body {
    padding-left: 8rem;
 }
 
-
+.profile-img-span {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    border-radius: 50%;
+    background-color: #DFDADA;
+    background-image: url('../Assets/profile-avatar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -1rem;
+}
 /* Mobile Styles */
 
 @media only screen and (max-width: 768px) {

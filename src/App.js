@@ -43,7 +43,7 @@ export default class App extends Component {
       <BrowserRouter>
         <div className="App">
           <NavBar user={this.state.user} setUser={this.setUser} />
-            <div className="container d-flex align-items-center flex-column">
+            <div className="app-container d-flex align-items-center flex-column">
               <Switch>
                 <Route exact path="/" component={() => <Home user={this.state.user} />} />
                 <Route exact path="/login" component={() => <Login setUser={this.setUser} />} />

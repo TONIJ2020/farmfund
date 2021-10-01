@@ -1,55 +1,158 @@
 body {
-    width: 100%;
     margin: 0;
     padding: 0;
+    background: #E5E5E5;
 }
 
 .dashboard-div {
-    margin: 6rem 0;
+    width: 100%;
+    margin-top: 4.5rem;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-side-bar{
+    width: 100px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #94B397;
+    margin-top: -24rem;
+}
+
+.dashboard-side-bar ul img {
+    margin: 2rem;
+    Width: 66.67px;
+    Height: 46.67px;
+}
+
+.dashboard-side-bar ul img:hover {
+    border-right: 6px solid #17C270;
+    color: #17C270;
+}
+.dashboard-side-bar ul img:focus {
+    border-right: 8px solid #17C270;
+    color: #17C270;
+}
+.dashboard-side-bar ul img:active {
+    border-right: 8px solid #17C270;
+    color: #17C270;
+}
+.dashboard-side-bar ul img:target {
+    border-right: 8px solid #17C270;
+    color: #17C270;
 }
 
 .welcome-message-div {
-    border: 4px solid #70C217;
-    border-radius: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 4rem 0 0 2rem;
 }
 .welcome-message {
-    font: normal bolder 42px/110.19% Roboto;
+    font: bold normal 40px/70px Roboto;
     color: #272D4E;
-    padding: 3rem;
 }
-h4 {
-    font: normal normal 18px/110.19% Roboto;
-    margin-top: -4rem;
-    color: #94A2B3;
-    margin-bottom: 2rem;
-    padding: 0 4rem;
+h2 {
+    font: normal normal 25px/30px Roboto;
+    color: #94B397;
+    position: relative;
+    top: -5.3rem;
 }
 
-.personal-info {
-    font: normal bolder 22px/110.19% Arial;
-    border-bottom: 4px solid #70C217;
-    margin-top: 6rem;
-    text-align: left;
-}
-
-.names {
+.income-board-div {
     display: flex;
+    height: fit-content;
     flex-direction: row;
-    justify-content: space-around nowrap;
-}
-p {
-    font: normal bolder 18px/110.19% Arial;
-    margin-left: 2rem;
-    color: #272D4E;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
+    margin: 14rem 1.5rem 1rem -12rem;
+    text-align: center;
 }
 
-.info {
-    font: normal bolder 28px/110.19% Roboto;
+.total-income-div {
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    margin-left: 2.6rem;
-    margin-bottom: -0.8rem;
-    color: #94A2B3;
+    padding-top: 2rem;
+    margin: 0 1rem;
+}
+
+.total-income-div h6 {
+    width: 180px;
+    font: normal normal 20px/10px Roboto;
+    color: #94B397;
+}
+
+.total-income-div h3 {
+    font: bold normal 35px/30px Roboto;
+    color: #000;
+}
+
+.total-income-div h5 {
+    font: bold normal 18px/70px Roboto;
+}
+
+.total-income-h6,
+.total-profit-h6 {
+    color: #0EEA24;
+}
+
+.total-deposit-h6 {
+    color: #EA420E;
+}
+
+.user-data-div {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
+    margin-top: 14rem;
+    margin-bottom: 2rem;
+}
+.dashboard-profile-img-div {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    border-radius: 50%;
+    background-color: #DFDADA;
+    margin-top: 4rem;
+    background-image: url('../Assets/profile-avatar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.dashboard-profile-details-div {
+    margin-top: 4rem;
+}
+
+.dashboard-profile-details-div h2 {
+    font: normal normal 22px/30px Roboto;
+    margin-bottom: -2rem;
+    text-transform: capitalize;
+}
+
+.dashboard-profile-details-div .name {
+    font: bolder normal 44px/50px Roboto;
+    color: #000;
+}
+
+.total-profit-chart-div {
+    clear: both;
+    display: block;
+}
+
+.profit-chart-div {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
 }
 
 @media only screen and (max-width: 768px) {
