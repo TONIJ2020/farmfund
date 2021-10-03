@@ -15,6 +15,8 @@ import Adaobifarm from './Components/Pages/Adaobifarm';
 import Uchefarm from './Components/Pages/Uchefarm';
 import Okorofarm from './Components/Pages/Okorofarm';
 import dashboard from './Components/Pages/dashboard';
+import dashboardTransactions from './Components/Pages/dashboardTransactions';
+import dashboardProjects from './Components/Pages/dashboardProjects';
 
 export default class App extends Component {
 
@@ -50,6 +52,8 @@ export default class App extends Component {
                 <Route exact path="/register" component={Register} />
                 <Route exact path="/forgot" component={Forgot} />
                 <Route exact path="/dashboard" component={dashboard} />
+                <Route exact path="/dashboardTransactions" component={dashboardTransactions} />
+                <Route exact path="/dashboardProjects" component={dashboardProjects} />
                 <Route exact path="/reset:id" component={Reset} />
                 <Route exact path="/adaobifarm" component={Adaobifarm} />
                 <Route exact path="/uchefarm" component={Uchefarm} />

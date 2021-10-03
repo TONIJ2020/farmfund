@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E5E5E5;
+}
+
+.transactions-page {
+    width: 100%;
+    margin-top: 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.dashboard-side-bar1 {
+    width: 100px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #94B397;
+    margin-top: -4rem;
+}
+
+.dashboard-side-bar1 ul img {
+    margin: 2rem;
+    Width: 66.67px;
+    Height: 46.67px;
+}
+
+.dashboard-side-bar1 ul img:hover {
+    border-right: 6px solid #17C270;
+    color: #17C270;
+}
+.dashboard-side-bar1 ul img:focus {
+    border-right: 8px solid #17C270;
+    color: #17C270;
+}
+.dashboard-side-bar1 ul img:active {
+    border-right: 8px solid #17C270;
+    color: #17C270;
+}
+.dashboard-side-bar1 ul img:target {
+    border-right: 8px solid #17C270;
+    color: #17C270;
+}
+
+.welcome-message1-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: -3rem 0 0 2rem;
+}
+.welcome-message1 {
+    font: bold normal 40px/70px Roboto;
+    color: #272D4E;
+}
+.welcome-message1-div h2 {
+    font: normal normal 25px/30px Roboto;
+    color: #94B397;
+    position: relative;
+    top: -5.3rem;
+}
+
+.coll {
+    display: flex;
+    height: fit-content;
+    width: 90%;
+    flex-direction: column;
+    margin: 6rem 0 4rem -12rem;
+    text-align: center;
+}

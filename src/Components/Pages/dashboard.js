@@ -6,6 +6,8 @@ import Transactions from "../../Components/Assets/timeline_24px_outlined.png";
 import Projects from "../../Components/Assets/local_florist_24px.png";
 import Messages from "../../Components/Assets/sms_24px_outlined.png";
 import Notifications from "../../Components/Assets/notifications_24px_outlined.png";
+import Vector1 from "../../Components/Assets/Vector-1.png";
+import barChart from "../../Components/Assets/barchart.png";
 
 export default class dashboard extends Component {
 constructor(props) {
@@ -39,25 +41,57 @@ constructor(props) {
                         <h2>Home</h2>
                     </div>
 
-                    <div className="income-board-div">
-                        <div className="total-income-div" >
-                            <h6>Total Income</h6>
-                            <h3>$100</h3>
-                            <h5 className="total-income-h6">45%</h5>
+                    <div className="income-board-coloum">
+                        <div className="income-board-div">
+                            <div className="total-income-div" >
+                                <h6>Total Income</h6>
+                                <h3>$100</h3>
+                                <h5 className="total-income-h6">45%</h5>
+                            </div>
+                            <div className="total-income-div" >
+                                <h6>Total Deposit</h6>
+                                <h3>$2000</h3>
+                                <h5 className="total-deposit-h6">20%</h5>
+                            </div>
+                            <div className="total-income-div" >
+                                <h6>Total Profit</h6>
+                                <h3>$500</h3>
+                                <h5 className="total-profit-h6">75%</h5>
+                            </div>
+                            <div className="total-income-div" >
+                                <h6>Total Withdrawals</h6>
+                                <h3>$100</h3>
+                            </div>
                         </div>
-                        <div className="total-income-div" >
-                            <h6>Total Deposit</h6>
-                            <h3>$2000</h3>
-                            <h5 className="total-deposit-h6">20%</h5>
-                        </div>
-                        <div className="total-income-div" >
-                            <h6>Total Profit</h6>
-                            <h3>$500</h3>
-                            <h5 className="total-profit-h6">75%</h5>
-                        </div>
-                        <div className="total-income-div" >
-                            <h6>Total Withdrawals</h6>
-                            <h3>$100</h3>
+                    
+                        <div className="total-profit-chart-div">
+                            <div className="profit-chart-div">
+                                <div className="income-chart-texts">
+                                    <h6>Total Profit</h6>
+                                    <h3>75%</h3>
+                                    <h6>$500</h6>
+                                </div>
+
+                                <div className="income-chart-img">
+                                    <img src={Vector1} alt=""/>
+                                </div>
+                            </div>
+
+                            <div className="dashboard-earnings-details-div">
+                                <div className="profile-barchart">
+                                    <img src={barChart} alt=""/>
+                                </div>
+
+                                <div className="earnings-chart-details">
+                                    <h2>Earnings</h2>
+                                    <ul>
+                                        <li>Adaobi Rice Farm</li>
+                                        <li>Okoro Fish Farm</li>
+                                        <li>Uche Cassava Farm</li>
+                                        <li>Newage Coco Farm</li>
+                                    </ul>
+                                </div> 
+                            </div>
                         </div>
                     </div>
 
@@ -72,18 +106,6 @@ constructor(props) {
                             <h2 className="address">{this.state.address}</h2>
                             <h2 className="contact">{this.state.phone}</h2>
                             <h2 className="track">{this.state.track}</h2>
-                        </div>
-                    </div>
-
-                    <div className="total-profit-chart-div">
-                        <div className="profit-chart-div">
-                            <h6>Total Profit</h6>
-                            <h3>75%</h3>
-                            <h6>$500</h6>
-                        </div>
-
-                        <div className="dashboard-profile-details-div">
-
                         </div>
                     </div>
                 </div>

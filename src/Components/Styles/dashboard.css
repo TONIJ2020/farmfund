@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     color: #94B397;
-    margin-top: -24rem;
+    margin-top: -10rem;
 }
 
 .dashboard-side-bar ul img {
@@ -55,21 +55,27 @@ body {
     font: bold normal 40px/70px Roboto;
     color: #272D4E;
 }
-h2 {
+.welcome-message-div h2 {
     font: normal normal 25px/30px Roboto;
     color: #94B397;
     position: relative;
     top: -5.3rem;
 }
 
+.income-board-coloum {
+    display: flex;
+    flex-direction: column;
+}
+
 .income-board-div {
     display: flex;
     height: fit-content;
+    width: fit-content;
     flex-direction: row;
     background: #FFFFFF;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
     border-radius: 60px;
-    margin: 14rem 1.5rem 1rem -12rem;
+    margin: 14rem 0 1rem -12rem;
     text-align: center;
 }
 
@@ -106,7 +112,7 @@ h2 {
 }
 
 .user-data-div {
-    width: 22%;
+    width: 45.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -114,8 +120,7 @@ h2 {
     background: #FFFFFF;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
     border-radius: 60px;
-    margin-top: 14rem;
-    margin-bottom: 2rem;
+    margin: 14rem 1.5rem 2rem;
 }
 .dashboard-profile-img-div {
     width: 150px;
@@ -130,29 +135,114 @@ h2 {
 }
 
 .dashboard-profile-details-div {
-    margin-top: 4rem;
+    margin-top: -1rem;
 }
 
 .dashboard-profile-details-div h2 {
     font: normal normal 22px/30px Roboto;
+    color: #94B397;
     margin-bottom: -2rem;
-    text-transform: capitalize;
 }
 
 .dashboard-profile-details-div .name {
     font: bolder normal 44px/50px Roboto;
     color: #000;
+    margin-bottom: -2rem;
+}
+.dashboard-profile-details-div .name,
+.dashboard-profile-details-div .track {
+    text-transform: capitalize;
+}
+.dashboard-profile-details-div .track {
+    margin-bottom: 2rem;
 }
 
 .total-profit-chart-div {
-    clear: both;
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0 0 -12rem;
 }
 
 .profit-chart-div {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
     background: #FFFFFF;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
     border-radius: 60px;
+    font: normal normal 22px/30px Roboto;
+    margin-right: -2rem;
+}
+.income-chart-texts h6 {
+    font: normal normal 20px/110.19% Roboto;
+    color: #94B397;
+    margin-bottom: -0.6rem;
+}
+
+.income-chart-texts h3 {
+    font: bold normal 35px/110.19% Roboto;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.income-chart-texts h5 {
+    font: bold normal 18px/110.19% Roboto;
+}
+.income-chart-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2.5rem 0 -2rem 2rem;
+    text-align: left;
+}
+.income-chart-img {
+    margin-bottom: 2rem;
+}
+
+.dashboard-earnings-details-div {
+    display: flex;
+    flex-direction: row;
+    width: 58%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
+    font: normal normal 22px/30px Roboto;
+}
+
+.earnings-chart-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.earnings-chart-details h2 {
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    color: #0B0C0C;
+    font: bold normal 30px/110.19% Roboto;
+}
+
+.earnings-chart-details ul {
+    margin-top: -1rem;
+}
+
+.earnings-chart-details ul li {
+    font: bold normal 25px/110.19% Roboto;
+    color: #94B397;
+    list-style-image: url('../Assets/Ellipse-39.png');
+    padding-bottom: 1rem;
+    margin-left: 2.2rem;
+}
+
+.profile-barchart {
+    width: 25%;
+    margin: 20% 2rem;
+}
+
+.profile-barchart img {
+    width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
