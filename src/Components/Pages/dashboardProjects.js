@@ -5,6 +5,13 @@ import Transactions from "../../Components/Assets/timeline_24px_outlined.png";
 import Projects from "../../Components/Assets/local_florist_24px.png";
 import Messages from "../../Components/Assets/sms_24px_outlined.png";
 import Notifications from "../../Components/Assets/notifications_24px_outlined.png";
+import Okoro1 from '../../Components/Assets/okoro1.png';
+import Uche1 from '../../Components/Assets/uche1.png';
+import Adaobi1 from '../../Components/Assets/adaobi1.png';
+import Okoro2 from '../../Components/Assets/okoro2.png';
+import Uche2 from '../../Components/Assets/uche2.png';
+import Adaobi2 from '../../Components/Assets/adaobi2.png';
+import ProgressBar from '../ProgressBar/ProgressBar';
 
 export default class dashboardProjects extends Component {
     render() {
@@ -29,94 +36,123 @@ export default class dashboardProjects extends Component {
                     <h2>Projects</h2>
                 </div>
                 
-                <div className="coll">
-                    <h2>Transactions</h2>
-                    <div className="transactions coll3">
-                        <div className="coll0">
-                            <h1>FUND</h1>
-                            <p>12-08-2021 23:00 AM</p>
-                            <p>Uche Cassava Farm</p>
+                <div className="projects-coll">
+                    <div className="dash-projects-div">
+                        <div className="dash-farmer-div">
+                            <h2>FUNDED</h2>
+                            <div>
+                                <img src={Okoro1} alt="" />
+                            </div>
+                            <div>
+                                <h1>Okoro Fish Farm</h1>
+                                <p>Mechanized fish farm with dryer for preservation after harvesting</p>
+                                <h3>Needed: 500000 Naira<ProgressBar value={60} max={100}/></h3>
+                                <h5>Raised: 300000 Naira</h5>
+                            </div>
                         </div>
-                        <div className="coll1">
-                            <h2>+$100</h2>
-                        </div>
-                    </div>
 
-                    <div className="transactions coll3">
-                        <div className="coll0">
-                            <h1>FUND</h1>
-                            <p>12-08-2021 23:00 AM</p>
-                            <p>Uche Cassava Farm</p>
+                        <div className="dash-farmer-div" >
+                            <h2>FUNDED</h2>
+                            <div>
+                                <img src={Uche1} alt="" />
+                            </div>
+                            <div>
+                                <h1>Uche Cassava Farm</h1>
+                                <p>Mechanized cassava farm with dryer and grinder for processing</p>
+                                <h3>Needed: 200000 Naira<ProgressBar value={90} max={100}/></h3>
+                                <h5>Raised: 180000 Naira</h5>
+                            </div>
                         </div>
-                        <div className="coll1">
-                            <h2>+$300</h2>
-                        </div>
-                        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
-                    </div>
 
-                    <div className="transactions coll3">
-                        <div className="coll0">
-                            <h1>FUND</h1>
-                            <p>12-08-2021 23:00 AM</p>
-                            <p>Uche Cassava Farm</p>
+                        <div className="dash-farmer-div" >
+                            <h2>CONSULTANT</h2>
+                            <div>
+                                <img src={Adaobi1} alt="" />
+                            </div>
+                            <div>
+                                <h1>Adaobi Rice Farm</h1>
+                                <p>Mechanized Rice farm with boiler and dryer ready for processing</p>
+                                <h3>Needed: 800000 Naira<ProgressBar value={38} max={100}/></h3>
+                                <h5>Raised: 300000 Naira</h5>
+                            </div>
                         </div>
-                        <div className="coll1">
-                            <h2>+$150</h2>
-                        </div>
-                    </div>
 
-                    <div className="transactions coll3">
-                        <div className="coll0">
-                            <h1>Withdrawal</h1>
-                            <p>12-08-2021 23:00 AM</p>
-                            <p>Uche Cassava Farm</p>
+                        <div className="dash-farmer-div">
+                            <h2>FUNDED</h2>
+                            <div>
+                                <img src={Okoro2} alt="" />
+                            </div>
+                            <div>
+                                <h1>Okoro Fish Farm</h1>
+                                <p>Mechanized fish farm with dryer for preservation after harvesting</p>
+                                <h3>Needed: 500000 Naira<ProgressBar value={60} max={100}/></h3>
+                                <h5>Raised: 300000 Naira</h5>
+                            </div>
                         </div>
-                        <div className="coll1">
-                            <h2>-$50</h2>
-                        </div>
-                    </div>
 
-                    <div className="transactions coll3">
-                        <div className="coll0">
-                            <h1>Withdrawal</h1>
-                            <p>12-08-2021 23:00 AM</p>
-                            <p>Uche Cassava Farm</p>
+                        <div className="dash-farmer-div" >
+                            <h2>FUNDED</h2>
+                            <div>
+                                <img src={Adaobi2} alt="" />
+                            </div>
+                            <div>
+                                <h1>Adaobi Rice Farm</h1>
+                                <p>Mechanized Rice farm with boiler and dryer ready for processing</p>
+                                <h3>Needed: 800000 Naira<ProgressBar value={38} max={100}/></h3>
+                                <h5>Raised: 300000 Naira</h5>
+                            </div>
                         </div>
-                        <div className="coll1">
-                            <h2>-$20</h2>
-                        </div>
-                    </div>
 
-                    <div className="transactions coll3">
-                        <div className="coll0">
-                            <h1>FUND</h1>
-                            <p>12-08-2021 23:00 AM</p>
-                            <p>Uche Cassava Farm</p>
+                        <div className="dash-farmer-div" >
+                            <h2>CONSULTANT</h2>
+                            <div>
+                                <img src={Uche2} alt="" />
+                            </div>
+                            <div>
+                                <h1>Uche Cassava Farm</h1>
+                                <p>Mechanized cassava farm with dryer and grinder for processing</p>
+                                <h3>Needed: 200000 Naira<ProgressBar value={90} max={100}/></h3>
+                                <h5>Raised: 180000 Naira</h5>
+                            </div>
                         </div>
-                        <div className="coll1">
-                            <h2>+$150</h2>
-                        </div>
-                    </div>
 
-                    <div className="transactions coll3">
-                        <div className="coll0">
-                            <h1>Withdrawal</h1>
-                            <p>12-08-2021 23:00 AM</p>
-                            <p>Uche Cassava Farm</p>
+                        <div className="dash-farmer-div">
+                            <h2>FUNDED</h2>
+                            <div>
+                                <img src={Okoro2} alt="" />
+                            </div>
+                            <div>
+                                <h1>Okoro Fish Farm</h1>
+                                <p>Mechanized fish farm with dryer for preservation after harvesting</p>
+                                <h3>Needed: 500000 Naira<ProgressBar value={60} max={100}/></h3>
+                                <h5>Raised: 300000 Naira</h5>
+                            </div>
                         </div>
-                        <div className="coll1">
-                            <h2>-$50</h2>
-                        </div>
-                    </div>
 
-                    <div className="transactions coll3">
-                        <div className="coll0">
-                            <h1>Withdrawal</h1>
-                            <p>12-08-2021 23:00 AM</p>
-                            <p>Uche Cassava Farm</p>
+                        <div className="dash-farmer-div" >
+                            <h2>FUNDED</h2>
+                            <div>
+                                <img src={Adaobi2} alt="" />
+                            </div>
+                            <div>
+                                <h1>Adaobi Rice Farm</h1>
+                                <p>Mechanized Rice farm with boiler and dryer ready for processing</p>
+                                <h3>Needed: 800000 Naira<ProgressBar value={38} max={100}/></h3>
+                                <h5>Raised: 300000 Naira</h5>
+                            </div>
                         </div>
-                        <div className="coll1">
-                            <h2>-$20</h2>
+
+                        <div className="dash-farmer-div" >
+                            <h2>CONSULTANT</h2>
+                            <div>
+                                <img src={Uche2} alt="" />
+                            </div>
+                            <div>
+                                <h1>Uche Cassava Farm</h1>
+                                <p>Mechanized cassava farm with dryer and grinder for processing</p>
+                                <h3>Needed: 200000 Naira<ProgressBar value={90} max={100}/></h3>
+                                <h5>Raised: 180000 Naira</h5>
+                            </div>
                         </div>
                     </div>
                 </div>

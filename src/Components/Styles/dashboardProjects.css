@@ -62,11 +62,173 @@ body {
     top: -5.3rem;
 }
 
-.coll {
+.projects-coll {
     display: flex;
     height: fit-content;
-    width: 90%;
+    width: 95%;
     flex-direction: column;
-    margin: 6rem 0 4rem -12rem;
+    margin: 6rem 0 4rem -13rem;
     text-align: center;
+}
+
+.dash-farmer-div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -2rem;
+}
+
+.dash-farmer-div h2 {
+    font: bold normal 36px/70px Roboto;
+    color: #17C270;
+}
+
+.dash-projects-div {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dash-farmer-div img {
+    width: 24rem;
+    margin-top: -1rem;
+    border-radius: 20px;
+}
+
+.dash-farmer-div h1{
+    display: inline-block;
+    width: 21rem;
+    height: 7.03%;
+    font: normal bold 34px/70px Roboto;
+    color: #000000;
+}
+
+.dash-farmer-div p {
+    width: 23rem;
+    height: 5.23%;
+    margin-top: 1rem;
+    font: normal normal 20px/30px Roboto;
+    color: #94B397;
+}
+
+.dash-farmer-div h3 {
+    width: 22rem;
+    height: 2.5%;
+    margin-top: 3rem;
+    font: normal normal 20px/30px Roboto;
+    color: #3E5140;
+}
+
+.dash-farmer-div h5 {
+    width: 22rem;
+    height: 2.5%;
+    margin-top: 2.5rem;
+    margin-bottom: -5rem;
+    font: normal normal 18px/30px Roboto;
+    color: #3E5140;
+}
+
+@media only screen and (max-width: 425px) {
+    .dash-farmer-div img {
+        width: 80%;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+
+    .dash-farmer-div h1 {
+        display: inline-block;
+        width: 19rem;
+        height: 7.03%;
+        font: normal bold 32px/70px Roboto;
+        color: #000000;
+    }
+
+    .dash-farmer-div p {
+        width: 80%;
+        height: 5.23%;
+        margin-top: -30px;
+        font: normal normal 16px/30px Roboto;
+        color: #94B397;
+    }
+
+    .dash-farmer-div h3 {
+        width: 22rem;
+        height: 2.5%;
+        font: normal normal 20px/50px Roboto;
+        color: #3E5140;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .dash-farmer-div img {
+        width: 70%;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+
+    .dash-farmer-div h1 {
+        display: inline-block;
+        width: 19rem;
+        height: 7.03%;
+        font: normal bold 28px/70px Roboto;
+        color: #000000;
+        text-align: center;
+    }
+
+    .dash-farmer-div p {
+        width: 70%;
+        height: 5.23%;
+        margin-top: -30px;
+        text-align: center;
+        font: normal normal 14px/30px Roboto;
+        color: #94B397;
+    }
+
+    .dash-farmer-div h3 {
+        width: 20rem;
+        height: 2.5%;
+        text-align: center;
+        font: normal normal 20px/50px Roboto;
+        color: #3E5140;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .dash-farmer-div img {
+        width: 80%;
+        margin-top: 60px;
+        border-radius: 20px;
+    }
+
+    .dash-farmer-div h1 {
+        display: inline-block;
+        width: 14rem;
+        height: 7.03%;
+        font: normal bold 20px/70px Roboto;
+        color: #000000;
+    }
+
+    .dash-farmer-div p {
+        width: 75%;
+        height: 5.23%;
+        margin-top: -30px;
+        font: normal normal 14px/30px Roboto;
+        color: #94B397;
+    }
+
+    .dash-farmer-div h3 {
+        width: 18.5rem;
+        height: 2.5%;
+        font: normal normal 14px/30px Roboto;
+        color: #3E5140;
+    }
+
+    .dash-farmer-div h5 {
+        width: 18.5rem;
+        height: 2.5%;
+        font: normal normal 12px/20px Roboto;
+        color: #3E5140;
+    }
 }
