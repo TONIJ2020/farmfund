@@ -51,6 +51,7 @@ export default class dashboardProjects extends Component {
                         <div className="coll1">
                             <h2>+$300</h2>
                         </div>
+                        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
                     </div>
 
                     <div className="transactions coll3">
