@@ -252,7 +252,6 @@ a {
 .testimonial-div {
     width: 100%;
     margin-top: 6rem;
-    background-color: #E5FFEE;
     background-image: url('/src//Components/Assets/rectangle1.png');
     background-size: 100%;
     background-repeat: no-repeat;    
@@ -486,70 +485,111 @@ a {
     .projects-title-text {
         width: 100%;
     }
-    .testimonials-div {
-        margin-left: -2.3rem;
+
+    .testimonial-div {
+        width: 100%;
+        margin-top: 2.5rem;
+        background-image: url('/src//Components/Assets/rectangle1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;    
     }
-    .testimonial-curl1 {
-        margin-top: -1rem;
-        margin-bottom: -10rem;
+    .testimonial-text {
+        width: 100%;
+        font: normal bold 44px/70px Roboto;
     }
-    .testimonial-curl {
-        margin-top: -8rem;
+    .secondary-test {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
-    .testimonials-text {
-        margin-top: 6rem;
+    .eclipse-1-2-div,
+    .eclipse-3-4-div {
+        display: flex;
+        flex-direction: row;
     }
     .home-ellipse-1 {
-        margin-top: 30%;
+        width: 4%;
+        height: 6%;
+        margin-left: 3%;
+        margin-top: -16%;
     }
     .home-ellipse-2 {
-        margin-left: 12%;
-        margin-top: -1%;
+        width: 21%;
+        height: 36%;
+        margin-left: 1%;
+        margin-top: -18%;
     }
     .home-ellipse-3 {
-        margin-top: -34%;
-        margin-left: 62%;
+        width: 4%;
+        height: 6%;
+        margin-top: 4%;
+        margin-left: 69%;
         z-index: 1;
     }
     .home-ellipse-4 {
-        margin-top: 9%;
-        margin-left: 73%;
+        width: 14%;
+        height: 24%;
+        margin-top: 3.5%;
+        margin-bottom: -38%;
+        margin-left: 5%;
     }
     .home-andrew-img {
-        margin-top: -34%;
-        margin-left: 14%;
+        width: 22%;
+        height: 49%;
+        z-index: +1;
+        height: 47%;
+        margin-top: -0.5rem;
+        margin-left: 10%;
     }
     .home-ogbonna-img {
-        margin-top: -16%;
-        margin-left: 54%;
+        width: 22%;
+        height: 49%;
+        margin-bottom: -38.5%;
+        margin-top: 1%;
+        margin-left: 65%;
     }
     .home-andrew-title-text {
-        margin-top: -68%;
-        margin-left: 48%;
-        font: normal bold 26px/42px Roboto;
+        display: flex;
+        width: 50%;
+        margin-top: -29%;
+        margin-left: 35%;
+        font: normal bold 14px/42px Roboto;
     }
     .home-andrew-paragraph-text {
-        width: 36%;
-        margin-left: 48%;
-        margin-top: -3%;
-        font: normal normal 14px/20px Roboto;
+        display: flex;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -5%;
+        text-align: justify;
+        font: normal normal 8px/10px Roboto;
     }
     .home-ogbonna-title-text {
-        width: 50%;
-        margin-top: 0;
-        margin-left: 8%;
-        font: normal bold 26px/42px Roboto;
+        display: flex;
+        width: 60%;
+        margin-top: 4%;
+        margin-left: 3%;
+        font: normal bold 14px/42px Roboto;
     }
     .home-ogbonna-paragraph-text {
-        position: inherit;
-        width: 42%;
-        margin-left: 8%;
-        margin-top: -3%;
-        margin-bottom: 16%;
-        font: normal normal 14px/20px Roboto;
+        display: flex;
+        width: 60%;
+        margin-left: 3%;
+        margin-top: -5%;
+        text-align: justify;
+        font: normal normal 8px/10px Roboto;
     }
+
     .our-partners-text {
-        margin-top: -32rem;
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+        font: normal bold 44px/70px Roboto;
+    }
+    .home-godaddy-img {
+        margin-top: -6em;
+        margin-bottom: 4em;
+    }
+    .home-paystack-img {
+        margin-bottom: 3em;
     }
 }
 
@@ -616,93 +656,112 @@ a {
         text-align: center;
         font: normal bold 48px/70px Roboto;
     }
-    .testimonials-div {
-        margin-top: 20px;
-        overflow: hidden;
-        margin-left: -7.3%;
+
+    .testimonial-div {
+        width: 100%;
+        margin-top: 2.5rem;
+        background-image: url('/src//Components/Assets/rectangle1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;    
     }
-    .testimonial-curl1 {
-        margin-top: -1rem;
-        margin-bottom: -2.5rem;
-    }
-    .testimonial-curl {
-        height: 20px;
-        margin-top: -19px;
-    }
-    .testimonials-text {
+    .testimonial-text {
+        width: 100%;
         font: normal bold 44px/70px Roboto;
-        margin-top: 6rem;
-        text-align: center;
-        margin-bottom: 3rem;
+    }
+    .secondary-test {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .eclipse-1-2-div,
+    .eclipse-3-4-div {
+        display: flex;
+        flex-direction: row;
     }
     .home-ellipse-1 {
-        margin-left: 11%;
-        margin-top: 18%;
+        width: 4%;
+        height: 6%;
+        margin-left: 3%;
+        margin-top: -16%;
     }
     .home-ellipse-2 {
-        margin-left: 13%;
-        margin-top: -1%;
+        width: 21%;
+        height: 36%;
+        margin-left: 1%;
+        margin-top: -18%;
     }
     .home-ellipse-3 {
-        margin-top: -34%;
-        margin-left: 62%;
+        width: 4%;
+        height: 6%;
+        margin-top: 4%;
+        margin-left: 69%;
         z-index: 1;
     }
     .home-ellipse-4 {
-        display: block;
-        width: 16%;
-        height: 23.60%;
-        margin-top: 12%;
-        margin-left: 73%;
+        width: 14%;
+        height: 24%;
+        margin-top: 3.5%;
+        margin-bottom: -38%;
+        margin-left: 5%;
     }
     .home-andrew-img {
-        display: block;
-        width: 27%;
-        height: 41.37%;
-        margin-top: -34%;
-        margin-left: 14%;
+        width: 22%;
+        height: 49%;
+        z-index: +1;
+        height: 47%;
+        margin-top: -0.5rem;
+        margin-left: 10%;
     }
     .home-ogbonna-img {
-        display: block;
-        width: 27%;
-        height: 49.37%;
-        margin-top: -16%;
-        margin-left: 54%;
+        width: 22%;
+        height: 49%;
+        margin-bottom: -38.5%;
+        margin-top: -1.5%;
+        margin-left: 65%;
     }
     .home-andrew-title-text {
-        margin-top: -70%;
-        margin-left: 48%;
+        display: flex;
+        width: 50%;
+        margin-top: -29%;
+        margin-left: 35%;
         font: normal bold 16px/42px Roboto;
     }
     .home-andrew-paragraph-text {
-        width: 40%;
-        margin-left: 48%;
-        margin-top: -3%;
-        font: normal normal 8px/10px Roboto;
+        display: flex;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -4%;
+        text-align: justify;
+        font: normal normal 10px/10px Roboto;
     }
     .home-ogbonna-title-text {
-        width: 20rem;
-        height: 1.59;
-        margin-top: 0;
-        margin-left: 8%;
-        font: normal bold 14px/42px Roboto;
+        display: flex;
+        width: 50%;
+        margin-top: 3%;
+        margin-left: 3%;
+        font: normal bold 16px/42px Roboto;
     }
     .home-ogbonna-paragraph-text {
-        width: 41%;
-        margin-left: 8%;
-        margin-top: -3%;
-        margin-bottom: 1.5rem;
-        font: normal normal 8px/10px Roboto;
+        display: flex;
+        width: 60%;
+        margin-left: 3%;
+        margin-top: -4%;
+        text-align: justify;
+        font: normal normal 10px/10px Roboto;
     }
+
     .our-partners-text {
-        margin-top: -53rem;
+        margin-top: 5rem;
         margin-bottom: 6rem;
         font: normal bold 44px/70px Roboto;
     }
     .home-godaddy-img {
-    margin-top: -6em;
+        margin-top: -6em;
+        margin-bottom: 4em;
     }
-
+    .home-paystack-img {
+        margin-bottom: 3em;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -763,93 +822,111 @@ a {
         text-align: center;
         font: normal bold 48px/70px Roboto;
     }
-    .testimonials-div {
+
+    .testimonial-div {
         width: 100%;
-        margin-top: 20px;
-        text-align: center;
-        overflow: hidden;
-        margin-left: -8%;
+        margin-top: 2.5rem;
+        background-image: url('/src//Components/Assets/rectangle1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;    
     }
-    /* .testimonial-curl1 {
-        margin-top: -1rem;
-        margin-bottom: -2.5rem;
-    }
-    .testimonial-curl {
-        height: 20px;
-        margin-top: -19px;
-    } */
-    .testimonials-text {
+    .testimonial-text {
+        width: 100%;
         font: normal bold 44px/70px Roboto;
-        margin-top: 6rem;
-        text-align: center;
-        margin-bottom: 3rem;
+    }
+    .secondary-test {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .eclipse-1-2-div,
+    .eclipse-3-4-div {
+        display: flex;
+        flex-direction: row;
     }
     .home-ellipse-1 {
-        margin-left: 11%;
-        margin-top: 18%;
+        width: 4%;
+        height: 6%;
+        margin-left: 3%;
+        margin-top: -16%;
     }
     .home-ellipse-2 {
-        margin-left: 13%;
-        margin-top: -1%;
+        width: 21%;
+        height: 36%;
+        margin-left: 1%;
+        margin-top: -18%;
     }
     .home-ellipse-3 {
-        margin-top: -34%;
-        margin-left: 62%;
+        width: 4%;
+        height: 6%;
+        margin-top: 4%;
+        margin-left: 69%;
         z-index: 1;
     }
     .home-ellipse-4 {
-        display: block;
-        width: 16%;
-        height: 23.60%;
-        margin-top: 29%;
-        margin-left: 73%;
+        width: 14%;
+        height: 24%;
+        margin-top: 3.5%;
+        margin-bottom: -38%;
+        margin-left: 5%;
     }
     .home-andrew-img {
-        display: block;
-        width: 27%;
-        height: 41.37%;
-        margin-top: -34%;
-        margin-left: 14%;
+        width: 22%;
+        height: 49%;
+        z-index: +1;
+        height: 47%;
+        margin-top: -0.5rem;
+        margin-left: 10%;
     }
     .home-ogbonna-img {
-        display: block;
-        width: 27%;
-        height: 49.37%;
-        margin-top: -16%;
-        margin-left: 54%;
+        width: 22%;
+        height: 49%;
+        margin-bottom: -38.5%;
+        margin-top: 1%;
+        margin-left: 65%;
     }
     .home-andrew-title-text {
-        margin-top: -88%;
-        margin-left: 48%;
-        font: normal bold 16px/42px Roboto;
+        display: flex;
+        width: 50%;
+        margin-top: -29%;
+        margin-left: 35%;
+        font: normal bold 14px/42px Roboto;
     }
     .home-andrew-paragraph-text {
-        width: 40%;
-        margin-left: 48%;
-        margin-top: -3%;
+        display: flex;
+        width: 60%;
+        margin-left: 35%;
+        margin-top: -5%;
+        text-align: justify;
         font: normal normal 8px/10px Roboto;
     }
     .home-ogbonna-title-text {
-        width: 20rem;
-        height: 1.59;
-        margin-top: 0;
-        margin-left: 8%;
+        display: flex;
+        width: 60%;
+        margin-top: 4%;
+        margin-left: 3%;
         font: normal bold 14px/42px Roboto;
     }
     .home-ogbonna-paragraph-text {
-        width: 41%;
-        margin-left: 8%;
-        margin-top: -3%;
-        margin-bottom: 1.5rem;
+        display: flex;
+        width: 60%;
+        margin-left: 3%;
+        margin-top: -5%;
+        text-align: justify;
         font: normal normal 8px/10px Roboto;
     }
+
     .our-partners-text {
-        margin-top: -53rem;
+        margin-top: 5rem;
         margin-bottom: 6rem;
         font: normal bold 44px/70px Roboto;
     }
     .home-godaddy-img {
-    margin-top: -6em;
+        margin-top: -6em;
+        margin-bottom: 4em;
+    }
+    .home-paystack-img {
+        margin-bottom: 3em;
     }
 }
 
