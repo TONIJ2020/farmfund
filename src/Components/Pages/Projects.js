@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 function Projects() {
     return (
         <div className="projects-div">
-            <Link to="/okorofarm"><div className="farmer-div-1">
+            <Link to="/okorofarm"><div className="farmer-div">
                 <div>
                     <img src={Okoro1} alt="" />
                 </div>
@@ -25,7 +25,7 @@ function Projects() {
                 </div>
             </div></Link>
 
-            <Link to="/uchefarm"><div className="farmer-div-2" >
+            <Link to="/uchefarm"><div className="farmer-div" >
                 <div>
                     <img src={Uche1} alt="" />
                 </div>
@@ -37,7 +37,7 @@ function Projects() {
                 </div>
             </div></Link>
 
-            <Link to="/adaobifarm"><div className="farmer-div-3" >
+            <Link to="/adaobifarm"><div className="farmer-div" >
                 <div>
                     <img src={Adaobi1} alt="" />
                 </div>
@@ -49,7 +49,7 @@ function Projects() {
                 </div>
             </div></Link>
 
-            <Link to="/okorofarm"><div className="farmer-div-4">
+            <Link to="/okorofarm"><div className="farmer-div">
                 <div>
                     <img src={Okoro2} alt="" />
                 </div>
@@ -61,7 +61,7 @@ function Projects() {
                 </div>
             </div></Link>
 
-            <Link to="/adaobifarm"><div className="farmer-div-5" >
+            <Link to="/adaobifarm"><div className="farmer-div" >
                 <div>
                     <img src={Adaobi2} alt="" />
                 </div>
@@ -73,7 +73,7 @@ function Projects() {
                 </div>
             </div></Link>
 
-            <Link to="/uchefarm"><div className="farmer-div-6" >
+            <Link to="/uchefarm"><div className="farmer-div" >
                 <div>
                     <img src={Uche2} alt="" />
                 </div>

@@ -1,125 +1,82 @@
 body {
     margin: 0;
     padding: 0;
-    width: max-content;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .projects-div {
-    text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.farmer-div-1 img,
-.farmer-div-2 img,
-.farmer-div-3 img,
-.farmer-div-4 img,
-.farmer-div-5 img,
-.farmer-div-6 img {
+.farmer-div {
+    text-align: center;
+}
+
+.farmer-div img {
     width: 24rem;
-    margin-top: 60px;
+    margin: 60px auto 0;
     border-radius: 20px;
 }
 
-.farmer-div-1 h1,
-.farmer-div-2 h1,
-.farmer-div-3 h1,
-.farmer-div-4 h1,
-.farmer-div-5 h1,
-.farmer-div-6 h1 {
-    display: inline-block;
+.farmer-div h1 {
     width: 21rem;
     height: 7.03%;
+    margin: 0 auto 1.5rem;
     font: normal bold 34px/70px Roboto;
     color: #000000;
 }
 
-.farmer-div-1 p,
-.farmer-div-2 p,
-.farmer-div-3 p,
-.farmer-div-4 p,
-.farmer-div-5 p,
-.farmer-div-6 p {
+.farmer-div p {
     width: 23rem;
     height: 5.23%;
-    margin-top: -30px;
+    margin: -30px auto 0;
     font: normal normal 20px/30px Roboto;
     color: #94B397;
 }
 
-.farmer-div-1 h3,
-.farmer-div-2 h3,
-.farmer-div-3 h3,
-.farmer-div-4 h3,
-.farmer-div-5 h3,
-.farmer-div-6 h3 {
+.farmer-div h3 {
     width: 22rem;
     height: 2.5%;
+    margin: 0 auto;
     font: normal normal 20px/30px Roboto;
     color: #3E5140;
 }
 
-.farmer-div-1 h5,
-.farmer-div-2 h5,
-.farmer-div-3 h5,
-.farmer-div-4 h5,
-.farmer-div-5 h5,
-.farmer-div-6 h5 {
+.farmer-div h5 {
     width: 22rem;
     height: 2.5%;
     font: normal normal 18px/30px Roboto;
     color: #3E5140;
+    margin: 0 auto 2rem;
 }
 
 
 
 @media only screen and (max-width: 425px) {
-    .farmer-div-1 img,
-    .farmer-div-2 img,
-    .farmer-div-3 img,
-    .farmer-div-4 img,
-    .farmer-div-5 img,
-    .farmer-div-6 img {
+    .farmer-div img {
         width: 80%;
-        margin-top: 60px;
         border-radius: 20px;
     }
 
-    .farmer-div-1 h1,
-    .farmer-div-2 h1,
-    .farmer-div-3 h1,
-    .farmer-div-4 h1,
-    .farmer-div-5 h1,
-    .farmer-div-6 h1 {
-        display: inline-block;
+    .farmer-div h1 {
         width: 19rem;
         height: 7.03%;
         font: normal bold 32px/70px Roboto;
         color: #000000;
     }
 
-    .farmer-div-1 p,
-    .farmer-div-2 p,
-    .farmer-div-3 p,
-    .farmer-div-4 p,
-    .farmer-div-5 p,
-    .farmer-div-6 p {
+    .farmer-div p {
         width: 80%;
         height: 5.23%;
-        margin-top: -30px;
         font: normal normal 16px/30px Roboto;
         color: #94B397;
     }
 
-    .farmer-div-1 h3,
-    .farmer-div-2 h3,
-    .farmer-div-3 h3,
-    .farmer-div-4 h3,
-    .farmer-div-5 h3,
-    .farmer-div-6 h3 {
+    .farmer-div h3 {
         width: 22rem;
         height: 2.5%;
         font: normal normal 20px/50px Roboto;
@@ -128,23 +85,13 @@ body {
 }
 
 @media only screen and (max-width: 376px) {
-    .farmer-div-1 img,
-    .farmer-div-2 img,
-    .farmer-div-3 img,
-    .farmer-div-4 img,
-    .farmer-div-5 img,
-    .farmer-div-6 img {
+    .farmer-div img {
         width: 70%;
         margin-top: 60px;
         border-radius: 20px;
     }
 
-    .farmer-div-1 h1,
-    .farmer-div-2 h1,
-    .farmer-div-3 h1,
-    .farmer-div-4 h1,
-    .farmer-div-5 h1,
-    .farmer-div-6 h1 {
+    .farmer-div h1 {
         display: inline-block;
         width: 19rem;
         height: 7.03%;
@@ -153,26 +100,15 @@ body {
         text-align: center;
     }
 
-    .farmer-div-1 p,
-    .farmer-div-2 p,
-    .farmer-div-3 p,
-    .farmer-div-4 p,
-    .farmer-div-5 p,
-    .farmer-div-6 p {
+    .farmer-div p {
         width: 70%;
         height: 5.23%;
         margin-top: -30px;
-        text-align: center;
         font: normal normal 14px/30px Roboto;
         color: #94B397;
     }
 
-    .farmer-div-1 h3,
-    .farmer-div-2 h3,
-    .farmer-div-3 h3,
-    .farmer-div-4 h3,
-    .farmer-div-5 h3,
-    .farmer-div-6 h3 {
+    .farmer-div h3 {
         width: 20rem;
         height: 2.5%;
         text-align: center;

@@ -609,6 +609,7 @@ a {
     }
     .home-projects-div {
         width: 100%;
+        margin: 0;
     }
     .projects-title-text {
         width: 100%;
@@ -754,9 +755,8 @@ a {
         visibility: hidden;
     }
     .home-projects-div {
-        text-align: center;
         width: 100%;
-        margin-left: -1.3rem;
+        margin: 0;
     }
     .projects-title-text {
         width: 100%;
@@ -770,14 +770,14 @@ a {
         overflow: hidden;
         margin-left: -8%;
     }
-    .testimonial-curl1 {
+    /* .testimonial-curl1 {
         margin-top: -1rem;
         margin-bottom: -2.5rem;
     }
     .testimonial-curl {
         height: 20px;
         margin-top: -19px;
-    }
+    } */
     .testimonials-text {
         font: normal bold 44px/70px Roboto;
         margin-top: 6rem;
@@ -896,12 +896,10 @@ a {
         color: #94A2B3;
     }
     .home-projects-div {
-        text-align: center;
         width: 100%;
-        margin-left: -1.3rem;
+        margin: 0;
         overflow: hidden;
     }
-
 }
 
 .alert {
