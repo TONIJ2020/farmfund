@@ -15,12 +15,12 @@ function Adaobifarm() {
         <div className="farmers-main-div">
             <div className="farmers-div-1">
                 <div className="adaobi-profile-left">
-                    <img className="adaobi-profile-img" src={AdaobiProfile} alt="" />
+                    <img className="adaobi-prof-img" src={AdaobiProfile} alt="" />
                     
                     <div className="adaobi-profile-images">
-                        <img className="adaobi-profile-img1" src={AdaobiIMG} alt="" />
-                        <img className="adaobi-profile-img2" src={AdaobiIMG1} alt="" />
-                        <img className="adaobi-profile-img3" src={AdaobiIMG2} alt="" />
+                        <img className="adaobi-profile-img" src={AdaobiIMG} alt="" />
+                        <img className="adaobi-profile-img" src={AdaobiIMG1} alt="" />
+                        <img className="adaobi-profile-img" src={AdaobiIMG2} alt="" />
                     </div>
                 </div>
                 
@@ -41,22 +41,21 @@ function Adaobifarm() {
 
             <div className="farmer-auxil-div">
                 <div className="farmers-prim-div">
-                    <h4 className="about-project-text">About Project</h4>
+                    <ul>
+                        <li className="about-project-text">About Project</li>
 
-                    <h4 className="updates-text">Updates</h4>
+                        <li className="updates-text">Updates</li>
+                    </ul>
 
                     <p className="about-projects-paragraph-text">When I first heard of farm fund I was sceptical cause I had tried out similar services in the past and my experience with them was not pleasant at all. Either they have issues with funding the farm or they tend to take full control of your farm and 90% of all profits made from your produce. With farm fund, I retained full control of my farm and got full time consultancy support. When I first heard of farm fund I was sceptical cause I had tried out similar services in the past and my experience with them was not pleasant at all. Either they have issues with funding the farm or they tend to take full control of your farm and 90% of all profits made from your produce. With farm fund, I retained full control of my farm and got full time consultancy support.</p>
 
                     <img className="about-project-img" src={AboutProject} alt="" />
                     
                     <div className="project-undered-lists">
-                        <ul className="about-project-list">
+                        <ul>
                             <li>Irigation System</li>
                             <li>1 Tractor</li>
                             <li>2 Plaws</li>
-                        </ul>
-
-                        <ul className="about-project-list1">
                             <li>3 Dryers</li>
                             <li>1 Rice per Boiler</li>
                             <li>Sealing Machine</li>

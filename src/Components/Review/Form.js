@@ -37,10 +37,10 @@ class Form extends React.Component {
 
                     <input type="hidden" name="rating" value={this.state.rating}/>
                     <input type="text" value={this.state.name} name="name" placeholder="Name"
-                           onChange={this.handleInputChange}/>
+                        onChange={this.handleInputChange}/>
 
                     <textarea name="review" value={this.state.review} placeholder="Post your Review here"
-                              onChange={this.handleInputChange}/>
+                        onChange={this.handleInputChange}/>
 
                     <button className="button">
                     Post Review

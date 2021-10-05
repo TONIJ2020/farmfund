@@ -22,7 +22,7 @@ body {
     font-family:Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-weight:400;
     line-height:1.5;
-    font-size: x-small;
+    font-size: medium;
     color:#222;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale
@@ -47,7 +47,7 @@ ul,li {
 }
 
 h1, .h1 { 
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     line-height: 1.4;
     margin-top: 0;
     margin-bottom: 0.5rem
@@ -57,7 +57,7 @@ h3 {
     line-height:1.5;
     margin-top:1.5rem;
     margin-bottom:0;
-    font-size:0.8rem;
+    font-size:1.3rem;
     font-weight:600
 }
 
@@ -65,7 +65,7 @@ input,select,textarea {
     margin-top: 0;
     margin-bottom: 0.75rem;
     display:block;
-    width:100%;
+    width:97%;
     padding:9px;
     border:1px solid #bbb;
     border-radius:4px;
@@ -82,12 +82,12 @@ input,select,textarea {
         line-height:1.5;
         margin-top:1.5rem;
         margin-bottom:0;
-        font-size:1rem;
+        font-size: 1rem;
         font-weight:600
     }
 
     .review__date {
-        font-size:1.675rem;
+        font-size:1.75rem;
         line-height:1.3;
         display:block;
         color:#bbb
@@ -161,7 +161,7 @@ input,select,textarea {
     
     input,select,textarea {
         margin-top:0;
-        margin-bottom:.85rem
+        margin-bottom:.85rem;
     }
 
     p {
@@ -175,7 +175,7 @@ input,select,textarea {
     }
 
     .font-size-medium {
-        font-size: 160%;
+        font-size: 122%;
     }
 
     .block-margin-top,.medium-block-margin-top {
@@ -234,7 +234,8 @@ input,select,textarea {
 
 .button {
     font-weight: 600;
-    width: 100%;
+    font-size: 1.2rem;
+    width: 97%;
     margin: auto;
     padding: 1.25rem 1.75rem;
     border-radius: 3px;
@@ -323,8 +324,8 @@ input,select,textarea {
 }
 
 .review__date {
-    font-size:.675rem;
-    line-height:1.3;
+    font-size: 0.7rem;
+    line-height: 1.3;
     display:block;
     color:#bbb
 }
@@ -332,7 +333,7 @@ input,select,textarea {
 .review__rating {
     position:absolute;
     top:0;
-    left:10rem;
+    left:17rem;
 }
 
 .review__content {
@@ -358,20 +359,97 @@ input,select,textarea {
 }
 
 @media print,screen and (max-width: 768px) and (min-width: 426px) {
-    .content-padding {
-        padding: 1rem 0 0 0;
-        width: 100%;
-        margin-left: -56%;
-        text-align: left;
+    body {
+        font-size: medium;
     }
+    
+    .content-padding {
+        padding: 1rem 0 0;
+        width: 654px;
+        margin-left: -50%;
+        text-align: left;
+        /* margin-top: -4rem; */
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 6rem;
+    }
+
+    .font-size-medium {
+        font-size: 170%;
+    }
+
+    .review__rating {
+        position:absolute;
+        top:0;
+        left:27rem;
+    }
+
+    /* .rating__prefix {
+        position:relative;
+        margin-top: 12rem;
+    } */
 }
 
 @media print,screen and (max-width: 425px) {
+    body {
+        font-size: small;
+    }
+
     .content-padding {
         padding: 1rem 0 0 0;
-        width: 310px;
-        margin-left: -56%;
+        width: 380px;
+        margin-left: -66%;
         text-align: left;
+    }
 
+    .button {
+        width: 99%;
+    }
+
+    .font-size-medium {
+        font-size: 135%;
+    }
+
+    h3 {
+        font-size: .9rem;
+    }
+
+    .review__rating {
+        position:absolute;
+        top:0;
+        left:15rem;
+    }
+}
+
+@media print,screen and (max-width: 375px) { 
+    body {
+        font-size: small;
+    }
+    
+    .content-padding {
+        padding: 1rem 0 0 0;
+        width: 340px;
+        margin-left: -66%;
+        text-align: left;
+    }
+
+    .button {
+        width: 99%;
+    }
+
+    .font-size-medium {
+        font-size: 120%;
+    }
+
+    h3 {
+        font-size: .8rem;
+    }
+
+    .review__rating {
+        position:absolute;
+        top: 0;
+        left: 13rem;
     }
 }

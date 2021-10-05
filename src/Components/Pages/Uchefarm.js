@@ -13,12 +13,12 @@ function Uchefarm() {
         <div className="farmers-main-div">
             <div className="farmers-div-1">
                 <div className="adaobi-profile-left">
-                    <img className="adaobi-profile-img" src={Uche1} alt="" />
+                    <img className="adaobi-prof-img" src={Uche1} alt="" />
                     
                     <div className="adaobi-profile-images">
-                        <img className="adaobi-profile-img1" src={Uche2} alt="" />
-                        <img className="adaobi-profile-img2" src={Uche2} alt="" />
-                        <img className="adaobi-profile-img3" src={Uche2} alt="" />
+                        <img className="adaobi-profile-img" src={Uche2} alt="" />
+                        <img className="adaobi-profile-img" src={Uche2} alt="" />
+                        <img className="adaobi-profile-img" src={Uche2} alt="" />
                     </div>
                 </div>
                 
@@ -39,25 +39,24 @@ function Uchefarm() {
 
             <div className="farmer-auxil-div">
                 <div className="farmers-prim-div">
-                    <h4 className="about-project-text">About Project</h4>
+                    <ul>
+                        <li className="about-project-text">About Project</li>
 
-                    <h4 className="updates-text">Updates</h4>
+                        <li className="updates-text">Updates</li>
+                    </ul>
 
                     <p className="about-projects-paragraph-text">When I first heard of farm fund I was sceptical cause I had tried out similar services in the past and my experience with them was not pleasant at all. Either they have issues with funding the farm or they tend to take full control of your farm and 90% of all profits made from your produce. With farm fund, I retained full control of my farm and got full time consultancy support. When I first heard of farm fund I was sceptical cause I had tried out similar services in the past and my experience with them was not pleasant at all. Either they have issues with funding the farm or they tend to take full control of your farm and 90% of all profits made from your produce. With farm fund, I retained full control of my farm and got full time consultancy support.</p>
 
                     <img className="about-project-img" src={AboutProject} alt="" />
                     
                     <div className="project-undered-lists">
-                        <ul className="about-project-list">
+                        <ul>
                             <li>Irigation System</li>
-                            <li>2 Tractor</li>
-                            <li>3 Plaws</li>
-                        </ul>
-
-                        <ul className="about-project-list1">
-                            <li>4 Dryers</li>
-                            <li>2 Rice per Boiler</li>
-                            <li>2 Sealing Machines</li>
+                            <li>1 Tractor</li>
+                            <li>2 Plaws</li>
+                            <li>3 Dryers</li>
+                            <li>1 Rice per Boiler</li>
+                            <li>Sealing Machine</li>
                         </ul>
                     </div>
                 </div>

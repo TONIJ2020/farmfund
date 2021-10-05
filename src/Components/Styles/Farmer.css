@@ -25,7 +25,7 @@ body {
     border-radius: 20px;
 }
   
-.adaobi-profile-img {
+.adaobi-prof-img {
     display: block;
     width: 94%;
     height: 53.88%;
@@ -50,26 +50,9 @@ body {
     margin-bottom: 5%;
 }
   
-.adaobi-profile-img1 {
+.adaobi-profile-img {
     width: 30%;
     height: 17.74%;
-    left: 1.59%;
-    top: 64.14%;
-    border-radius: 20px;
-}
-    
-.adaobi-profile-img2 {
-    width: 30%;
-    height: 17.74%;
-    left: 1.59%;
-    top: 64.14%;
-    border-radius: 20px;
-}
-  
-.adaobi-profile-img3 {
-    width: 30%;
-    height: 17.74%;
-    left: 79.72%;
     top: 64.14%;
     border-radius: 20px;
 }
@@ -95,7 +78,7 @@ body {
 .adaobi-profile-pragraph-text {
     width: 100%;
     height: 10.48%;
-    font: normal normal 36px/40px Roboto;
+    font: normal normal 32px/40px Roboto;
     color: #94B397;
 }
   
@@ -157,26 +140,31 @@ body {
     margin-bottom: 20px;
 }
   
-.about-project-text {
-    width: 23.29%;
-    margin-top: 4%;
+.farmers-prim-div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     font: normal bold 18px/110.10% Roboto;
+}
+
+.farmers-prim-div ul li {
+    margin: 2.5rem 0 0.5rem 2.5rem;
+    font: normal bold 18px/110.10% Roboto;
+}
+
+.about-project-text {
     color: #000000;
 }
-  
+    
 .updates-text {
-    width: 13.29%;
-    height: 8.74%;
-    margin-top: -2.2%;
-    margin-left: 20%;
-    font: normal bold 18px/110.10% Roboto;
     color: #7E7E7E;
 }
-  
+
 .about-projects-paragraph-text {
     width: 91.43%;
     height: 24.16%;
-    text-align: left;
+    text-align: justify;
     margin-left: 5.02%;
     top: 6.71%;
     font: normal normal 19px/30px Roboto;
@@ -185,36 +173,34 @@ body {
   
 .about-project-img {
     width: 90.40%;
-    margin-bottom: 30%;
+    margin-bottom: 10%;
 }
 
 .project-undered-lists {
+    width: 50%;
+    margin: 0 4rem;
+}
+
+.project-undered-lists ul {
+    width: fit-content;
     display: flex;
-    width: 100%;
-}
-  
-.about-project-list {
-    width: fit-content;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: left;
-    margin-left: 19.44%;
-    margin-top: -18%;
-    margin-bottom: 20px;
     list-style-type: disc;
     font: normal bold 19px/50px Roboto;
     color: #222121;
 }
-  
-.about-project-list1 {
-    width: fit-content;
-    text-align: left;
-    margin-left: 15%;
-    margin-top: -18%;
-    margin-bottom: 80px;
-    list-style-type: disc;
-    font: normal bold 19px/50px Roboto;
-    color: #222121;
+
+.project-undered-lists ul li {
+    margin: 0.5rem 2.5rem;
+    font: normal bold 19px/110.19% Roboto;
 }
-  
+.project-undered-lists ul li:last-child {
+    margin-bottom: 3rem;
+}
+
 .farmers-sec-div {
     width: 33%;
     float: right;
@@ -249,14 +235,13 @@ body {
     margin-left: 3%;
 }
 
-@media only screen /*and (min-width: 426px)*/ and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .farmers-main-div {
         display: block;
         width: 100%;
-        margin: auto;
+        margin: 7rem auto;
         left: 0;
         text-align: center;
-        margin-top: 70px;
     }
 
     .farmers-div-1 {
@@ -269,12 +254,11 @@ body {
         border-radius: 20px;
     }
       
-    .adaobi-profile-img {
+    .adaobi-prof-img {
         display: block;
         width: 100%;
         height: 53.88%;
-        margin-left: 5%;
-        margin-top: 5%;
+        margin: 5%;
         border-radius: 20px;
     }
     
@@ -293,28 +277,12 @@ body {
         margin-bottom: 5%;
     }
       
-    .adaobi-profile-img1 {
+    .adaobi-profile-img {
         width: 30%;
         height: 17.74%;
-        left: 1.59%;
         top: 64.14%;
         border-radius: 20px;
-    }
-        
-    .adaobi-profile-img2 {
-        width: 30%;
-        height: 17.74%;
-        left: 1.59%;
-        top: 64.14%;
-        border-radius: 20px;
-    }
-      
-    .adaobi-profile-img3 {
-        width: 30%;
-        height: 17.74%;
-        left: 79.72%;
-        top: 64.14%;
-        border-radius: 20px;
+        margin: 0 auto;
     }
     
     .adaobi-profile-right {
@@ -396,25 +364,12 @@ body {
         border-radius: 20px;
         margin-bottom: 20px;
     }
-      
-    .about-project-text {
-        width: 33.29%;
-        margin-top: 8%;
-        margin-left: 4%;
+
+    .farmers-prim-div ul li {
+        margin: 1rem 0 1rem 1.2rem;
         font: normal bold 18px/110.10% Roboto;
-        color: #000000;
     }
-      
-    .updates-text {
-        width: 13.29%;
-        height: 8.74%;
-        margin-top: -5.2%;
-        margin-left: 45%;
-        margin-bottom: 5.2%;
-        font: normal bold 18px/110.10% Roboto;
-        color: #7E7E7E;
-    }
-      
+
     .about-projects-paragraph-text {
         width: 91%;
         height: 24.16%;
@@ -428,52 +383,29 @@ body {
       
     .about-project-img {
         width: 90%;
-        margin-bottom: 30%;
+        margin-bottom: 20%;
     }
-    
-    .project-undered-lists {
-        display: flex;
+
+    .project-undered-lists ul{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 2rem;
     }
-      
-    .about-project-list {
-        width: 45%;
-        text-align: left;
-        margin-left: 10.44%;
-        margin-top: -18%;
-        margin-bottom: 20px;
-        list-style-type: disc;
-        font: normal bold 14px/50px Roboto;
-        color: #222121;
+
+    .project-undered-lists ul li {
+        font: normal bold 14px/10.19% Roboto;
     }
-      
-    .about-project-list1 {
-        width: 45%;
-        text-align: left;
-        margin-left: 15%;
-        margin-top: -18%;
-        margin-bottom: 80px;
-        list-style-type: disc;
-        font: normal bold 14px/50px Roboto;
-        color: #222121;
+    .project-undered-lists ul li:last-child {
+        margin-bottom: 3rem;
     }
-      
+
     .farmers-sec-div {
         width: 100%;
         float: right;
         background: #FFFFFF;
         box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
         border-radius: 20px;
-    }
-      
-    .reviews-text {
-        width: 13.29%;
-        margin-left: 6%;
-        margin-top: 6%;
-        margin-bottom: 6%;
-        text-align: left;
-        font: normal bold 18px/110.10% Roboto;
-        color: #000000;
     }
     
     .similar-projects-text {
@@ -485,9 +417,10 @@ body {
     }
         
     .farmer-projects-div {
-        width: 94%;
-        margin-left: 3%;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
-  }
+}
 
   

@@ -56,8 +56,6 @@ class Apps extends React.Component {
                             {this.renderForm()}
                         </div>
                     </div>
-
-
                 </section>
             </div>
 
