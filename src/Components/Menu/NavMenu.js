@@ -13,17 +13,12 @@ const Ul = styled.div `
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: 0px;
         right: 0px;
-        height: 260px;
+        height: fit-content;
         width: 170px;
         padding-top: 0px;
         transition: transform 0.3s ease-in-out;
 
-        .navigation-bar-home, 
-        .navigation-bar-dashboard,
-        .navigation-bar-project, 
-        .navigation-bar-about, 
-        .navigation-bar-contact, 
-        .navigation-bar-log-in, {
+        .navigation-bar-ul li {
             color: #08692F;
             margin-right: 20px;
             z-index: 2;
@@ -60,14 +55,11 @@ class NavMenu extends React.Component {
                 className = "navigation-bar-contact" >Contact us</a></li>
                 <li><a href = "/projects"
                 className = "navigation-bar-project" >Projects</a></li>
-                <li><a href = "/login"
-                className = "navigation-bar-log-in"
-                onClick = { this.handleLogout }>Logout</a></li>
-                <li><a href = "userprofile"
-                className = "navigation-bar-log-in"> {this.state.firstName} {this.state.lastName} <span className="profile-img-span"><img src={this.state.profileImg} alt=''/></span></a></li>
-                <li><a href="/search"><img src = { search }
+                <li><a href = "/login" onClick = { this.handleLogout }
+                className = "navigation-bar-log-in">{this.state.firstName} {this.state.lastName}<span className="profile-img-span"><img src={this.state.profileImg} alt=''/></span></a></li>
+                <li><img src = {search}
                 className = "navigation-search-bar"
-                alt = "search" /></a></li></
+                alt = "search" /></li></
                 Ul>
             )
         } else {
@@ -80,7 +72,7 @@ class NavMenu extends React.Component {
                 <li><a href = "/projects" className = "navigation-bar-project">Projects</a></li>
                 <li><a href = "/login" className = "navigation-bar-log-in">Login</a></li>
                 <li><a href = "/register"><button className = "get-started-button" >Get Started</button></a></li> 
-                <li><img src = { search } className = "navigation-search-bar"
+                <li><img src = {search} className = "navigation-search-bar"
                 alt = "search"/></li> 
                 </Ul>
             )

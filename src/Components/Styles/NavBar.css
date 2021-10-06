@@ -28,7 +28,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    margin: 1.5rem 2rem 0 14rem;
 }
 
 .navigation-bar-ul a {
@@ -37,7 +36,19 @@ body {
     align-items: flex-end;
     text-decoration: none;
     color: #272D4E;
+    margin: 1.5rem 2rem 0 0;
 }
+
+.navigation-bar-ul li:first-child {
+    margin-left: 12rem;
+}
+.navigation-bar-ul li:last-child {
+    margin: 1.5rem 2rem 0 0;
+}
+.navigation-bar-log-in {
+    padding-left: 8rem;
+}
+
 .get-started-button {
     width: 107px;
     height: 40px;
@@ -61,10 +72,6 @@ body {
     opacity: 0.9;
 }
 
-.navigation-bar-log-in {
-   padding-left: 8rem;
-}
-
 .profile-img-span {
     width: 40px;
     height: 40px;
@@ -76,8 +83,9 @@ body {
     background-repeat: no-repeat;
     margin-top: -1rem;
 }
-/* Mobile Styles */
 
+
+/* Mobile Styles */
 @media only screen and (max-width: 768px) {
     .main-navigation-div {
         background: #E5E5E5;
@@ -100,76 +108,45 @@ body {
         margin-top: 0px;
         margin-right: 0px;
     }
+
+    .navigation-bar-ul a {
+        margin: 1.5rem 2rem 0 2rem;
+    }
+
+    .navigation-bar ul li {
+        margin: 3rem 2rem;
+    }
+    
+    .navigation-bar-ul li:first-child {
+        margin-top: 4rem;
+    }
+    
+    .navigation-bar-ul li:last-child {
+        margin-bottom: 1rem;
+        text-align: flex-start;
+        align-self: left;
+    }
+    .navigation-bar-ul li span {
+        margin-top: 1rem;
+    }
+
     .navigation-bar-ul a {
         font: normal 500 18px/21px Roboto;
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         text-decoration: none;
         color: #272D4E;
+        display: flex;
+        flex-direction: column;
     }
+    
     .navigation-bar-logo-li:hover,
     .navigation-bar-ul a:hover,
     .get-started-button:hover {
         color: #8a390b;
         opacity: 0.9;
     }
-    .navigation-bar-home {
-        position: absolute;
-        width: 26.13%;
-        height: 17px;
-        left: 17.33%;
-        top: 23.4%;
-        text-align: center;
-    }
-    .navigation-bar-dashboard {
-        position: absolute;
-        width: 50%;
-        height: 17px;
-        left: 17.33%;
-        top: 33%;
-    }
-    .navigation-bar-about {
-        position: absolute;
-        width: 66.13%;
-        height: 17px;
-        left: 17.33%;
-        top: 43.6%;
-    }
-    .navigation-bar-contact {
-        position: absolute;
-        width: 80.47%;
-        height: 17px;
-        top:54%;
-        left: 17.33%;
-    }
-    .navigation-bar-project {
-        position: absolute;
-        width: 80.47%;
-        height: 17px;
-        top: 65%;
-        left: 17.33%;
-    }
-    .navigation-bar-log-in {
-        position: absolute;
-        width: 50%;
-        height: 17px;
-        left: 17.33%;
-        top: 76%;
-        padding-left: 0%;
-    }
-    .get-started-button {
-        position: absolute;
-        width: 60.8%;
-        height: 27px;
-        top: 88%;
-        left: 17.33%;
-        border: none;
-        font: normal 500 18px/21px Roboto;
-        background: #70C217;
-        color: #FFF;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+
     .navigation-search-bar {
         position: absolute;
         width: 18px;
