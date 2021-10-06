@@ -51,35 +51,35 @@ class NavMenu extends React.Component {
 
         if (localStorage.getItem('userData')) {
             buttons = ( <Ul open = { this.props.open } className = "navigation-bar-ul">
-                <li><a href = "/" className = "navigation-bar-home"> Home </a></li>
+                <li><a href = "/" className = "navigation-bar-home">Home</a></li>
                 <li><a href = "/dashboard"
-                className = "navigation-bar-dashboard"> Dashboard </a></li> 
+                className = "navigation-bar-dashboard">Dashboard</a></li> 
                 <li><a href = "/"
-                className = "navigation-bar-about"> About us </a></li>
+                className = "navigation-bar-about">About us</a></li>
                 <li><a href = "/footer"
-                className = "navigation-bar-contact" > Contact us </a></li>
+                className = "navigation-bar-contact" >Contact us</a></li>
                 <li><a href = "/projects"
-                className = "navigation-bar-project" > Projects </a></li>
+                className = "navigation-bar-project" >Projects</a></li>
                 <li><a href = "/login"
                 className = "navigation-bar-log-in"
-                onClick = { this.handleLogout }> {this.state.firstName} {this.state.lastName} <span className="profile-img-span"><img src={this.state.profileImg} alt=''/></span></a></li>
-                <li><img src = { search }
+                onClick = { this.handleLogout }>Logout</a></li>
+                <li><a href = "userprofile"
+                className = "navigation-bar-log-in"> {this.state.firstName} {this.state.lastName} <span className="profile-img-span"><img src={this.state.profileImg} alt=''/></span></a></li>
+                <li><a href="/search"><img src = { search }
                 className = "navigation-search-bar"
-                alt = "search" /></li></
+                alt = "search" /></a></li></
                 Ul>
             )
         } else {
             buttons = ( <Ul open = { this.props.open } className = "navigation-bar-ul">
                 <li> <a href = "/"
-                className = "navigation-bar-home" > Home </a></li>
-                <li><a href = "/dashboard"
-                className = "navigation-bar-dashboard"> Dashboard </a></li>
+                className = "navigation-bar-home" >Home</a></li>
                 <li><a href = "/"
-                className = "navigation-bar-about" > About us </a></li>
-                <li><a href = "/footer" className = "navigation-bar-contact"> Contact us </a></li>
-                <li><a href = "/projects" className = "navigation-bar-project"> Projects </a></li>
-                <li><a href = "/login" className = "navigation-bar-log-in"> Login </a></li>
-                <li><a href = "/register"><button className = "get-started-button" > Get Started </button></a></li> 
+                className = "navigation-bar-about" >About us</a></li>
+                <li><a href = "/footer" className = "navigation-bar-contact">Contact us</a></li>
+                <li><a href = "/projects" className = "navigation-bar-project">Projects</a></li>
+                <li><a href = "/login" className = "navigation-bar-log-in">Login</a></li>
+                <li><a href = "/register"><button className = "get-started-button" >Get Started</button></a></li> 
                 <li><img src = { search } className = "navigation-search-bar"
                 alt = "search"/></li> 
                 </Ul>
