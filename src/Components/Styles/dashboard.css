@@ -9,6 +9,13 @@ body {
     margin-top: 4.5rem;
     text-align: center;
     display: flex;
+    flex-direction: column;
+}
+
+.dashboard-header {
+    width: 100%;
+    text-align: center;
+    display: flex;
     flex-direction: row;
 }
 
@@ -17,9 +24,9 @@ body {
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     color: #94B397;
-    margin-top: -10rem;
+    margin-top: 3rem;
 }
 
 .dashboard-side-bar ul img {
@@ -62,9 +69,77 @@ body {
     top: -5.3rem;
 }
 
-.income-board-coloum {
+.farmers-board-column {
     display: flex;
     flex-direction: column;
+    width: 88%;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
+    margin: -22rem 0 26rem 8rem;
+}
+
+.farmers-board-column:last-child {
+    margin-bottom: 4rem;
+}
+
+.farmers-board-column h2 {
+    margin: 4rem 0 0 2rem;
+    font: bold normal 40px/30px Roboto;
+    color: #94B397;
+    text-align: left;
+}
+
+.farmers-board-column .profile-image {
+    float: right;
+    margin: -4rem 2rem 0 0;
+    text-align: right;
+}
+
+.farmers-board-column .profile-image img {
+    width: 255px;
+    height: 255px;
+    border-radius: 40px;
+}
+.bio-data-entry-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 1rem 1.5rem 1.1rem;
+}
+
+.farmer-bio-data-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.farmer-data-entries-div {
+    margin: 2rem 0 2rem 1rem;
+    text-align: left;
+}
+
+.farmer-data-entries-div h3 {
+    margin-top: -0.6rem;
+    text-align: left;
+    font: bold normal 22px/20px Roboto;
+    color: #6C6B6B;
+}
+
+.farmer-data-entries-div h6 {
+    font: normal normal 22px/28px Roboto;
+    color: #6C6B6B;
+}
+
+.edit {
+    display: flex;
+    width: 200px;
+    float: right;
+    text-align: center;
+    background: #8D9189;
+    border-radius: 60px;
+    margin: 0 2.5rem 2.5rem;
+    font: normal normal 22px/21px Roboto;
+    color: #FFFFFF;
 }
 
 .income-board-div {
@@ -161,7 +236,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 2rem 0 0 -12rem;
+    margin: 2rem 1rem 0 -12rem;
 }
 
 .profit-chart-div {

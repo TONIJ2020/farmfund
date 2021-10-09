@@ -45,9 +45,9 @@ class NavMenu extends React.Component {
         let buttons;
 
         if (localStorage.getItem('userData')) {
-            buttons = ( <Ul open = { this.props.open } className = "navigation-bar-ul">
+            buttons = ( <Ul open = {this.props.open} className = "navigation-bar-ul">
                 <li><a href = "/" className = "navigation-bar-home">Home</a></li>
-                <li><a href = "/dashboard"
+                <li><a href = "/farmerdashboard"
                 className = "navigation-bar-dashboard">Dashboard</a></li> 
                 <li><a href = "/"
                 className = "navigation-bar-about">About us</a></li>
@@ -55,7 +55,7 @@ class NavMenu extends React.Component {
                 className = "navigation-bar-contact" >Contact us</a></li>
                 <li><a href = "/projects"
                 className = "navigation-bar-project" >Projects</a></li>
-                <li><a href = "/login" onClick = { this.handleLogout }
+                <li><a href = "/dashboard" onClick = {this.handleLogout}
                 className = "navigation-bar-log-in">{this.state.firstName} {this.state.lastName}<span className="profile-img-span"><img src={this.state.profileImg} alt=''/></span></a></li>
                 <li><img src = {search}
                 className = "navigation-search-bar"
@@ -63,7 +63,7 @@ class NavMenu extends React.Component {
                 Ul>
             )
         } else {
-            buttons = ( <Ul open = { this.props.open } className = "navigation-bar-ul">
+            buttons = ( <Ul open = {this.props.open} className = "navigation-bar-ul">
                 <li> <a href = "/"
                 className = "navigation-bar-home" >Home</a></li>
                 <li><a href = "/"
@@ -80,7 +80,7 @@ class NavMenu extends React.Component {
 
         return ( 
             <nav className = "navigation-bar"> 
-                { buttons } 
+                {buttons} 
             </nav>
         );
     };

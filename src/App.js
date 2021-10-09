@@ -17,6 +17,7 @@ import Okorofarm from './Components/Pages/Okorofarm';
 import dashboard from './Components/Pages/dashboard';
 import dashboardTransactions from './Components/Pages/dashboardTransactions';
 import dashboardProjects from './Components/Pages/dashboardProjects';
+import FarmerDashboard from './Components/Pages/farmerDashboard';
 
 export default class App extends Component {
 
@@ -52,6 +53,7 @@ export default class App extends Component {
                 <Route exact path="/register" component={Register} />
                 <Route exact path="/forgot" component={Forgot} />
                 <Route exact path="/dashboard" component={dashboard} />
+                <Route exact path="/farmerdashboard" component={FarmerDashboard} />
                 <Route exact path="/dashboardTransactions" component={dashboardTransactions} />
                 <Route exact path="/dashboardProjects" component={dashboardProjects} />
                 <Route exact path="/reset:id" component={Reset} />
