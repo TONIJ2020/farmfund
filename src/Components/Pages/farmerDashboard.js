@@ -5,7 +5,8 @@ import Home from '../../Components/Assets/home_24px.png';
 import Transactions from "../../Components/Assets/timeline_24px_outlined.png";
 import Projects from "../../Components/Assets/local_florist_24px.png";
 import Messages from "../../Components/Assets/sms_24px_outlined.png";
-import profileImg from "../../Components/Assets/adaobi1.png";
+import profileImg from "../../Components/Assets/okoro1.png";
+import Adaobi from "../../Components/Assets/adaobi1.png";
 import Notifications from "../../Components/Assets/notifications_24px_outlined.png";
 
 export default class FarmerDashboard extends Component {
@@ -129,74 +130,45 @@ export default class FarmerDashboard extends Component {
                     <div className="farmers-board-column">
                         <h2>Farm Entries</h2>
 
+                        <div className="farm-images">
+                            <div className="farm-image">
+                                <img src={Adaobi} alt="" />
+                            </div>
+                            <div className="farm-image">
+                                <img src={Adaobi} alt="" />
+                            </div>
+                            <div className="farm-image">
+                                <img src={Adaobi} alt="" />
+                            </div>
+                        </div>
+
                         <div className="bio-data-entry-div">
                             <div className="farmer-bio-data-div">
                                 <div className="farmer-data-entries-div" >
-                                    <h6>First Name</h6>
-                                    <h3>Lambert</h3>
+                                    <h6>Title of Farm</h6>
+                                    <h3>Lamba rice farm</h3>
                                 </div>
                                 <div className="farmer-data-entries-div" >
-                                    <h6>Email</h6>
-                                    <h3>nnadi406@gmail.com</h3>
+                                    <h6>Fund Needed</h6>
+                                    <h3>4000000 Naira</h3>
                                 </div>
                                 <div className="farmer-data-entries-div" >
-                                    <h6>State of Origin</h6>
+                                    <h6>Brief Description of Farm</h6>
                                     <h3>Enugu</h3>
                                 </div>
                                 <div className="farmer-data-entries-div" >
-                                    <h6>Date of Birth</h6>
-                                    <h3>19-07-1998</h3>
+                                    <h6>Implemets and Items Needed</h6>
+                                    <h3><ul>
+                                        <li>Weeder</li>
+                                        <li>Tractor</li>
+                                        <li>Pesticides</li>
+                                    </ul></h3>
+                                </div>
+                                <div className="farmer-data-entries-div" >
+                                    <h6>Detailed Description of what you need the fund for and how you plan to utilise it</h6>
+                                    <h3>Bla skn sdjkn dksj skdj ksdnk dkjsd skjd sdkjsdu sdkj ksjdk suj ksjndk ksdjn kdjcdm skdu skjdb skudhbf kdfu r ekjf dfkj dfkjn fkd kj dfk fdk f fkf fld fjf kdjfkdjk dkjdf dkjfjk dfkjnkfkdfn dkjf dfkf kjdk fkjd fkdjfd fjkdkjfk dkjnfjkdbf fkdjf dkfjd dfkdfnkf kdj dfkjfkd fbdf kdrheuiie ieurie eiuekrljhsb u tuibt eriub eiurniuelebs uir jeruibej rk erjhikjr eirhrk rnrr ke r  kejnke rekb ibh gkbuhen ur rjr rur eirn reke rj nr eib irjekn</h3>
                                 </div>
                             </div>
-
-                            <div className="farmer-bio-data-div">
-                                <div className="farmer-data-entries-div" >
-                                    <h6>Last Name</h6>
-                                    <h3>Nnadi</h3>
-                                </div>
-                                <div className="farmer-data-entries-div" >
-                                    <h6>Residential Address</h6>
-                                    <h3>No 19 Abubakar Street, Kubwa, Abuja</h3>
-                                </div>
-                                <div className="farmer-data-entries-div" >
-                                    <h6>LGA of Origin</h6>
-                                    <h3>Igbo-Eze-South</h3>
-                                </div>
-                                <div className="farmer-data-entries-div" >
-                                    <h6>Sex</h6>
-                                    <h3>Male</h3>
-                                </div>
-                            </div>
-                            
-                            <div className="farmer-bio-data-div">
-                                <div className="farmer-data-entries-div" >
-                                    <h6>Middle Name</h6>
-                                    <h3>Otiti</h3>
-                                </div>
-                                <div className="farmer-data-entries-div" >
-                                    <h6>Permanent Home Address</h6>
-                                    <h3>No 19 Abubakar Street, Kubwa, Abuja</h3>
-                                </div>
-                                <div className="farmer-data-entries-div" >
-                                    <h6>State of Residence</h6>
-                                    <h3>Abuja</h3>
-                                </div>
-                            </div>
-
-                            <div className="farmer-bio-data-div">
-                            <div className="farmer-data-entries-div" >
-                                <h6>Phone No</h6>
-                                <h3>07068497582</h3>
-                            </div>
-                            <div className="farmer-data-entries-div" >
-                                <h6>Marital Status</h6>
-                                <h3>Single</h3>
-                            </div>
-                            <div className="farmer-data-entries-div" >
-                                <h6>LGA of Residence</h6>
-                                <h3>Bwari Area Council</h3>
-                            </div>
-                        </div>
                         </div>
 
                         <div className="edit-group">

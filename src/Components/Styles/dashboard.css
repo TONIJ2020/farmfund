@@ -121,7 +121,7 @@ body {
 .farmer-data-entries-div h3 {
     margin-top: -0.6rem;
     text-align: left;
-    font: bold normal 22px/20px Roboto;
+    font: bold normal 22px/30px Roboto;
     color: #6C6B6B;
 }
 
@@ -140,6 +140,20 @@ body {
     margin: 0 2.5rem 2.5rem;
     font: normal normal 22px/21px Roboto;
     color: #FFFFFF;
+}
+
+.farmers-board-column .farm-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -4rem 2rem 0 2rem;
+    text-align: right;
+}
+
+.farmers-board-column .profile-image img {
+    width: 264px;
+    height: 255px;
+    border-radius: 20px;
 }
 
 .income-board-div {

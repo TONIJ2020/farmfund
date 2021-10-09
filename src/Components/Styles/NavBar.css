@@ -119,10 +119,11 @@ body {
     
     .navigation-bar-ul li:first-child {
         margin-top: 4rem;
+        margin-left: 0;
     }
     
     .navigation-bar-ul li:last-child {
-        margin-bottom: 1rem;
+        margin: 0 0 1rem 0;
         text-align: flex-start;
         align-self: left;
     }
@@ -130,6 +131,10 @@ body {
         margin-top: 1rem;
     }
 
+    .navigation-bar-log-in {
+        padding-left: 0rem;
+        text-align: left;
+    }
     .navigation-bar-ul a {
         font: normal 500 18px/21px Roboto;
         display: flex;
